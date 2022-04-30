@@ -29,11 +29,11 @@ export default function Index() {
       <Nav />
       <div className={styles.landingContainer}>
         <main className={styles.main}>
-          <img src="/big_logo.png" alt="Reflections Projections Logo" />
+          <img src="/rp22-logo.png" alt="Reflections Projections Logo" />
 
-          <a href="https://airtable.com/shrTGIqGrMhlD32NC">
+          {/* <a href="https://airtable.com/shrTGIqGrMhlD32NC">
             <Button>Register Now!</Button>
-          </a>
+          </a> */}
         </main>
 
         <About name="about" />
