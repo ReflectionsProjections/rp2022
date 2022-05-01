@@ -7,6 +7,7 @@ import useGetStaticData from '../services/useGetStaticData';
 import SponsorSection from '../components/SponsorSection.js';
 import Nav from '../components/ui/Nav';
 import Button from 'react-bootstrap/Button';
+import Header from '../components/ui/Header';
 
 export default function Index() {
   const { rpData } = useGetStaticData();
@@ -26,7 +27,8 @@ export default function Index() {
         />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Nav />
+      {/* <Nav /> */}
+      <Header />
       <div className={styles.landingContainer}>
         <main className={styles.main}>
           <img src="/big_logo.png" alt="Reflections Projections Logo" />
