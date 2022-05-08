@@ -10,5 +10,5 @@ export default function handleMouseMove(event) {
     mouseXpercentage +
     '% ' +
     mouseYpercentage +
-    '%, #EF7B23, #ffffff)';
+    '%, #EE6350, #ffffff)';
 }
