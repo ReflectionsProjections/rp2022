@@ -42,7 +42,7 @@ body {
   margin: 0;
   font-family: var(--font-family);
   color: var(--grey);
-  background: radial-gradient(at 50% 50%, var(--background-orange), white);
+  background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 }
 
 html {

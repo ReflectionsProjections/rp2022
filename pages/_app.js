@@ -8,7 +8,7 @@ import handleMouseMove from '../services/handleMouseMove';
 function MyApp({ Component, pageProps }) {
   if (typeof window !== 'undefined') {
     window.addEventListener('mousemove', handleMouseMove);
-  }
+  } 
 
   return (
     <>

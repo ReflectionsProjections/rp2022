@@ -30,16 +30,16 @@ export default function Index() {
       {/* <Nav /> */}
       <Header />
       <div className={styles.landingContainer}>
-        <main className={styles.main}>
+       {/* <main className={styles.main}>
           <img src="/rp22-logo.png" alt="Reflections Projections Logo" />
 
-          {/* <a href="https://airtable.com/shrTGIqGrMhlD32NC">
+          <a href="https://airtable.com/shrTGIqGrMhlD32NC">
             <Button>Register Now!</Button>
-          </a> */}
-        </main>
+          </a>
+        </main> */}
 
         <About name="about" />
-        <FAQ faqData={faqSection ?? { sections: [] }} />
+        {/* <FAQ faqData={faqSection ?? { sections: [] }} />
         {sponsors && <SponsorSection sponsors={sponsors} />}
 
         <footer className={styles.footer}>
@@ -60,7 +60,12 @@ export default function Index() {
           >
             here
           </a>
-        </footer>
+        </footer> */}
+      </div>
+      <div className={styles.bg}>
+        {/* <img class = "fixed-to-top" src="/resources/MiddleWhiteStrokeBackground.png" alt="White Stroke" /> 
+        # How can I make this white line not take up document flow (space) */}
+        <img class = "bg-img" src="/resources/BlueWavyBackground.png" alt="Blue Wavy Background" />
       </div>
     </>
   );
