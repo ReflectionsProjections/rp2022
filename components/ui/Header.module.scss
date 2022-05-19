@@ -1,16 +1,16 @@
-$breakpoint: 1000px;
+$breakpoint: 1300px;
 $height: 4.5rem;
 
 .headerBox {
     position: sticky;
-    width: max-content;
+    max-width: 100%;
     z-index: 1;
 }
 
 .hero {
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 999;
 
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@ $height: 4.5rem;
 .header {
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 999;
 
     display: flex;
     flex-direction: row;
@@ -37,6 +37,10 @@ $height: 4.5rem;
     box-shadow: 0px 16px 60px rgba(0, 0, 0, 0.15);
     top: 0;
     left: 0;
+
+    @media screen and (max-width: $breakpoint) {
+        display: none;
+    }
 }
 
 // .headerr {
@@ -47,7 +51,6 @@ $height: 4.5rem;
 //     flex-direction: row;
 //     justify-content: center;
 //     align-items: center;
-    
 
 //     position: relative;
 //     width: 100%;
@@ -56,7 +59,6 @@ $height: 4.5rem;
 
 .toolbar {
     display: flex;
-    justify-content: space-between;
 }
 
 .frame4 {
@@ -79,25 +81,41 @@ $height: 4.5rem;
 }
 
 .logoBox {
+    // display: flex;
+    // flex-direction: row;
+    // align-items: flex-start;
+    // // padding-right: 100px;
+
+    // position: static;
+    // // width: 60%;
+    // // height: 78px;
+    // left: 0px;
+    // top: 0px;
+
+    // flex: none;
+    // order: 0;
+    // flex-grow: 0;
+    // margin: 0px 0px;
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding-right: 100px;
+    padding: 0px;
+    gap: 10px;
 
-    position: static;
-    // width: 60%;
-    // height: 78px;
-    left: 0px;
-    top: 0px;
+    // width: 452px;
+    height: 78px;
+
+
+    /* Inside auto layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px;
 }
 
 .logo {
-    position: static;
+    // position: static;
     width: 77px;
     height: 78px;
     left: 0px;
@@ -110,16 +128,33 @@ $height: 4.5rem;
 }
 
 .pages {
+    // display: flex;
+    // flex-direction: row;
+    // align-items: flex-start;
+    // padding: 0px;
+
+    // position: static;
+    // // width: 416px;
+    // height: 32px;
+    // left: 452px;
+    // top: 23px;
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    text-align: center;
+    // padding: 0px;
+    gap: 55px;
 
-    position: static;
     // width: 416px;
     height: 32px;
-    left: 452px;
-    top: 23px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .page,
@@ -127,28 +162,67 @@ $height: 4.5rem;
 .page:active,
 .page:visited,
 .page:focus {
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-    margin-left: 38px;
-    font-family: Roboto;
+    // text-decoration: none;
+    // cursor: pointer;
+    // color: white;
+    // margin-left: 38px;
+    // font-family: Roboto;
+    // font-style: normal;
+    // font-weight: 700;
+    // font-size: 16px;
+
+    width: 44px;
+    height: 32px;
+
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+
+    color: white;
+
+    flex: none;
+    flex-grow: 0;
 }
 
 .navButtons {
-    position: static;
+    // position: static;
+    // display: flex;
+    // flex-direction: row;
+    // align-items: flex-start;
+    // flex: none;
+    // order: 1;
+    // flex-grow: 0;
+    // // margin: 0px 180px;
+    // padding-left: 0px;
+    // // width: 10%;
+    // height: 78px;
+    // right: 0px;
+    // // float: right;
+
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 180px;
+    justify-content: flex-end;
+    align-items: center;
     padding: 0px;
-    // width: 10%;
-    height: 78px;
+    gap: 20px;
+
+    // width: 452px;
+    height: 60px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
     
 }
 
@@ -163,17 +237,18 @@ $height: 4.5rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 20px;
-    padding: 12px 30px;
-    border-radius: 30px;    
+    padding: 20px 40px;
+    margin: 0px 10px 0px 10px;
+    gap: 10px;
 
-    // width: 100%;
-    // height: 100%;
     width: 126px;
     height: 60px;
+
+    background: #BEBEBE;
+    border-radius: 30px;
+
+    flex: none;
+    flex-grow: 0;
 
     white-space: nowrap;
     text-align: center;
