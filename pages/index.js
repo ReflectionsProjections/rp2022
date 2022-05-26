@@ -67,6 +67,7 @@ export default function Index() {
         # How can I make this white line not take up document flow (space) */}
         <img class = "bg-img" src="/resources/BlueWavyBackground.png" alt="Blue Wavy Background" />
       </div>
+      <img className={styles.whiteWave} src="resources/MiddleWhiteStrokeBackground.png" />
     </>
   );
 }
