@@ -37,7 +37,7 @@ const About = () => (
         </Button>
         <Button variant='contained'
                 className={styles.navButton}
-                href = 'Company.Tiers.2022.pdf'
+                href = 'sponsors.pdf'
                 target = "_blank"
                 style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF'}}>
                   Sponsors
