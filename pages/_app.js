@@ -3,13 +3,7 @@ import '../components/Agenda/timeline.scss';
 import '../components/Agenda/agenda.scss';
 import Head from 'next/head';
 
-import handleMouseMove from '../services/handleMouseMove';
-
 function MyApp({ Component, pageProps }) {
-  if (typeof window !== 'undefined') {
-    window.addEventListener('mousemove', handleMouseMove);
-  } 
-
   return (
     <>
       <Head>
