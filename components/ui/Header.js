@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from './Header.module.scss';
-import { AppBar, Toolbar, Typography, Button, Grid } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, Grid, Box, Container, Menu, MenuItem, IconButton, ClickAwayListener } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
-export default function Header() {
+export default function Header({ isHero }) {
     const small_logo = '/rp_logo_2022_sm.png';
+    const small_logo_no_bg = '/rp_logo_2022_no_bg.png';
     const pagesData = [
         {
             label: 'About',
@@ -20,24 +22,34 @@ export default function Header() {
         },
         {
             label: 'Sponsors',
-            href: '/sponsors'
+            href: '/sponsors.pdf'
         },
     ];
 
+    const [needsMenu, setNeedsMenu] = useState(null);
+
+    const handleOpenMenu = (event) => {
+        setNeedsMenu(event.currentTarget);
+    };
+
+    const handleCloseMenu = () => {
+        setNeedsMenu(null);
+    };
+
     return (
         <>
-            <AppBar className={styles.header}>
-                <Toolbar>
-                <Grid container spacing={3} alignItems="center" justifyContent="space-between" display="flex">
-                    <Grid item md={4} zeroMinWidth justifySelf="flex-start">
-                    {/* <div className={styles.frame4}> */}
-                        <div className={styles.logoBox}>
-                            <img src={small_logo} alt='2022 R|P Logo' className={styles.logo} />
-                        </div>
-                    </Grid>
+            <AppBar className={isHero ? styles.hero : styles.header}>
+                <Container maxWidth="xl">
+                    <Toolbar disableGutters>
+                        <Box>
+                            <Link href="#" passHref>
+                                <a rel="noreferrer">
+                                    <img src={small_logo} alt='2022 R|P Logo' className={styles.logo} />
+                                </a>
+                            </Link>
+                        </Box>
 
-                    <Grid item md={4}>
-                        <div className={styles.pages}>
+                        <Box className={styles.pages}>
                             {pagesData.map(({ label, href }) => (
                                 <Link href={href} passHref>
                                     <a rel="noreferrer" className={styles.page}>
@@ -45,27 +57,81 @@ export default function Header() {
                                             {label}
                                         </Typography>
                                     </a>
-                                </Link> 
+                                </Link>
                             ))}
-                        </div>
-                    </Grid>
-                    {/* </div> */}
-                    
-                    <Grid item md={4} zeroMinWidth>
-                        <div className={styles.navButtons}>
-                            <Button variant='contained' className={styles.navButton} style={{ backgroundColor: '#41798C'}}>
+                        </Box>
+
+                        <Box component="span" m={1}
+                            display="flex"
+                            justifyContent="space-between"
+                            alignItems="center"
+                            className={styles.navButtons}>
+                            <Button
+                                variant='contained'
+                                className={styles.navButton}
+                                style={{ backgroundColor: '#41798C' }}
+                                disableElevation>
                                 Register
                             </Button>
 
-                            <Button variant='contained' 
-                                    className={styles.navButton} 
-                                    style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF'}}>
+                            <Button
+                                variant='contained'
+                                className={styles.navButton}
+                                style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', marginLeft: '10px' }}
+                                disableElevation>
                                 Contact Us
                             </Button>
-                        </div>
-                    </Grid>
-                </Grid>
-                </Toolbar>
+                        </Box>
+
+                        <ClickAwayListener onClickAway={handleCloseMenu}>
+                            <Box className={styles.menuBox}>
+                                <IconButton
+                                    size="large"
+                                    aria-label="account of current user"
+                                    aria-controls="menu-appbar"
+                                    onClick={handleOpenMenu}
+                                    color="inherit"
+
+                                >
+                                    <MenuIcon />
+                                </IconButton>
+                                <Menu
+                                    id="menu-appbar"
+                                    anchorEl={needsMenu}
+                                    anchorOrigin={{
+                                        vertical: 'bottom',
+                                        horizontal: 'left',
+                                    }}
+                                    keepMounted
+                                    transformOrigin={{
+                                        vertical: 'top',
+                                        horizontal: 'left',
+                                    }}
+                                    open={Boolean(needsMenu)}
+                                    onClose={handleCloseMenu}
+                                    className={styles.menu}
+                                >
+                                    {pagesData.map(({ label, href }) => (
+                                        <MenuItem>
+                                            <Link href={href} passHref>
+                                                <a rel="noreferrer" style={{
+                                                    textDecoration: 'none',
+                                                    color: '#000'
+                                                }}>
+                                                    <Typography>
+                                                        {label}
+                                                    </Typography>
+                                                </a>
+                                            </Link>
+                                        </MenuItem>
+                                    ))}
+                                    <MenuItem>Register</MenuItem>
+                                    <MenuItem>Contact Us</MenuItem>
+                                </Menu>
+                            </Box>
+                        </ClickAwayListener>
+                    </Toolbar>
+                </Container>
             </AppBar>
         </>
     )
