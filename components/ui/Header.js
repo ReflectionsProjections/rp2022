@@ -22,7 +22,7 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Sponsors',
-            href: '/sponsors'
+            href: '/sponsors.pdf'
         },
     ];
 

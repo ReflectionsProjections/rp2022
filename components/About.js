@@ -23,11 +23,11 @@ const About = () => (
     <Col className={styles.mainCol}>
       <img src="/rp22-logo.png" alt="Reflections Projections Logo" className={styles.logo}/>
       <p  className={styles.mainText}>
-      Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. 
-      At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.
+          Reflections|Projections is the largest technology conference in the midwest, held annually at
+          the University of Illinois at Urbana-Champaign.
       <br></br>
       <br></br>
-      Register for the event!
+      Coming soon.
       </p>
       <Container className={styles.container}>
         <Button variant='contained' 
