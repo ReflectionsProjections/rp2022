@@ -28,7 +28,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       {/* <Nav /> */}
-      <Header />
+      <Header isHero={true}/>
       <div className={styles.landingContainer}>
        {/* <main className={styles.main}>
           <img src="/rp22-logo.png" alt="Reflections Projections Logo" />
