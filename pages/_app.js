@@ -11,8 +11,8 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="Reflections Projections" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://reflectionsprojections.org" />
-        <meta property="og:image" content="https://acmrp.org/logo.png" />
-        <title>Reflections|Projections 2021</title>
+        <meta property="og:image" content="https://acmrp.org/rp_logo_2022_sm.png" />
+        <title>Reflections|Projections 2022</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
