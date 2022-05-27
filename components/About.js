@@ -29,11 +29,20 @@ const About = () => (
       <br></br>
       Register for the event!
       </p>
-      <Button variant='contained' 
-              className={styles.navButton} 
-              style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF'}}>
-          Learn More
-      </Button>
+      <Container className={styles.container}>
+        <Button variant='contained' 
+                className={styles.navButton} 
+                style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF'}}>
+            Learn More
+        </Button>
+        <Button variant='contained'
+                className={styles.navButton}
+                href = 'sponsors.pdf'
+                target = "_blank"
+                style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF'}}>
+                  Sponsors
+                </Button>
+      </Container>
     </Col>
   </>
   // </Container>
