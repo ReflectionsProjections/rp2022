@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Section from './Section';
 import styles from './about.module.scss';
 import { Button } from '@mui/material';
+import { useStyles } from './AboutStyles.js'
 
 /* About Section Styling */
 // const AboutSection = ({ children }) => <div className="pb-4">{children}</div>;
