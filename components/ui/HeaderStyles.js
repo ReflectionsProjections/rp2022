@@ -12,10 +12,6 @@ const useStyles = makeStyles({
         boxShadow: 'none',
         top: 0,
         left: 0,
-
-            // @media screen and (max-width: 1000px) {
-            //     display: none;
-            // }
     },
     
     header: {
@@ -29,10 +25,6 @@ const useStyles = makeStyles({
         boxShadow: '0px 16px 60px rgba(0, 0, 0, 0.15)',
         top: 0,
         left: 0,
-
-        // @media screen and (max-width: 1000px) {
-        //     display: none,
-        // }
     },
     
     logoBox: {
@@ -41,7 +33,6 @@ const useStyles = makeStyles({
         alignItems: 'flex-start',
 
         position: 'static',
-        // width: 60%,
         height: '78px',
         left: '0px',
         top: '0px',
@@ -73,7 +64,7 @@ const useStyles = makeStyles({
         justifyContent: 'center',
         paddingLeft: '10rem',
 
-        ['@media screen and(max - width: 1000px)']: {
+        ['@media (max-width: 1000px)']: {
             display: 'none',
         }
     },
@@ -88,7 +79,7 @@ const useStyles = makeStyles({
         fontWeight: 700,
         fontSize: '16px',
 
-        ['@media screen and(max - width: 1000px)']: {
+        ['@media (max-width: 1000px)']: {
             display: 'none',
         },
         
@@ -102,7 +93,7 @@ const useStyles = makeStyles({
             fontWeight: 700,
             fontSize: '16px',
 
-            ['@media screen and(max - width: 1000px)']: {
+            ['@media (max-width: 1000px)']: {
                 display: 'none',
             }
         }
@@ -113,7 +104,7 @@ const useStyles = makeStyles({
         alignItems: 'center',
         flexGrow: 0,
 
-        ['@media screen and(max - width: 1000px)']: {
+        ['@media (max-width: 1000px)']: {
             display: 'none',
         }
     },
@@ -142,14 +133,14 @@ const useStyles = makeStyles({
         whiteSpace: 'nowrap',
         textAlign: 'center',
 
-        ['@media screen and(max - width: 1000px)']: {
+        ['@media (max-width: 1000px)']: {
             display: 'none',
         }
     },
     
     menuBox: {
         display: 'none',
-        ['@media screen and(max - width: 1000px)']: {
+        ['@media (max-width: 1000px)']: {
             display: 'flex',
             position: 'absolute',
             flexGrow: 1,
@@ -159,7 +150,7 @@ const useStyles = makeStyles({
     
     menu: {
         display: 'none',
-        ['@media screen and(max - width: 1000px)']: {
+        ['@media (max-width: 1000px)']: {
             display: 'flex',
             position: 'absolute',
             right: 0,
