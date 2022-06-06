@@ -186,11 +186,13 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Schedule',
-            href: '/schedule'
+            // href: '/schedule'
+            href: '/'
         },
         {
             label: 'Speakers',
-            href: '/speakers'
+            // href: '/speakers'
+            href: '/'
         },
         {
             label: 'Sponsors',
