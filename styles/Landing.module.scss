@@ -22,6 +22,12 @@
   }
 }
 
+.backgroundRed {
+  height: 1000px;
+  // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
+  background-image: url('../public/resources/Grain.png');
+}
+
 .main {
   padding: 2%;
   flex: 1;
