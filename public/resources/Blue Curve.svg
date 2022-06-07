@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1512 696.1" style="enable-background:new 0 0 1512 696.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_00000042694571769256622660000008416062061928433584_);stroke:#FFFFFF;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:5;}
+	.st2{fill:none;stroke:#EE6350;stroke-width:5;stroke-opacity:0.7;}
+	.st3{fill:none;stroke:#EE6350;stroke-width:5;stroke-opacity:0.5;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-opacity:0.1;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-opacity:0.3;}
+</style>
+<g id="Background">
+</g>
+<g id="Clipping_Layer">
+	<defs>
+		<path id="SVGID_1_" d="M1512,245.9v420.4c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,616.6,0,616.6V196.2
+			c0,0,142.3,78.6,398.5,78.6s585.6-165.9,783-165.9S1512,245.9,1512,245.9z"/>
+	</defs>
+	<clipPath id="SVGID_00000021819445678216379060000016040677620921738665_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<g id="Blue_Wave">
+	
+		<radialGradient id="SVGID_00000026852987393572082520000011873610655993723053_" cx="-203.1157" cy="943.191" r="1" gradientTransform="matrix(-1402.9957 211.7824 321.037 2126.7749 -586664.625 -1962599.75)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#4B798B"/>
+		<stop  offset="1" style="stop-color:#D5D7D8"/>
+	</radialGradient>
+	<path style="fill:url(#SVGID_00000026852987393572082520000011873610655993723053_);stroke:#FFFFFF;" d="M1512,245.9v420.4
+		c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,616.6,0,616.6V196.2c0,0,142.3,78.6,398.5,78.6s585.6-165.9,783-165.9
+		S1512,245.9,1512,245.9z"/>
+</g>
+<g id="White_Stroke">
+	<path class="st1" d="M1512,245.9c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,196.2,0,196.2"/>
+</g>
+<g id="Red_Stroke_Near">
+	<path class="st2" d="M1512,195.4c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,145.7,0,145.7"/>
+</g>
+<g id="Red_Stroke_Far">
+	<path class="st3" d="M1511.7,145.3c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S-0.3,95.7-0.3,95.7"/>
+</g>
+<g id="White_Stroke_Near">
+</g>
+<g id="White_Stroke_Far">
+	<path class="st4" d="M1512,347.2c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,297.5,0,297.5"/>
+	<path class="st5" d="M1512,296.7c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,247,0,247"/>
+</g>
+</svg>
