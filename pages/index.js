@@ -15,6 +15,7 @@ export default function Index() {
 
   return (
     <>
+    <div className={styles.backgroundRed} >
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -65,8 +66,9 @@ export default function Index() {
       <div className={styles.bg}>
         {/* <img class = "fixed-to-top" src="/resources/MiddleWhiteStrokeBackground.png" alt="White Stroke" /> 
         # How can I make this white line not take up document flow (space) */}
-        <img className = "bg-img" src="/resources/BlueWavyBackground.png" alt="Blue Wavy Background" />
+        <img className = "bg-img" src="/resources/Blue Curve.svg" alt="Blue Wavy Background" />
       </div>
+    </div>
     </>
   );
 }
