@@ -13,16 +13,18 @@ const useStyles = makeStyles({
         padding: "40px 0px",
         gap: "48px",
 
-        width: "30%",
-        height: "40%",
+        width: '416px',
+        height: '615px',
 
         [`@media (max-width: ${tablet})`]: {
             width: "45%",
+            height: "auto",
             gap: "20px",
         },
 
         [`@media (max-width: ${mobile})`]: {
             width: "100%",
+            height: "auto",
             gap: "20px",
         },
 
@@ -38,12 +40,17 @@ const useStyles = makeStyles({
     },
 
     avatar: {
-        width: "15vw",
-        height: "auto",
+        width: "226px",
+        height: "226px",
+
+        [`@media (max-width: ${tablet})`]: {
+            width: "20vw",
+            height: "20vw",
+        },
 
         [`@media (max-width: ${mobile})`]: {
             width: "25vw",
-            height: "auto",
+            height: "25vw",
         },
 
         background: "#D9D9D9",
@@ -60,18 +67,10 @@ const useStyles = makeStyles({
         alignItems: "center",
         padding: "0px",
         gap: "18px",
+        position: 'relative',
 
         width: "80%",
-        height: "80%",
-
-        [`@media (max-width: ${tablet})`]: {
-            width: "80%",
-            height: "80%",
-        },
-
-        [`@media (max-width: ${mobile})`]: {
-            
-        },
+        height: "auto",
 
         flex: "none",
         order: 1,
