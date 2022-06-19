@@ -3,8 +3,11 @@ import Link from 'next/link';
 import styles from './Header.module.scss';
 import { AppBar, Toolbar, Typography, Button, Grid, Box, Container, Menu, MenuItem, IconButton, ClickAwayListener } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+// import { makeStyles, StylesProvider } from '@mui/styles';
+import { useStyles } from './HeaderStyles.js'
 
 export default function Header({ isHero }) {
+    const classes = useStyles();
     const small_logo = '/rp_logo_2022_sm.png';
     const small_logo_no_bg = '/rp_logo_2022_no_bg.png';
     const pagesData = [
@@ -14,11 +17,13 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Schedule',
-            href: '/schedule'
+            // href: '/schedule'
+            href: '/'
         },
         {
             label: 'Speakers',
-            href: '/speakers'
+            // href: '/speakers'
+            href: '/'
         },
         {
             label: 'Sponsors',
@@ -38,21 +43,21 @@ export default function Header({ isHero }) {
 
     return (
         <>
-            <AppBar className={isHero ? styles.hero : styles.header}>
+            <AppBar className={isHero ? classes.hero : classes.header}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <Box>
                             <Link href="#" passHref>
                                 <a rel="noreferrer">
-                                    <img src={small_logo} alt='2022 R|P Logo' className={styles.logo} />
+                                    <img src={small_logo} alt='2022 R|P Logo' className={classes.logo} />
                                 </a>
                             </Link>
                         </Box>
 
-                        <Box className={styles.pages}>
+                        <Box className={classes.pages}>
                             {pagesData.map(({ label, href }) => (
                                 <Link href={href} passHref>
-                                    <a rel="noreferrer" className={styles.page}>
+                                    <a rel="noreferrer" className={classes.page}>
                                         <Typography>
                                             {label}
                                         </Typography>
@@ -65,10 +70,10 @@ export default function Header({ isHero }) {
                             display="flex"
                             justifyContent="space-between"
                             alignItems="center"
-                            className={styles.navButtons}>
+                            className={classes.navButtons}>
                             <Button
                                 variant='contained'
-                                className={styles.navButton}
+                                className={classes.navButton}
                                 style={{ backgroundColor: '#41798C' }}
                                 disableElevation>
                                 Register
@@ -76,7 +81,7 @@ export default function Header({ isHero }) {
 
                             <Button
                                 variant='contained'
-                                className={styles.navButton}
+                                className={classes.navButton}
                                 style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', marginLeft: '10px' }}
                                 disableElevation>
                                 Contact Us
@@ -84,7 +89,7 @@ export default function Header({ isHero }) {
                         </Box>
 
                         <ClickAwayListener onClickAway={handleCloseMenu}>
-                            <Box className={styles.menuBox}>
+                            <Box className={classes.menuBox}>
                                 <IconButton
                                     size="large"
                                     aria-label="account of current user"
@@ -109,7 +114,7 @@ export default function Header({ isHero }) {
                                     }}
                                     open={Boolean(needsMenu)}
                                     onClose={handleCloseMenu}
-                                    className={styles.menu}
+                                    className={classes.menu}
                                 >
                                     {pagesData.map(({ label, href }) => (
                                         <MenuItem>
