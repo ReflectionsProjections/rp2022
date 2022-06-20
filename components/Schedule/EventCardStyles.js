@@ -14,9 +14,13 @@ const useStyles = makeStyles({
         // gap: "48px",
 
         width: "502px",
+        // width: "33%",
         height: "195px",
-        width: "26vw",
-        height: "195px",
+
+        [`@media (max-width: ${mobile})`]: {
+            width: "90%",
+            gap: "20px",
+        },
 
         background:"#FFFFFF",
 
@@ -25,6 +29,7 @@ const useStyles = makeStyles({
         flexGrow: 0,
         zIndex: 1,
         gap: '100px',
+        marginBottom: '2.61px'
     },
 
     headerBox: {
@@ -51,6 +56,12 @@ const useStyles = makeStyles({
         fontWeight: 400,
         fontSize: "24px",
         lineHeight: "28px",
+
+        [`@media (max-width: ${mobile})`]: {
+            fontSize: "18px",
+            lineHeight: "24px",
+        },
+
         display: "flex",
         alignItems: "center",
         textAlign: "center",
@@ -87,6 +98,12 @@ const useStyles = makeStyles({
         height: "70px",
         left: "75px",
         top: "99px",
+
+        // [`@media (max-width: ${mobile})`]: {
+        //     left: "60px"
+        // },
+
+        
         zIndex: 2
     },
 
@@ -100,6 +117,11 @@ const useStyles = makeStyles({
         fontSize: "32px",
         lineHeight: "32px",
         /* identical to box height, or 100% */
+
+        [`@media (max-width: ${mobile})`]: {
+            fontSize: "24px",
+            lineHeight: "100%",
+        },
 
         display: "flex",
         alignItems: "center",
@@ -123,6 +145,10 @@ const useStyles = makeStyles({
         fontSize: "20px",
         lineHeight: "32px",
         /* identical to box height, or 160% */
+        [`@media (max-width: ${mobile})`]: {
+            fontSize: "16px",
+            lineHeight: "160%",
+        },
 
         display: "flex",
         alignItems: "center",
