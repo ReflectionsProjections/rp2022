@@ -5,8 +5,12 @@ const mobile = '420px';
 
 const useStyles = makeStyles({
     card: {
-        width: '26vw',
-        height: '195px',
+        width: '502px',
+        height: 'auto',
+
+        [`@media (max-width: ${mobile})`]: {
+            width: "90%",
+        },
 
         filter: "drop-shadow(0px 12px 60px rgba(0, 0, 0, 0.1))",
 

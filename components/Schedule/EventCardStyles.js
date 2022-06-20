@@ -13,12 +13,12 @@ const useStyles = makeStyles({
         // padding: "40px 0px",
         // gap: "48px",
 
-        width: "502px",
+        width: "100%",
         // width: "33%",
         height: "195px",
 
         [`@media (max-width: ${mobile})`]: {
-            width: "90%",
+            width: "100%",
             gap: "20px",
         },
 
