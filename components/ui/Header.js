@@ -22,8 +22,8 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Speakers',
-            // href: '/speakers'
-            href: '/'
+            href: '/speakers'
+            // href: '/'
         },
         {
             label: 'Sponsors',
