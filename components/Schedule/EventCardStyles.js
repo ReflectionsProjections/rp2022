@@ -19,6 +19,7 @@ const useStyles = makeStyles({
 
         [`@media (max-width: ${mobile})`]: {
             width: "100%",
+            height: "185px",
             gap: "20px",
         },
 
@@ -58,7 +59,7 @@ const useStyles = makeStyles({
         lineHeight: "28px",
 
         [`@media (max-width: ${mobile})`]: {
-            fontSize: "18px",
+            fontSize: "14px",
             lineHeight: "24px",
         },
 
@@ -99,9 +100,9 @@ const useStyles = makeStyles({
         left: "75px",
         top: "99px",
 
-        // [`@media (max-width: ${mobile})`]: {
-        //     left: "60px"
-        // },
+        [`@media (max-width: ${mobile})`]: {
+            top: "80px"
+        },
 
         
         zIndex: 2
@@ -119,7 +120,7 @@ const useStyles = makeStyles({
         /* identical to box height, or 100% */
 
         [`@media (max-width: ${mobile})`]: {
-            fontSize: "24px",
+            fontSize: "18px",
             lineHeight: "100%",
         },
 
@@ -146,7 +147,7 @@ const useStyles = makeStyles({
         lineHeight: "32px",
         /* identical to box height, or 160% */
         [`@media (max-width: ${mobile})`]: {
-            fontSize: "16px",
+            fontSize: "13px",
             lineHeight: "160%",
         },
 
