@@ -9,9 +9,48 @@ import Nav from '../components/ui/Nav';
 import Button from 'react-bootstrap/Button';
 import Header from '../components/ui/Header';
 
+import ScheduleCard from '../components/Schedule/ScheduleCard';
+
 export default function Index() {
   const { rpData } = useGetStaticData();
   const { faqSection, sponsors } = rpData;
+
+  const scheduleData = [
+    {
+      day: "TUE",
+      date: 20,
+      schedule: [
+        {
+          eventId: 1,
+          startTime: "12:00 AM",
+          endTime: "12:0 AM",
+          title: "Puzzlebang (all week)",
+          description: "PuzzleBang.com",
+        },
+        {
+          eventId: 2,
+          startTime: "12:00 AM",
+          endTime: "12:0 AM",
+          title: "Puzzlebang (all week)",
+          description: "PuzzleBang.com",
+        },
+        // {
+        //   eventId: 3,
+        //   startTime: "12:00 AM",
+        //   endTime: "12:0 AM",
+        //   title: "Puzzlebang (all week)",
+        //   description: "PuzzleBang.com",
+        // },
+        // {
+        //   eventId: 4,
+        //   startTime: "12:00 AM",
+        //   endTime: "12:0 AM",
+        //   title: "Puzzlebang (all week)",
+        //   description: "PuzzleBang.com",
+        // }
+      ]
+    },
+  ];
 
   return (
     <>
@@ -39,7 +78,8 @@ export default function Index() {
           </a>
         </main> */}
 
-        <About name="about" />
+        {/* <About name="about" /> */}
+        <ScheduleCard data={scheduleData} />
         {/* <FAQ faqData={faqSection ?? { sections: [] }} />
         {sponsors && <SponsorSection sponsors={sponsors} />}
 
