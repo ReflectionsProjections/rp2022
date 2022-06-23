@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Section from './Section';
-import styles from './about.module.scss';
 import { Button } from '@mui/material';
 import { useStyles } from './AboutStyles.js'
 
