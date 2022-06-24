@@ -6,6 +6,7 @@ import Section from '../Section';
 import AvatarCard from '../ui/AvatarCard';
 import SpeakerCard from './components/SpeakerCard';
 
+import Grid from "@mui/material/Grid";
 import styles from './Speaker.module.scss';
 
 const Speaker = ({ speakers }) => {
@@ -17,6 +18,7 @@ const Speaker = ({ speakers }) => {
         </Section.Header>
         <Section.Body>
           <Container>
+          <Grid container>
             {speakers.length === 0 ? (
               <h4>Coming Soon...</h4>
             ) : (
@@ -26,10 +28,12 @@ const Speaker = ({ speakers }) => {
                   const imageURL = `${image}`;
                   return (
                     <div className={styles.speakerCardContainer} sm={12} md={6}>
+                      <Grid item m={4}>
                       <AvatarCard 
                       img = {imageURL}
                       title = {name}
                       description = {bio} />
+                      </Grid>
                       {/* <SpeakerCard
                         name={name}
                         cardImage={imageURL}
@@ -43,6 +47,7 @@ const Speaker = ({ speakers }) => {
                 })}
               </>
             )}
+            </Grid>
           </Container>
         </Section.Body>
       </Section>
