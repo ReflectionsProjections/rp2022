@@ -24,7 +24,6 @@ export default function About() {
         />
       </Head>
       <Nav />
-      <h1>About</h1>
       <Aboutpage/>
     </>
   );
