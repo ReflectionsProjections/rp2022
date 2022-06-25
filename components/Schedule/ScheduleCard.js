@@ -6,6 +6,7 @@ import { useStyles } from './ScheduleCardStyles.js';
 
 export default function ScheduleCard({ data }) {
     const classes = useStyles();
+
     return(
         <>
             {data.length > 0 &&

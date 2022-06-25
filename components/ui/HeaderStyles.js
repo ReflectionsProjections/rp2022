@@ -15,14 +15,14 @@ const useStyles = makeStyles({
     },
     
     header: {
-        position: 'fixed',
+        position: 'static',
         width: '100%',
         zIndex: 999,
 
         display: 'flex',
         padding: '2rem',
         background: 'transparent',
-        boxShadow: '0px 16px 60px rgba(0, 0, 0, 0.15)',
+        boxShadow: 'none',
         top: 0,
         left: 0,
     },
