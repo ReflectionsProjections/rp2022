@@ -1,4 +1,4 @@
-import { Grid, Box, Typography } from '@mui/material';
+import { Button, Grid, Box, Typography } from '@mui/material';
 import React from 'react';
 
 import Container from 'react-bootstrap/Container';
@@ -7,13 +7,14 @@ import Section from '../Section';
 import AvatarCard from '../ui/AvatarCard';
 // import SpeakerCard from './components/SpeakerCard';
 
-const About = () => {
+const aboutpage = () => {
   return (
+
     <Box>
 
         {/* Section 1 */}
         
-        <Box>
+        <Box mt={5} width={10} height={10}>
             <Typography variant="h4">What is Reflections | Projections?</Typography>
         </Box>
         <Box>
@@ -47,7 +48,9 @@ const About = () => {
             <Grid item xs={6}>
                 <AvatarCard></AvatarCard>
             </Grid>
+            <Grid item xs={6}>
                 <AvatarCard></AvatarCard>
+            </Grid>
             <Grid item xs={6}>
                 <AvatarCard></AvatarCard>
             </Grid>
@@ -88,4 +91,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default aboutpage;
