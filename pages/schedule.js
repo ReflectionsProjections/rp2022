@@ -5,8 +5,6 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Head from 'next/head';
 import { useStyles } from './scheduleStyles';
-// import classes from '../classes/Landing.module.scss';
-import classes from './schedule.module.scss';
 
 export default function Schedule() {
   const scheduleData = [
@@ -68,7 +66,7 @@ export default function Schedule() {
   const classes = useStyles();
   return (
     <>
-      <div className={classes.background}>
+      <Box className={classes.background}>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
@@ -82,18 +80,17 @@ export default function Schedule() {
           <link rel="icon" href="/favicon.png" />
         </Head>
         <Header isHero={false} />
-        {/* <div className={classes.pageContainer}> */}
-        <div>
-          <div className={classes.headerBox}>
+        <Box>
+          <Box className={classes.headerBox}>
             <Typography className={classes.scheduleTitle}>Schedule</Typography>
             <Typography className={classes.scheduleDescription}>5 days full of events and tech!</Typography>
-          </div>
+          </Box>
 
-          <div className={classes.eventsContainer}>
+          <Box className={classes.eventsContainer}>
             {events}
-          </div>
-        </div>
-      </div>
+          </Box>
+        </Box>
+      </Box>
     </>
   )
 }

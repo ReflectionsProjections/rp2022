@@ -1,18 +1,13 @@
 import { makeStyles } from '@mui/styles';
 
+const tablet = '850px';
+const mobile = '420px';
+
 const useStyles = makeStyles({
     background: {
         height: "500vh",
-        // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
         backgroundImage: "url('../public/resources/Grain.png')",
-        background: "grey",
-    },
-
-    pageContainer: {
-        position: "relative",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        background: "white",
     },
     
     eventsContainer: {
@@ -25,12 +20,15 @@ const useStyles = makeStyles({
         position: "absolute",
         width: "618px",
         height: "4295px",
-        left: "31%",
+
+        left:"50%",
         top: "45%",
-        // top: 50%,
-        // left: 50%,
-        // -webkit-transform: translate(-50%, -50%),
-        // transform: translate(-50%, -50%),
+        transform: "translate(-57%, 0)",
+
+        [`@media (max-width: ${mobile})`]: {
+            width: '95%',
+            transform: "translate(-50%, 0)",
+        },
     },
     
     headerBox: {
@@ -39,17 +37,19 @@ const useStyles = makeStyles({
         alignItems: "center",
         padding: "0px",
         gap: "48px",
+
+        [`@media (max-width: ${mobile})`]: {
+            width: '95%',
+            gap: "10px",
+        },
     
-        // position: absolute,
         width: "868px",
         height: "140px",
-        // left: 50%,
-        // top: 50%,
         position: "absolute",
         top: "30%",
         left: "50%",
         "-webkit-transform": "translate(-50%, -50%)",
-        "transform": "translate(-50%, -50%)",
+        transform: "translate(-50%, -50%)",
     },
     
     scheduleTitle: {
@@ -62,6 +62,12 @@ const useStyles = makeStyles({
         fontSize: "48px",
         lineHeight: "56px",
         letterSpacing: "0.3px",
+
+        [`@media (max-width: ${mobile})`]: {
+            width: '35vw',
+            fontSize: "36px",
+            lineHeight: "100%",
+        },
     
         color: "#EE6350",
         
@@ -79,8 +85,12 @@ const useStyles = makeStyles({
         fontWeight: 700,
         fontSize: "24px",
         lineHeight: "36px",
-        /* identical to box height, or 150% */
-    
+
+        [`@media (max-width: ${mobile})`]: {
+            width: '100%',
+            fontSize: "24px",
+        },
+
         textAlign: "center",
         letterSpacing: "0.3px",
     
