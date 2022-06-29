@@ -9,9 +9,9 @@ import AvatarCard from '../ui/AvatarCard';
 import FAQAccordion from './components/FAQAccordion'
 
 // import SpeakerCard from './components/SpeakerCard';
-import styles from './aboutPage.module.scss';
+import styles from './about.module.scss';
 
-const aboutpage = () => {
+const AboutPage = () => {
 
     const ml = "6.3%";
     const textWidth = "57.4%";
@@ -108,4 +108,4 @@ const aboutpage = () => {
   );
 };
 
-export default aboutpage;
+export default AboutPage;

@@ -7,9 +7,9 @@ import Col from 'react-bootstrap/Col';
 import Section from './Section';
 import styles from './about.module.scss';
 import { Button } from '@mui/material';
-import { useStyles } from './AboutStyles.js'
+import { useStyles } from './DescriptionStyles.js'
 
-/* About Section Styling */
+/* Description Section Styling */
 // const AboutSection = ({ children }) => <div className="pb-4">{children}</div>;
 
 // AboutSection.Title = ({ children }) => (
@@ -18,7 +18,7 @@ import { useStyles } from './AboutStyles.js'
 
 // AboutSection.Body = ({ children }) => <p className={classes.body}>{children}</p>;
 
-export default function About() {
+export default function Description() {
   const classes = useStyles();
   // <Container className={classes.aboutSection}>
   return (
