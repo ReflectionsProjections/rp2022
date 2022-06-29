@@ -28,7 +28,7 @@ const aboutpage = () => {
         {/* Section 1 */}
         
         <Box ml={ml} mt={5} width={textWidth}>
-            <Typography variant="h4">What is Reflections | Projections?</Typography>
+            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>What is Reflections | Projections?</Typography>
         </Box>
         <Box ml={ml} mt={5} width={textWidth}>
             <p className={styles.bodyText}>
@@ -43,7 +43,7 @@ const aboutpage = () => {
         {/* Section 2 */}
 
         <Box ml={ml} mt={'100px'}>
-            <Typography variant="h4">Our Team</Typography>
+            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>Our Team</Typography>
         </Box>
         <Box ml={ml} mt={5} width={textWidth}>
             <p className={styles.bodyText}>
