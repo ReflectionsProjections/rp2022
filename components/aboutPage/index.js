@@ -1,10 +1,13 @@
-import { Button, Grid, Box, Typography } from '@mui/material';
+import { Button, Grid, Box, Typography, Accordion, AccordionSummary, AccordionDetails  } from '@mui/material';
 import React from 'react';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import Container from 'react-bootstrap/Container';
 import Section from '../Section';
 
 import AvatarCard from '../ui/AvatarCard';
+import FAQAccordion from './components/FAQAccordion'
+
 // import SpeakerCard from './components/SpeakerCard';
 import styles from './aboutPage.module.scss';
 
@@ -12,6 +15,11 @@ const aboutpage = () => {
 
     const ml = "6.3%";
     const textWidth = "57.4%";
+
+    const FAQdata = [
+        {question:'Question 1',answer:'Answer 1'},
+        {question:'Question 2',answer:'Answer 2'}
+    ];
 
   return (
 
@@ -84,10 +92,12 @@ const aboutpage = () => {
             </Grid>
         </Grid>
 
-        {/* Section 5 - Four FAQ Sections*/}
+        {/* Section 5 - Four FAQ Sections */}
+        {/* TODO pass FAQ props in accordion */}
         <Box>
-            <div class="outer">
+            <div class="outer">s
                 <div class="inner">1</div>
+                    <FAQAccordion FAQ={FAQdata}x/>
                 <div class="inner">2</div>
                 <div class="inner">3</div>
                 <div class="inner">4</div>
