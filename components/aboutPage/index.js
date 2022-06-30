@@ -1,4 +1,4 @@
-import { Button, Grid, Box, Typography } from '@mui/material';
+import { Button, Grid, Box, Typography, Paper } from '@mui/material';
 import React from 'react';
 
 import Container from 'react-bootstrap/Container';
@@ -45,23 +45,116 @@ const aboutpage = () => {
 
         {/* Section 3 */}
 
-        <Box mt={10}>
-            <Typography variant="h4">Special Events</Typography>
+        <Box ml={'42.5vw'} mt={'100px'}>
+            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>Special Events</Typography>
         </Box>
-        <Grid container>
-            <Grid item xs={6}> 
-                <AvatarCard></AvatarCard>
+        <Box ml={ml} mr={ml}>
+          <Box>
+            <Grid container spacing={1} columns={24}>
+              {/* First Row */}
+              <Grid item md={8}>
+                <Paper>
+                  <AvatarCard
+                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
+                    title={"Card 1"}
+                    description={"Card 1 description"}
+                  />
+                </Paper>
+              </Grid>
+              <Grid item md={8}>
+                <Paper>
+                  <AvatarCard
+                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
+                    title={"Card 2"}
+                    description={"Card 2 description"}
+                  />
+                </Paper>
+              </Grid>
+              <Grid item md={8}>
+                <Paper>
+                  <AvatarCard
+                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
+                    title={"Card 3"}
+                    description={"Card 3 description"}
+                  />
+                </Paper>
+              </Grid>
+
+              {/* Second Row */}
+              <Grid item md={8}>
+                <Paper>
+                  <AvatarCard
+                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
+                    title={"Card 1"}
+                    description={"Card 1 description"}
+                  />
+                </Paper>
+              </Grid>
+              <Grid item md={8}>
+                <Paper>
+                  <AvatarCard
+                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
+                    title={"Card 2"}
+                    description={"Card 2 description"}
+                  />
+                </Paper>
+              </Grid>
+              <Grid item md={8}>
+                <Paper>
+                  <AvatarCard
+                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
+                    title={"Card 3"}
+                    description={"Card 3 description"}
+                  />
+                </Paper>
+              </Grid>
+
+              {/* Third Row */}
+              <Grid item md={8}>
+                <Paper>
+                  <AvatarCard
+                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
+                    title={"Card 1"}
+                    description={"Card 1 description"}
+                  />
+                </Paper>
+              </Grid>
+              <Grid item md={8}>
+                <Paper>
+                  <AvatarCard
+                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
+                    title={"Card 2"}
+                    description={"Card 2 description"}
+                  />
+                </Paper>
+              </Grid>
+              <Grid item md={8}>
+                <Paper>
+                  <AvatarCard
+                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
+                    title={"Card 3"}
+                    description={"Card 3 description"}
+                  />
+                </Paper>
+              </Grid>
+
+              {/* {speakerSection.list.map((speaker) => {
+                const { name, tagline, badge, bio, image } = speaker;
+                const imageURL = `${image}`;
+                return (
+                  <Grid item md={8}>
+                    <Paper>
+                      <AvatarCard
+                        img={imageURL}
+                        title={name}
+                        description={bio} />
+                    </Paper>
+                  </Grid>
+                );
+              })} */}
             </Grid>
-            <Grid item xs={6}>
-                <AvatarCard></AvatarCard>
-            </Grid>
-            <Grid item xs={6}>
-                <AvatarCard></AvatarCard>
-            </Grid>
-            <Grid item xs={6}>
-                <AvatarCard></AvatarCard>
-            </Grid>
-        </Grid>
+          </Box>
+        </Box>
 
         {/* Section 4 */}
         <Box>
