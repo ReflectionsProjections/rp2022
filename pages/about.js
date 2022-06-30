@@ -1,4 +1,4 @@
-import Aboutpage from '../components/aboutPage/index';
+import Aboutpage from '../components/About/index';
 import Nav from '../components/ui/Nav';
 import Head from 'next/head';
 import { Element } from 'react-scroll';
