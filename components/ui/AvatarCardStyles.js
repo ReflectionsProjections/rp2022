@@ -14,7 +14,7 @@ const useStyles = makeStyles({
         gap: "48px",
 
         width: '416px',
-        height: '615px',
+        // height: '615px',
 
         [`@media (max-width: ${tablet})`]: {
             width: "45%",

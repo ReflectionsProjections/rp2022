@@ -3,8 +3,10 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Section from '../Section';
 
+import AvatarCard from '../ui/AvatarCard';
 import SpeakerCard from './components/SpeakerCard';
 
+import Grid from "@mui/material/Grid";
 import styles from './Speaker.module.scss';
 
 const Speaker = ({ speakers }) => {
@@ -15,7 +17,6 @@ const Speaker = ({ speakers }) => {
           <Section.Title>Speakers</Section.Title>
         </Section.Header>
         <Section.Body>
-          <Container>
             {speakers.length === 0 ? (
               <h4>Coming Soon...</h4>
             ) : (
@@ -24,21 +25,19 @@ const Speaker = ({ speakers }) => {
                   const { name, tagline, badge, bio, image } = speaker;
                   const imageURL = `${image}`;
                   return (
-                    <div className={styles.speakerCardContainer} sm={12} md={6}>
-                      <SpeakerCard
-                        name={name}
-                        cardImage={imageURL}
-                        tagline={tagline}
-                        badge={badge}
-                        key={speaker.name}
-                        bio={bio}
-                      />
-                    </div>
+                    
+                    // <div className={styles.speakerCardContainer} sm={12} md={6}>
+                    <Grid className = {styles.grid} spacing = {24}>
+                      <AvatarCard 
+                      img = {imageURL}
+                      title = {name}
+                      description = {bio} />
+                    </Grid>
+                    // </div>
                   );
                 })}
               </>
             )}
-          </Container>
         </Section.Body>
       </Section>
     </div>
