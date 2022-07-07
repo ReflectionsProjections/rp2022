@@ -1,5 +1,7 @@
-import { Button, Grid, Box, Typography, Paper, Accordion, AccordionSummary, AccordionDetails  } from '@mui/material';
-import React from 'react';
+import { Button, Grid, Box, Typography, Paper, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
+import { ThemeProvider } from '@mui/styles';
+import { createTheme } from '@mui/material/styles';
+import React, { useState } from 'react';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import Container from 'react-bootstrap/Container';
@@ -10,11 +12,23 @@ import FAQAccordion from './components/FAQAccordion'
 
 // import SpeakerCard from './components/SpeakerCard';
 import styles from './about.module.scss';
+import { pink } from '@mui/material/colors';
 
 const AboutPage = () => {
 
     const ml = "6.3%";
     const textWidth = "57.4%";
+    const pink = createTheme({
+      palette: {
+        primary: {
+          main: "#DF6C57",
+          light: "#FFC0CB",
+          dark: "#B22222",
+          contrastText: "#fff",
+        },
+      },
+    });
+    const [faqSection, setFaqSection] = useState("General");
 
     const FAQdata = [
         {question:'Question 1',answer:'Answer 1'},
@@ -151,26 +165,51 @@ const AboutPage = () => {
         </Box>
 
         {/* Section 4 */}
-        <Box>
-            <Typography variant="h4">FAQ</Typography>
-        </Box>
+        <Box ml={'42.5vw'} mt={'100px'}>
+            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>FAQ</Typography>
+            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>{faqSection}</Typography>
+          </Box>
 
         {/* Four buttons in a row */}
-        <Grid container>
-            <Grid item xs={6}>
-                <Button variant="contained" color="primary">General</Button>
-            </Grid>
-            <Grid item xs={6}>
-                <Button variant="contained" color="primary">Conference Format</Button>
-            </Grid>
-            <Grid item xs={6}>
-                <Button variant="contained" color="primary">MechMania</Button>
-            </Grid>
-            <Grid item xs={6}>
-                <Button variant="contained" color="primary">PuzzleBang</Button>
-            </Grid>
-        </Grid>
-
+        <ThemeProvider theme={pink}>
+          <Grid container>
+              <Grid item xs={3}>
+                <Button
+                  variant="outlined"
+                  sx={{
+                    borderRadius: "50px",
+                  }}
+                  onClick={() => {setFaqSection("General")}}
+                  >General</Button>
+              </Grid>
+              <Grid item xs={3}>
+                <Button
+                  variant="outlined"
+                  sx={{
+                    borderRadius: "50px",
+                  }}
+                  onClick={() => {setFaqSection("Conference Format")}}
+                  >Conference Format</Button>
+              </Grid>
+              <Grid item xs={3}>
+                <Button 
+                  variant="outlined"
+                  sx={{
+                    borderRadius: "50px",
+                  }}
+                  onClick={() => {setFaqSection("Mechmania")}}
+                  >MechMania</Button>
+              </Grid>
+              <Grid item xs={3}>
+                <Button variant="outlined"
+                  sx={{
+                    borderRadius: "50px",
+                  }}
+                  onClick={() => {setFaqSection("PuzzleBang")}}
+                  >PuzzleBang</Button>
+              </Grid>
+          </Grid>
+        </ThemeProvider>
         {/* Section 5 - Four FAQ Sections */}
         {/* TODO pass FAQ props in accordion */}
         <Box>
