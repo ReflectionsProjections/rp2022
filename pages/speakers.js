@@ -1,13 +1,18 @@
-    import Speaker from '../components/Speaker';
-import { Element } from 'react-scroll';
-import Nav from '../components/ui/Nav';
 import useGetStaticData from '../services/useGetStaticData';
 import Head from 'next/head';
+import Header from '../components/ui/Header';
+import AvatarCard from '../components/ui/AvatarCard';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import { useStyles } from './speakerStyles.js';
+
 
 export default function Speakers() {
   const { isLoaded, rpData } = useGetStaticData();
-
   const { speakerSection } = rpData;
+  const classes = useStyles();
 
   return (
     <>
@@ -27,11 +32,29 @@ export default function Speakers() {
           rel="stylesheet"
         />
       </Head>
-      <Nav />
+      <Header isHero={false} />
       {isLoaded && (
-        <Element name="speakers">
-          {<Speaker speakers={speakerSection.list} />}
-        </Element>
+        <Box className={classes.container}>
+          <Typography className={classes.title}>Speakers</Typography>
+          <Box>
+            <Grid container spacing={1} columns={24}>
+              {speakerSection.list.map((speaker) => {
+                const { name, tagline, badge, bio, image } = speaker;
+                const imageURL = `${image}`;
+                return (
+                  <Grid item md={8}>
+                    <Paper>
+                      <AvatarCard
+                        img={imageURL}
+                        title={name}
+                        description={bio} />
+                    </Paper>
+                  </Grid>
+                );
+              })}
+            </Grid>
+          </Box>
+        </Box>
       )}
     </>
   );
