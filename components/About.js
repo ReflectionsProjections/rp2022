@@ -25,7 +25,7 @@ export default function About() {
       <Col className={classes.mainCol}>
         <img src="/rp22-logo.png" alt="Reflections Projections Logo" className={classes.logo} />
         <p className={classes.mainText}>
-          Reflections|Projections is the largest technology conference in the midwest, held annually at
+          Reflections|Projections is the largest student run technology conference in the midwest, held annually at
           the University of Illinois at Urbana-Champaign.
           <br></br>
           <br></br>
