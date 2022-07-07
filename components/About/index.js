@@ -53,37 +53,38 @@ const AboutPage = () => {
 
         {/* Section 3 */}
 
-        <Box ml={'42.5vw'} mt={'100px'}>
+        
+        <Box ml={ml} mr={"18.9%"}>
+          <Box ml={'31.5vw'} mt={'100px'}>
             <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>Special Events</Typography>
-        </Box>
-        <Box ml={ml} mr={ml}>
+          </Box>
           <Box>
             <Grid container spacing={1} columns={24}>
               {/* First Row */}
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
-                    title={"Card 1"}
-                    description={"Card 1 description"}
+                    img={"https://loremflickr.com/370/370"}
+                    title={"Career Fair"}
+                    description={"Meet some of the best companies in the country"}
                   />
                 </Paper>
               </Grid>
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
-                    title={"Card 2"}
-                    description={"Card 2 description"}
+                    img={"https://loremflickr.com/380/380"}
+                    title={"Startup Fair"}
+                    description={"Interact with hot new startups"}
                   />
                 </Paper>
               </Grid>
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
-                    title={"Card 3"}
-                    description={"Card 3 description"}
+                    img={"https://loremflickr.com/390/390"}
+                    title={"Speakers"}
+                    description={"Come listen to some of the industry's best minds"}
                   />
                 </Paper>
               </Grid>
@@ -92,27 +93,27 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
-                    title={"Card 1"}
-                    description={"Card 1 description"}
+                    img={"https://loremflickr.com/400/400"}
+                    title={"Mech Mania"}
+                    description={"Mechmania is our 24 hour AI hackathon that runs from Friday (9/21) - Saturday (9/22). Build your own AI bot to compete. The best part? No prior experience needed. This year’s Mechmania is sponsored by DeepScale!"}
                   />
                 </Paper>
               </Grid>
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
-                    title={"Card 2"}
-                    description={"Card 2 description"}
+                    img={"https://loremflickr.com/410/410"}
+                    title={"PuzzleBang"}
+                    description={"Compete in a week-long puzzle contest hosted by two UIUC Alums to win exciting prizes. This year’s PuzzleBang is sponsored by IMO! Be sure to checkout our 2 pop-up escape rooms in Siebel on Saturday, 9/22!"}
                   />
                 </Paper>
               </Grid>
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
-                    title={"Card 3"}
-                    description={"Card 3 description"}
+                    img={"https://loremflickr.com/430/430"}
+                    title={"ACM Symposium"}
+                    description={"R|P 2018 is proud to introduce the first-ever installment of the ACM Symposium - a way for ACM chapters across the Midwest to network and interact by showcasing their project and research work."}
                   />
                 </Paper>
               </Grid>
@@ -121,45 +122,30 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
-                    title={"Card 1"}
-                    description={"Card 1 description"}
+                    img={"https://loremflickr.com/440/440"}
+                    title={"Alumni Social"}
+                    description={"Head over to Murphy's after the ACM Symposium after the closing ceremony to interact and network with alumni, speakers and current students! It’s the perfect social to culminate the conference."}
                   />
                 </Paper>
               </Grid>
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
-                    title={"Card 2"}
-                    description={"Card 2 description"}
+                    img={"https://loremflickr.com/550/550"}
+                    title={"Experiences"}
+                    description={"Experiences are hybrid talks/workshops that not only help students learn the state of the art in fields ranging from distributed computing to machine learning but also make them approachable."}
                   />
                 </Paper>
               </Grid>
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://i.imgur.com/XqQZQZJ.jpg"}
-                    title={"Card 3"}
-                    description={"Card 3 description"}
+                    img={"https://loremflickr.com/480/480"}
+                    title={"R|P Giveaway Contest"}
+                    description={"Engage with R|P on our various social media platforms for a chance to win a Nintendo Switch, a Google Home Mini or an Amazon Echo Dot! Follow us on social media to learn more!"}
                   />
                 </Paper>
               </Grid>
-
-              {/* {speakerSection.list.map((speaker) => {
-                const { name, tagline, badge, bio, image } = speaker;
-                const imageURL = `${image}`;
-                return (
-                  <Grid item md={8}>
-                    <Paper>
-                      <AvatarCard
-                        img={imageURL}
-                        title={name}
-                        description={bio} />
-                    </Paper>
-                  </Grid>
-                );
-              })} */}
             </Grid>
           </Box>
         </Box>
