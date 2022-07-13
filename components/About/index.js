@@ -30,9 +30,24 @@ const AboutPage = () => {
     });
     const [faqSection, setFaqSection] = useState("General");
 
-    const FAQdata = [
-        {question:'Question 1',answer:'Answer 1'},
-        {question:'Question 2',answer:'Answer 2'}
+    const FAQdataGeneral = [
+        {question:'General Question 1',answer:'Answer 1'},
+        {question:'General Question 2',answer:'Answer 2'}
+    ];
+
+    const FAQdataConference = [
+      {question:'Conference Question 1',answer:'Answer 1'},
+      {question:'Conference Question 2',answer:'Answer 2'}
+    ];
+    
+    const FAQdataMechmania = [
+      {question:'Mechmania Question 1',answer:'Answer 1'},
+      {question:'Mechmania Question 2',answer:'Answer 2'}
+    ];
+    
+    const FAQdataPuzzleBang = [
+      {question:'Puzzle Bang Question 1',answer:'Answer 1'},
+      {question:'Puzzle Bang Question 2',answer:'Answer 2'}
     ];
 
   return (
@@ -166,14 +181,13 @@ const AboutPage = () => {
 
         {/* Section 4 */}
         <Box ml={'42.5vw'} mt={'100px'}>
-            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>FAQ</Typography>
-            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>{faqSection}</Typography>
-          </Box>
+          <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>FAQ</Typography>
+        </Box>
 
         {/* Four buttons in a row */}
-        <ThemeProvider theme={pink}>
+        <Box ml={'20vw'} mt={'10px'}>
           <Grid container>
-              <Grid item xs={3}>
+              <Grid item xs={1.55}>
                 <Button
                   variant="outlined"
                   sx={{
@@ -182,7 +196,7 @@ const AboutPage = () => {
                   onClick={() => {setFaqSection("General")}}
                   >General</Button>
               </Grid>
-              <Grid item xs={3}>
+              <Grid item xs={2.5}>
                 <Button
                   variant="outlined"
                   sx={{
@@ -191,7 +205,7 @@ const AboutPage = () => {
                   onClick={() => {setFaqSection("Conference Format")}}
                   >Conference Format</Button>
               </Grid>
-              <Grid item xs={3}>
+              <Grid item xs={1.7}>
                 <Button 
                   variant="outlined"
                   sx={{
@@ -200,7 +214,7 @@ const AboutPage = () => {
                   onClick={() => {setFaqSection("Mechmania")}}
                   >MechMania</Button>
               </Grid>
-              <Grid item xs={3}>
+              <Grid item xs={1.8}>
                 <Button variant="outlined"
                   sx={{
                     borderRadius: "50px",
@@ -209,17 +223,14 @@ const AboutPage = () => {
                   >PuzzleBang</Button>
               </Grid>
           </Grid>
-        </ThemeProvider>
+        </Box>
         {/* Section 5 - Four FAQ Sections */}
         {/* TODO pass FAQ props in accordion */}
-        <Box>
-            <div class="outer">s
-                <div class="inner">1</div>
-                    <FAQAccordion FAQ={FAQdata}x/>
-                <div class="inner">2</div>
-                <div class="inner">3</div>
-                <div class="inner">4</div>
-            </div>
+        <Box ml={ml} mt={'30px'}>
+          { faqSection == "General" && <FAQAccordion FAQ={FAQdataGeneral}/>}
+          { faqSection == "Conference Format" && <FAQAccordion FAQ={FAQdataConference}/>}
+          { faqSection == "Mechmania" && <FAQAccordion FAQ={FAQdataMechmania}/>}
+          { faqSection == "PuzzleBang" && <FAQAccordion FAQ={FAQdataPuzzleBang}/>}
         </Box>
 
     </Box>
