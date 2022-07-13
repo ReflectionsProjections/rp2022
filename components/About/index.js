@@ -84,10 +84,10 @@ const AboutPage = () => {
 
         
         <Box ml={ml} mr={"18.9%"}>
-          <Box ml={'31.5vw'} mt={'100px'}>
+          <Box ml={'29.5vw'} mt={'100px'}>
             <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>Special Events</Typography>
           </Box>
-          <Box>
+          <Box mt="30px">
             <Grid container spacing={1} columns={24}>
               {/* First Row */}
               <Grid item md={8}>
