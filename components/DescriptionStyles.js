@@ -22,14 +22,20 @@ const useStyles = makeStyles({
     logo: {
         width: '42vw',
         marginBottom: '50px',
+        [`@media (max-width: 600px)`]: {
+            width: "90%",
+        },
     },
     
     mainText: {
         color: 'white',
         width: '30vw',
         marginBottom: '4vw',
+        [`@media (max-width: 600px)`]: {
+            width: "60vw",
+        },
     },
-    
+
     navButton: {
         boxShadow: 'none',
         textTransform: 'none',

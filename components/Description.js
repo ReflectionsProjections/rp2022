@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Section from './Section';
-import styles from './about.module.scss';
 import { Button } from '@mui/material';
 import { useStyles } from './DescriptionStyles.js'
 
@@ -26,7 +25,7 @@ export default function Description() {
       <Col className={classes.mainCol}>
         <img src="/rp22-logo.png" alt="Reflections Projections Logo" className={classes.logo} />
         <p className={classes.mainText}>
-          Reflections|Projections is the largest technology conference in the midwest, held annually at
+          Reflections | Projections is the largest student run technology conference in the midwest, held annually at
           the University of Illinois at Urbana-Champaign.
           <br></br>
           <br></br>
