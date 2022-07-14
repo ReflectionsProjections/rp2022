@@ -97,7 +97,7 @@ const AboutPage = () => {
         <Box>
             <div class="outer">s
                 <div class="inner">1</div>
-                    <FAQAccordion FAQ={FAQdata}x/>
+                    <FAQAccordion FAQ={FAQdata}/>
                 <div class="inner">2</div>
                 <div class="inner">3</div>
                 <div class="inner">4</div>

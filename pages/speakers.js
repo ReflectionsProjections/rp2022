@@ -1,4 +1,4 @@
-    import Speaker from '../components/Speaker';
+import Speaker from '../components/Speaker';
 import { Element } from 'react-scroll';
 import Nav from '../components/ui/Nav';
 import useGetStaticData from '../services/useGetStaticData';
