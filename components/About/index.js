@@ -83,13 +83,12 @@ const AboutPage = () => {
         {/* Section 3 */}
 
         
-        <Box ml={ml} mr={"18.9%"}>
+        {/* <Box ml={ml} mr={"18.9%"}>
           <Box ml={'29.5vw'} mt={'100px'}>
             <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>Special Events</Typography>
           </Box>
           <Box mt="30px">
             <Grid container spacing={1} columns={24}>
-              {/* First Row */}
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
@@ -118,7 +117,6 @@ const AboutPage = () => {
                 </Paper>
               </Grid>
 
-              {/* Second Row */}
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
@@ -147,7 +145,6 @@ const AboutPage = () => {
                 </Paper>
               </Grid>
 
-              {/* Third Row */}
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
@@ -177,15 +174,15 @@ const AboutPage = () => {
               </Grid>
             </Grid>
           </Box>
-        </Box>
+        </Box> */}
 
         {/* Section 4 */}
-        <Box ml={'42.5vw'} mt={'100px'}>
+        {/* <Box ml={'42.5vw'} mt={'100px'}>
           <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>FAQ</Typography>
-        </Box>
+        </Box> */}
 
         {/* Four buttons in a row */}
-        <Box ml={'20vw'} mt={'10px'}>
+        {/* <Box ml={'20vw'} mt={'10px'}>
           <Grid container>
               <Grid item xs={1.55}>
                 <Button
@@ -223,15 +220,15 @@ const AboutPage = () => {
                   >PuzzleBang</Button>
               </Grid>
           </Grid>
-        </Box>
+        </Box> */}
         {/* Section 5 - Four FAQ Sections */}
         {/* TODO pass FAQ props in accordion */}
-        <Box ml={ml} mt={'30px'}>
+        {/* <Box ml={ml} mt={'30px'}>
           { faqSection == "General" && <FAQAccordion FAQ={FAQdataGeneral}/>}
           { faqSection == "Conference Format" && <FAQAccordion FAQ={FAQdataConference}/>}
           { faqSection == "Mechmania" && <FAQAccordion FAQ={FAQdataMechmania}/>}
           { faqSection == "PuzzleBang" && <FAQAccordion FAQ={FAQdataPuzzleBang}/>}
-        </Box>
+        </Box> */}
 
     </Box>
   );
