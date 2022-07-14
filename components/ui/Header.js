@@ -13,7 +13,7 @@ export default function Header({ isHero }) {
     const pagesData = [
         {
             label: 'About',
-            href: '/'
+            href: '/about'
         },
         {
             label: 'Schedule',
@@ -22,8 +22,8 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Speakers',
-            // href: '/speakers'
-            href: '/'
+            href: '/speakers'
+            // href: '/'
         },
         {
             label: 'Sponsors',

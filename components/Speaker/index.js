@@ -3,6 +3,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Section from '../Section';
 
+import AvatarCard from '../ui/AvatarCard';
 import SpeakerCard from './components/SpeakerCard';
 
 import styles from './Speaker.module.scss';
@@ -25,14 +26,18 @@ const Speaker = ({ speakers }) => {
                   const imageURL = `${image}`;
                   return (
                     <div className={styles.speakerCardContainer} sm={12} md={6}>
-                      <SpeakerCard
+                      <AvatarCard 
+                      img = {imageURL}
+                      title = {name}
+                      description = {bio} />
+                      {/* <SpeakerCard
                         name={name}
                         cardImage={imageURL}
                         tagline={tagline}
                         badge={badge}
                         key={speaker.name}
                         bio={bio}
-                      />
+                      /> */}
                     </div>
                   );
                 })}

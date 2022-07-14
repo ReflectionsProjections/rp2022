@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import FAQ from '../components/FAQ';
-import About from '../components/About';
+import Description from '../components/Description';
 
 import styles from '../styles/Landing.module.scss';
 import useGetStaticData from '../services/useGetStaticData';
@@ -39,7 +39,7 @@ export default function Index() {
           </a>
         </main> */}
 
-        <About name="about" />
+        <Description name="about" />
         {/* <FAQ faqData={faqSection ?? { sections: [] }} />
         {sponsors && <SponsorSection sponsors={sponsors} />}
 
