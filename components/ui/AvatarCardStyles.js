@@ -13,8 +13,8 @@ const useStyles = makeStyles({
         padding: "40px 0px",
         gap: "48px",
 
-        width: '416px',
-        // height: '615px',
+        width: '310px',
+        height: '1800px', //Lili Gangas has wayyy too many words, please let ppl know to lower the word count
 
         [`@media (max-width: ${tablet})`]: {
             width: "45%",

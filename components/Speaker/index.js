@@ -32,7 +32,7 @@ const Speaker = ({ speakers }) => {
                       img = {imageURL}
                       title = {name}
                       description = {bio} />
-                    </Grid>
+                      </Grid>
                     // </div>
                   );
                 })}
