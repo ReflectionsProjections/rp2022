@@ -7,7 +7,7 @@ export default function About() {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -23,7 +23,7 @@ export default function About() {
           rel="stylesheet"
         />
       </Head>
-      <Nav />
+      <Nav /> */}
       <Aboutpage/>
     </>
   );

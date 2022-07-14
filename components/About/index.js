@@ -6,6 +6,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import Container from 'react-bootstrap/Container';
 import Section from '../Section';
+import Header from '../ui/Header';
 
 import AvatarCard from '../ui/AvatarCard';
 import FAQAccordion from './components/FAQAccordion'
@@ -53,7 +54,7 @@ const AboutPage = () => {
   return (
 
     <Box>
-
+        <Header isHero={true}/>
         {/* Section 1 */}
         
         <Box ml={ml} mt={5} width={textWidth}>
