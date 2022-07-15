@@ -20,23 +20,31 @@ import { useStyles } from './AboutStyles.js'
 export default function About() {
   const classes = useStyles();
   // <Container className={classes.aboutSection}>
+
   return (
+    
     <>
+    
       <Col className={classes.mainCol}>
         <img src="/rp22-logo.png" alt="Reflections Projections Logo" className={classes.logo} />
+        <p className={classes.subheadingBold}>
+        September 20 - 25, 2022
+        </p>
         <p className={classes.mainText}>
           Reflections | Projections is the largest student run technology conference in the midwest, held annually at
           the University of Illinois at Urbana-Champaign.
           <br></br>
           <br></br>
-          Coming soon.
+          Register for the event!
         </p>
         <Container className={classes.container}>
+          
           <Button variant='contained'
             className={classes.navButton}
             style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF' }}>
-            Learn More
+            Register
           </Button>
+          {/*  
           <Button variant='contained'
             className={classes.navButton}
             href='sponsor.pdf'
@@ -44,6 +52,7 @@ export default function About() {
             style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF' }}>
             Sponsors
           </Button>
+          */}
         </Container>
       </Col>
     </>

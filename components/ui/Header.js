@@ -76,7 +76,7 @@ export default function Header({ isHero }) {
                                 className={classes.navButton}
                                 style={{ backgroundColor: '#41798C' }}
                                 disableElevation>
-                                Register
+                                Login
                             </Button>
 
                             <Button

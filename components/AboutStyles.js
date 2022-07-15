@@ -69,8 +69,17 @@ const useStyles = makeStyles({
         justifyContent: 'flex-start',
         width: '100%',
     },
-    
-    // socialMediaIcons i: {
+    subheadingBold: {
+        fontSize: 'x-large',
+        color: 'white',
+        width: '30vw',
+        fontWeight: 'bold',
+        marginBottom: '2vw',
+        [`@media (max-width: 600px)`]: {
+            width: "60vw",
+        },
+    },
+        // socialMediaIcons i: {
     //     padding-right: '2em',
     //     font-size: 2em,
     //     color: #0cbabb,
