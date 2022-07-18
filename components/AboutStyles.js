@@ -81,6 +81,11 @@ const useStyles = makeStyles({
         justifyContent: 'flex-start',
         flexFlow: 'row',
     },
+
+    container2: {
+        justifyContent: 'flex-start',
+        flexFlow: 'flex-inline',
+    },
     
     body: {
         fontSize: '18px',
