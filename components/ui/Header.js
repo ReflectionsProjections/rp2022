@@ -130,8 +130,9 @@ export default function Header({ isHero }) {
                                             </Link>
                                         </MenuItem>
                                     ))}
-                                    <MenuItem>Register</MenuItem>
-                                    <MenuItem>Contact Us</MenuItem>
+                                    {/*  
+                                    <MenuItem>Hello</MenuItem>
+                                    <MenuItem>Contact Us</MenuItem> */}
                                 </Menu>
                             </Box>
                         </ClickAwayListener>

@@ -69,6 +69,7 @@ const useStyles = makeStyles({
         justifyContent: 'flex-start',
         width: '100%',
     },
+    
     subheadingBold: {
         fontSize: 'x-large',
         color: 'white',
