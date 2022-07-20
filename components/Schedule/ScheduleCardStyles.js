@@ -92,7 +92,6 @@ const useStyles = makeStyles({
         fontWeight: 700,
         fontSize: "24px",
         lineHeight: "32px",
-
         [`@media (max-width: ${mobile})`]: {
             width: "14px",
             height: "16px",
