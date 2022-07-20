@@ -9,31 +9,37 @@ const useStyles = makeStyles({
         display: "flex",
         flexDirection: "row",
         alignItems: "flex-start",
-        padding: "0px",
         gap: "40px",
 
-        width: "618px",
-        height: "auto",
+        // width: "auto",
+        // height: "auto",
 
-        [`@media (max-width: ${tablet})`]: {
-            width: '90vw',
-        },
-
-        [`@media (max-width: ${mobile})`]: {
-            width: '95%',
-        },
+        // [`@media (max-width: ${mobile})`]: {
+        //     width: '95%',
+        // },
 
         flex: "none",
         order: 0,
         flexGrow: 0,
+
+        // border: 'solid',
+        // borderColor: "blue",
+        transform: "translate(-8%, 0)",
+
+        [`@media (max-width: ${tablet})`]: {
+            // width: 'auto',
+            // transform: "translate(0, 0)",
+        },
     },
 
     dateBox: {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        justifyContent: 'center',
         padding: "0px",
         gap: "4px",
+        textAlign: 'center',
 
         width: "76px",
         height: "78px",
@@ -57,17 +63,18 @@ const useStyles = makeStyles({
         fontWeight: 700,
         fontSize: "36px",
         lineHeight: "42px",
-        display: "flex",
-        alignItems: "center",
-        textAlign: "center",
-        letterSpacing: "0.2px",
-        textTransform: "capitalize",
 
         [`@media (max-width: ${mobile})`]: {
             width: "38px",
             height: "21px",
             fontSize: "20px"
         },
+
+        // display: "flex",
+        // alignItems: "center",
+        // textAlign: "center",
+        letterSpacing: "0.2px",
+        textTransform: "capitalize",
 
         color: "#000000",
 
@@ -77,15 +84,15 @@ const useStyles = makeStyles({
     },
 
     date: {
-        width: "28px",
-        height: "32px",
+        width: "76px",
+        height: "42px",
 
         fontFamily: 'Roboto',
         fontStyle: "normal",
         fontWeight: 700,
         fontSize: "24px",
         lineHeight: "32px",
-        /* identical to box height, or 133% */
+
         [`@media (max-width: ${mobile})`]: {
             width: "14px",
             height: "16px",
@@ -93,9 +100,6 @@ const useStyles = makeStyles({
             lineHeight: "133%"
         },
 
-        display: "flex",
-        alignItems: "center",
-        textAlign: "center",
         letterSpacing: "0.2px",
         textTransform: "capitalize",
 

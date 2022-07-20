@@ -30,7 +30,7 @@ const useStyles = makeStyles({
         flexGrow: 0,
         zIndex: 1,
         gap: '100px',
-        marginBottom: '2.61px'
+        marginBottom: '2.61px',
     },
 
     headerBox: {
@@ -137,7 +137,7 @@ const useStyles = makeStyles({
     },
 
     description: {
-        width: "152px",
+        width: "100%",
         height: "32px",
 
         fontFamily: 'Roboto',

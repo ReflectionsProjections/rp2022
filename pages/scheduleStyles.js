@@ -1,5 +1,8 @@
 import { makeStyles } from '@mui/styles';
 
+const tablet = '850px';
+const mobile = '420px';
+
 const useStyles = makeStyles({
     background: {
         height: "500vh",
@@ -18,19 +21,16 @@ const useStyles = makeStyles({
     eventsContainer: {
         display: "flex",
         flexDirection: "column",
-        alignItems: "flex-start",
+        alignItems: "center",
         padding: "0px",
         gap: "80px",
-    
-        position: "absolute",
-        width: "618px",
-        height: "4295px",
-        left: "31%",
-        top: "45%",
-        // top: 50%,
-        // left: 50%,
-        // -webkit-transform: translate(-50%, -50%),
-        // transform: translate(-50%, -50%),
+        width: "100%",
+
+        // [`@media (max-width: ${mobile})`]: {
+        //     width: '95%',
+        // }
+        // border: 'solid',
+        // borderColor: "red",
     },
     
     headerBox: {
@@ -39,17 +39,9 @@ const useStyles = makeStyles({
         alignItems: "center",
         padding: "0px",
         gap: "48px",
-    
-        // position: absolute,
-        width: "868px",
-        height: "140px",
-        // left: 50%,
-        // top: 50%,
-        position: "absolute",
+
         top: "30%",
         left: "50%",
-        "-webkit-transform": "translate(-50%, -50%)",
-        "transform": "translate(-50%, -50%)",
     },
     
     scheduleTitle: {

@@ -5,66 +5,59 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Head from 'next/head';
 import { useStyles } from './scheduleStyles';
-// import classes from '../classes/Landing.module.scss';
-import classes from './schedule.module.scss';
+import useGetStaticData from '../services/useGetStaticData';
 
 export default function Schedule() {
-  const scheduleData = [
-    [ 
-      {
-        day: "TUE",
-        date: 20,
-        schedule: [
-          {
-            eventId: 1,
-            startTime: "12:00 AM",
-            endTime: "12:0 AM",
-            title: "Puzzlebang (all week)",
-            description: "PuzzleBang.com",
-          },
-          {
-            eventId: 2,
-            startTime: "12:00 AM",
-            endTime: "12:0 AM",
-            title: "Puzzlebang (all week)",
-            description: "PuzzleBang.com",
-          },
-          {
-            eventId: 3,
-            startTime: "12:00 AM",
-            endTime: "12:0 AM",
-            title: "Puzzlebang (all week)",
-            description: "PuzzleBang.com",
-          },
-        ]
-      },
-    ],
-    [
-      {
-        day: "WED",
-        date: 21,
-        schedule: [
-          {
-            eventId: 3,
-            startTime: "12:00 AM",
-            endTime: "12:0 AM",
-            title: "Puzzlebang (all week)",
-            description: "PuzzleBang.com",
-          },
-          {
-            eventId: 4,
-            startTime: "12:00 AM",
-            endTime: "12:0 AM",
-            title: "Puzzlebang (all week)",
-            description: "PuzzleBang.com",
-          },
-        ]
-      },
-    ]
-  ];
+  const { isLoaded, rpData } = useGetStaticData();
+  const { events } = rpData;
+  // const scheduleData = [
+  //   {
+  //     "key": 1,
+  //     "date": "09-24-2022",
+  //     "events": [
+  //       {
+  //         "eventID": "event1",
+  //         "title": "Event 1",
+  //         "description": "Description for event 1",
+  //         "startDate": "09-24-2022 8:00",
+  //         "endDate": "09-24-2022 9:00"
+  //       },
+  //       {
+  //         "eventID": "event2",
+  //         "title": "Event 2",
+  //         "description": "Description for event 2",
+  //         "startDate": "09-24-2022 9:00",
+  //         "endDate": "09-24-2022 10:00"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "key": 2,
+  //     "date": "09-25-2022",
+  //     "events": [
+  //       {
+  //         "eventID": "event3",
+  //         "title": "Event 3",
+  //         "description": "Description for event 3",
+  //         "startDate": "09-25-2022 8:00",
+  //         "endDate": "09-25-2022 9:00"
+  //       },
+  //       {
+  //         "eventID": "event4",
+  //         "title": "Event 4",
+  //         "description": "Description for event 4",
+  //         "startDate": "09-25-2022 9:00",
+  //         "endDate": "09-25-2022 10:00"
+  //       }
+  //     ]
+  //   }
+  // ]
 
-  const events = scheduleData.map((eventDay) => <ScheduleCard key={eventDay.date} data={eventDay} />);
+  // console.log(scheduleData[0]);
+  // console.log(scheduleData[0].length);
 
+  // const events = scheduleData.map((eventDay) => <ScheduleCard key={eventDay.date} data={eventDay} />);
+  
   const classes = useStyles();
   return (
     <>
@@ -90,7 +83,9 @@ export default function Schedule() {
           </div>
 
           <div className={classes.eventsContainer}>
-            {events}
+            {isLoaded && (
+              events.map((eventDay) => <ScheduleCard key={eventDay.date} data={Object.values(eventDay)} />)
+            )}
           </div>
         </div>
       </div>
