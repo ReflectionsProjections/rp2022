@@ -130,7 +130,7 @@ const useStyles = makeStyles({
     },
 
     description: {
-        width: "auto%",
+        width: "100%",
         height: "32px",
 
         fontFamily: 'Roboto',

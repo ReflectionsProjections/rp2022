@@ -62,6 +62,9 @@ const useStyles = makeStyles({
             fontSize: "20px"
         },
 
+        // display: "flex",
+        // alignItems: "center",
+        // textAlign: "center",
         letterSpacing: "0.2px",
         textTransform: "capitalize",
 
