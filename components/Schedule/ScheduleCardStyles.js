@@ -1,5 +1,4 @@
 import { makeStyles } from '@mui/styles';
-import { lineHeight } from '@mui/system';
 
 const tablet = '850px';
 const mobile = '420px';
@@ -11,24 +10,15 @@ const useStyles = makeStyles({
         alignItems: "flex-start",
         gap: "40px",
 
-        // width: "auto",
-        // height: "auto",
-
-        // [`@media (max-width: ${mobile})`]: {
-        //     width: '95%',
-        // },
-
         flex: "none",
         order: 0,
         flexGrow: 0,
-
-        // border: 'solid',
-        // borderColor: "blue",
         transform: "translate(-8%, 0)",
 
-        [`@media (max-width: ${tablet})`]: {
-            // width: 'auto',
-            // transform: "translate(0, 0)",
+        [`@media (max-width: ${mobile})`]: {
+            width: '100%',
+            paddingLeft: "30px",
+            gap: "16px"
         },
     },
 
@@ -45,8 +35,10 @@ const useStyles = makeStyles({
         height: "78px",
 
         [`@media (max-width: ${mobile})`]: {
-            width: "38px",
-            height: "38px",
+            width: "auto",
+            height: "auto",
+            gap: "10px",
+            marginLeft: "auto"
         },
 
         flex: "none",
@@ -65,14 +57,11 @@ const useStyles = makeStyles({
         lineHeight: "42px",
 
         [`@media (max-width: ${mobile})`]: {
-            width: "38px",
+            width: "40px",
             height: "21px",
             fontSize: "20px"
         },
 
-        // display: "flex",
-        // alignItems: "center",
-        // textAlign: "center",
         letterSpacing: "0.2px",
         textTransform: "capitalize",
 
@@ -93,7 +82,7 @@ const useStyles = makeStyles({
         fontSize: "24px",
         lineHeight: "32px",
         [`@media (max-width: ${mobile})`]: {
-            width: "14px",
+            width: "40px",
             height: "16px",
             fontSize: "14px",
             lineHeight: "133%"
@@ -123,8 +112,6 @@ const useStyles = makeStyles({
         borderWidth: '8px 0px 0px 0px',
         borderColor: '#F7A399',
         borderRadius: "4px 4px 0px 0px",
-
-        // gap: '10px',
 
         flex: "none",
         order: 1,

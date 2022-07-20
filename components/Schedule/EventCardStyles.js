@@ -10,11 +10,8 @@ const useStyles = makeStyles({
         display: "flex",
         flexDirection: "column",
         alignItems: "left",
-        // padding: "40px 0px",
-        // gap: "48px",
 
         width: "100%",
-        // width: "33%",
         height: "195px",
 
         [`@media (max-width: ${mobile})`]: {
@@ -39,15 +36,14 @@ const useStyles = makeStyles({
         flexDirection: "row",
         justifyContent: "left",
         alignItems: "flex-start",
-        width: '100%',
+        width: 'auto',
         gap: '22px',
         top: '30px',
         left: '22px',
     },
 
     time: {
-        // position: "absolute",
-        width: "227px",
+        width: "auto",
         height: "28px",
         left: "180px",
         top: "30px",
@@ -74,7 +70,6 @@ const useStyles = makeStyles({
     },
 
     dot: {
-        // position: "absolute",
         width: "28px",
         height: "28px",
         borderRadius: '75%',
@@ -94,8 +89,7 @@ const useStyles = makeStyles({
         padding: "0px",
         gap: "6px",
 
-        // position: "absolute",
-        width: "320px",
+        width: "auto",
         height: "70px",
         left: "75px",
         top: "99px",
@@ -104,12 +98,11 @@ const useStyles = makeStyles({
             top: "80px"
         },
 
-        
         zIndex: 2
     },
 
     title: {
-        width: "320px",
+        width: "auto",
         height: "32px",
 
         fontFamily: 'Roboto',
@@ -137,7 +130,7 @@ const useStyles = makeStyles({
     },
 
     description: {
-        width: "100%",
+        width: "auto%",
         height: "32px",
 
         fontFamily: 'Roboto',

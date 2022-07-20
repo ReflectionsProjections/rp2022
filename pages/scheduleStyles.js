@@ -5,17 +5,11 @@ const mobile = '420px';
 
 const useStyles = makeStyles({
     background: {
-        height: "500vh",
+        height: "auto",
         // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
         backgroundImage: "url('../public/resources/Grain.png')",
-        background: "grey",
-    },
-
-    pageContainer: {
-        position: "relative",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        background: "white",
+        paddingBottom: "100px"
     },
     
     eventsContainer: {
@@ -25,12 +19,6 @@ const useStyles = makeStyles({
         padding: "0px",
         gap: "80px",
         width: "100%",
-
-        // [`@media (max-width: ${mobile})`]: {
-        //     width: '95%',
-        // }
-        // border: 'solid',
-        // borderColor: "red",
     },
     
     headerBox: {
@@ -39,13 +27,18 @@ const useStyles = makeStyles({
         alignItems: "center",
         padding: "0px",
         gap: "48px",
+        marginBottom: "70px",
+
+        [`@media (max-width: ${tablet})`]: {
+            gap: "24px"
+        },
 
         top: "30%",
         left: "50%",
     },
     
     scheduleTitle: {
-        width: "203px",
+        width: "auto",
         height: "56px",
     
         fontFamily: 'Roboto',
@@ -63,7 +56,7 @@ const useStyles = makeStyles({
     },
     
     scheduleDescription: {
-        width: "868px",
+        width: "auto",
         height: "36px",
     
         fontFamily: 'Roboto',
