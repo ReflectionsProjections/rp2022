@@ -1,5 +1,8 @@
 import { makeStyles } from '@mui/styles';
 
+const tablet = '850px';
+const mobile = '420px';
+
 const useStyles = makeStyles({
     aboutSection: {
         minHeight: 0,
@@ -16,7 +19,17 @@ const useStyles = makeStyles({
         justifyContent: 'flex-start',
         flexDirection: 'column',
         paddingLeft: '7vw',
-        paddingTop: '10vw',
+        paddingTop: '18vw',
+        width: "100%",
+
+        [`@media (max-width: ${tablet})`]: {
+            // transform: "scale(1.25)"
+        },
+
+        [`@media (max-width: ${mobile})`]: {
+            paddingTop: '20vh',
+            paddingLeft: 0,
+        },
     },
     
     logo: {
@@ -43,7 +56,7 @@ const useStyles = makeStyles({
         fontStyle: 'normal',
         fontWeight: 70,
         fontSize: '16px',
-        marginLeft: '30px',
+        // marginLeft: '30px',
         
         borderRadius: '30px',
         
@@ -57,6 +70,18 @@ const useStyles = makeStyles({
     container: {
         justifyContent: 'flex-start',
         flexFlow: 'row',
+
+        [`@media (max-width: ${mobile})`]: {
+            justifyContent: 'center',
+            paddingTop: '20vh',
+            paddingLeft: 0,
+            width: "auto",
+            alignItems: "center",
+        },
+    },
+
+    buttons: {
+        left: 0
     },
     
     body: {

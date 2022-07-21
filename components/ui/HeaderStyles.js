@@ -1,27 +1,39 @@
 import { makeStyles } from '@mui/styles';
+import redCurve from '../../public/resources/red_curve.svg';
+
+const tablet = '850px';
+const mobile = '420px';
 
 const useStyles = makeStyles({
-    hero: {
-        position: 'static',
-        width: '100%',
-        zIndex: 999,
-
-        display: 'flex',
-        padding: '2rem',
-        background: 'transparent',
-        boxShadow: 'none',
-        top: 0,
+    curve: {
+        position: "fixed",
+        width: "100%",
+        height: 'auto',
+        top: "-10px",
         left: 0,
+
+        [`@media (max-width: ${tablet})`]: {
+            top: 0,
+            transform: "scale(1.25)"
+        },
+
+        [`@media (max-width: ${mobile})`]: {
+            display: "none"
+        },
     },
-    
+
     header: {
-        position: 'static',
+        position: 'fixed',
         width: '100%',
         zIndex: 999,
 
         display: 'flex',
         padding: '2rem',
         background: 'transparent',
+        [`@media (max-width: ${mobile})`]: {
+            background: "radial-gradient(101.76% 724.4% at 51.92% 208.23%, #EE6350 0%, #F9E3E0 100%)",
+        },
+        opacity: 0.9,
         boxShadow: 'none',
         top: 0,
         left: 0,
@@ -49,6 +61,11 @@ const useStyles = makeStyles({
         height: '78px',
         left: '0px',
         top: '0px',
+
+        [`@media (max-width: ${mobile})`]: {
+            width: '60px',
+            height: '60px',
+        },
 
         flex: 'none',
         order: 0,
@@ -85,6 +102,7 @@ const useStyles = makeStyles({
         
         '&:hover, &:visited, &:focus, &:active': {
             textDecoration: 'none',
+            borderBottom: "3px solid",
             cursor: 'pointer',
             color: 'white',
             marginLeft: '38px',

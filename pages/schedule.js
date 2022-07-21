@@ -26,8 +26,8 @@ export default function Schedule() {
           />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <Header isHero={false} />
-        <div>
+        <Header />
+        <div className={classes.schedulePageContainer}>
           <div className={classes.headerBox}>
             <Typography className={classes.scheduleTitle}>Schedule</Typography>
             <Typography className={classes.scheduleDescription}>5 days full of events and tech!</Typography>

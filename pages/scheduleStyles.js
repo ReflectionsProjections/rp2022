@@ -4,6 +4,18 @@ const tablet = '850px';
 const mobile = '420px';
 
 const useStyles = makeStyles({
+    schedulePageContainer: {
+        paddingTop: "30vh",
+
+        [`@media (max-width: ${tablet})`]: {
+            paddingTop: "15vh"
+        },
+
+        [`@media (max-width: ${mobile})`]: {
+            paddingTop: "20vh"
+        },
+    },
+
     background: {
         height: "auto",
         // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
