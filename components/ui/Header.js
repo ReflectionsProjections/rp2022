@@ -16,8 +16,8 @@ export default function Header() {
         },
         {
             label: 'Schedule',
-            // href: '/schedule'
-            href: '/'
+            href: '/schedule'
+            // href: '/'
         },
         {
             label: 'Speakers',
@@ -47,7 +47,7 @@ export default function Header() {
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <Box>
-                            <Link href="#" passHref>
+                            <Link href="/" passHref>
                                 <a rel="noreferrer">
                                     <img src={small_logo} alt='2022 R|P Logo' className={classes.logo} />
                                 </a>

@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Section from './Section';
 import { Button } from '@mui/material';
 import { useStyles } from './AboutStyles.js'
+import { StylesContext } from '@mui/styles';
 
 /* About Section Styling */
 // const AboutSection = ({ children }) => <div className="pb-4">{children}</div>;
@@ -31,20 +32,24 @@ export default function About() {
           <br></br>
           Coming soon.
         </p>
-        <Container className={classes.container}>
-          <Button variant='contained'
-            className={classes.navButton}
-            style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF' }}>
-            Learn More
-          </Button>
-          <Button variant='contained'
-            className={classes.navButton}
-            href='sponsor.pdf'
-            target="_blank"
-            style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF' }}>
-            Sponsors
-          </Button>
-        </Container>
+        <div className={classes.container}>
+          <div className={classes.buttons}>
+            <Button variant='contained'
+              className={classes.navButton}
+              disableElevation
+              style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', marginRight: "20px" }}>
+              Learn More
+            </Button>
+            <Button variant='contained'
+              className={classes.navButton}
+              href='sponsor.pdf'
+              target="_blank"
+              disableElevation
+              style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', marginLeft: "10px" }}>
+              Sponsors
+            </Button>
+          </div>
+        </div>
       </Col>
     </>
     // </Container>

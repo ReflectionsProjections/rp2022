@@ -9,10 +9,11 @@ const useStyles = makeStyles({
         position: "fixed",
         width: "100%",
         height: 'auto',
-        top: 0,
+        top: "-10px",
         left: 0,
 
         [`@media (max-width: ${tablet})`]: {
+            top: 0,
             transform: "scale(1.25)"
         },
 
