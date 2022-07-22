@@ -81,8 +81,7 @@ export default function Index() {
     </div>
     
      {/* <FAQ faqData={faqSection ?? { sections: [] }} />  */}
-     <SponsorSection sponsors={{"Google": "hi", "hello": "hi", "mic": "rosoft", "tier4": "i guess"}} />
-        {sponsors && <SponsorSection sponsors={sponsors} />} 
+     
 
       {/*  <footer className={styles.footer}>
           Questions? Interested in sponsoring?&nbsp;
