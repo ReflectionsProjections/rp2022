@@ -29,21 +29,31 @@
   background-image: url('../public/resources/Grain.png');
 }
 
+.backgroundRedandBlue {
+  height: 1000px;
+  // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
+  background-repeat: no-repeat;
+  //position: relative;
+  background-position: right bottom;
+
+  background-image: url('../public/resources/Blue Curve.svg') , url('../public/resources/Grain.png');
+}
+
 .backgroundPink {
   height: 1000px;
   // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
   background-image: url('../public/resources/Pink Curve.svg');
 }
 
-.filterPink{
-  display: flex;
-  flex-direction: column;
-  margin-top: -200px;
-  .fixed-to-top {
-    position: fixed;
-  }
-  filter: invert(76%) sepia(3%) saturate(2007%) hue-rotate(315deg) brightness(121%) contrast(98%);
+
+
+
+.tinyImg {
+  width: 50;
+  height: 50;
 }
+
+
 
 .main {
   padding: 2%;
