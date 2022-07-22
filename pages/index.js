@@ -8,6 +8,8 @@ import SponsorSection from '../components/SponsorSection.js';
 import Nav from '../components/ui/Nav';
 import Button from 'react-bootstrap/Button';
 import Header from '../components/ui/Header';
+import Footer from '../components/ui/Footer'
+import { Google } from 'react-bootstrap-icons';
 
 export default function Index() {
   const { rpData } = useGetStaticData();
@@ -30,6 +32,7 @@ export default function Index() {
       </Head>
       {/* <Nav /> */}
       <Header isHero={true}/>
+
       <div className={styles.landingContainer}>
        {/* <main className={styles.main}>
           <img src="/rp22-logo.png" alt="Reflections Projections Logo" />
@@ -39,7 +42,7 @@ export default function Index() {
           </a>
         </main> */}
 
-        <About name="about" />
+         <About name="about" /> 
         {/* <FAQ faqData={faqSection ?? { sections: [] }} />
         {sponsors && <SponsorSection sponsors={sponsors} />}
 
@@ -72,18 +75,14 @@ export default function Index() {
 
       <div className={styles.bg}>
         <img className = "bg-img" src="/resources/Pink Curve.svg" alt="Pink Wavy Background" />
-        <div className={styles.footer}>
-        your dad
-        </div>
-
-        
       </div>
+      {/* <SponsorSection sponsors={sponsors}/> */}
+      <Footer/>
     </div>
-    <div className={styles.backgroundPink} >
-        ur om
-    </div>
-    {/* <FAQ faqData={faqSection ?? { sections: [] }} />
-        {sponsors && <SponsorSection sponsors={sponsors} />} */}
+    
+     {/* <FAQ faqData={faqSection ?? { sections: [] }} />  */}
+     <SponsorSection sponsors={{"Google": "hi", "hello": "hi", "mic": "rosoft", "tier4": "i guess"}} />
+        {sponsors && <SponsorSection sponsors={sponsors} />} 
 
       {/*  <footer className={styles.footer}>
           Questions? Interested in sponsoring?&nbsp;

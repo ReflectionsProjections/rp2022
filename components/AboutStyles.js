@@ -10,6 +10,12 @@ const useStyles = makeStyles({
         fontSize: '30px',
         fontFamily: 'var(--alt-font)',
     },
+
+    subheading2: {
+        fontSize: '48px',
+        fontFamily: 'Roboto',
+        color: '#EE6350'
+    },
     
     mainCol: {
         display: 'flex',
@@ -53,10 +59,32 @@ const useStyles = makeStyles({
         whiteSpace: 'nowrap',
         textAlign: 'center',
     },
+    navButton2: {
+        boxShadow: 'none',
+        textTransform: 'none',
+        fontFamily: 'Roboto',
+        fontStyle: 'normal',
+        fontWeight: 70,
+        fontSize: '16px',
+        marginLeft: '-100px',
+        
+        borderRadius: '30px',
+        
+        width: '126px',
+        height: '60px',
+        
+        whiteSpace: 'nowrap',
+        textAlign: 'center',
+    },
     
     container: {
         justifyContent: 'flex-start',
         flexFlow: 'row',
+    },
+
+    container2: {
+        justifyContent: 'flex-start',
+        flexFlow: 'flex-inline',
     },
     
     body: {
@@ -79,6 +107,22 @@ const useStyles = makeStyles({
         [`@media (max-width: 600px)`]: {
             width: "60vw",
         },
+    },
+    subheadingBold2: {
+        fontSize: '48px',
+        color: 'black',
+        width: '30vw',
+        fontWeight: 'bold',
+        marginBottom: '2vw',
+        [`@media (max-width: 600px)`]: {
+            width: "60vw",
+        },
+    },
+    diffBody: {
+        fontSize: '18px',
+        fontFamily: 'var(--font-family)',
+        color: 'black',
+
     },
         // socialMediaIcons i: {
     //     padding-right: '2em',
