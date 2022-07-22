@@ -69,6 +69,27 @@ export default function Index() {
         <img className = "bg-img" src="/resources/Blue Curve.svg" alt="Blue Wavy Background" />
       </div>
     </div>
+
+    
+  
+
+
+    <div className={styles.bg}>
+
+      <img className = "bg-img" 
+      style={{ height: 893.94, width: 935, marginTop: 100, marginLeft: 745 }}
+      
+      src="/resources/Ripples.svg" alt="Radial circles" />
+    </div>
+
+    <div>
+      <div className={styles.bg}>
+      <img className = "bg-img" 
+        style={{height: 560, width: 560, marginTop: 570,marginLeft: 760}}
+      src={"/resources/speaker.png"} alt="Speaker"/>
+      </div>
+      
+    </div>
     </>
   );
 }

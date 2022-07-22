@@ -49,7 +49,7 @@ const useStyles = makeStyles({
         fontStyle: 'normal',
         fontWeight: 70,
         fontSize: '16px',
-        marginLeft: '30px',
+        marginLeft: '-100px',
         
         borderRadius: '30px',
         
@@ -74,13 +74,29 @@ const useStyles = makeStyles({
         height: '60px',
         
         whiteSpace: 'nowrap',
-        textAlign: 'center',
+        textAlign: 'center', 
     },
+
+    ridesFriends: {
+        paddingTop: 70,
+        alignItems: 'center',
+        flexDirection: 'row',
+        justifyContent: 'space-evenly',
+        width: '100%',
+        marginBottom: 20,
+      },
     
     container: {
         justifyContent: 'flex-start',
         flexFlow: 'row',
     },
+
+    verticleLine: {
+        height: '100%',
+        width: 1,
+        backgroundColor: '#909090',
+      },
+
 
     container2: {
         justifyContent: 'flex-start',
