@@ -73,7 +73,7 @@ export default function About() {
       <br></br>
 
       
-      
+      {/* 
       <Col className={classes.mainCol}>
 
         <p className={classes.subheading2}>
@@ -101,7 +101,8 @@ export default function About() {
         </Container>
         
       </Col>
-
+          */}
+          {/*  
       <Col className={classes.mainCol}>
 
         <p className={classes.subheadingBold2}>
@@ -121,29 +122,30 @@ export default function About() {
        
         
       </Col>
+      */}
       
-      
-
+        {/*  
       <Col className={classes.mainCol}>
 
-<p className={classes.subheading2}>
-Speakers
-</p>
-<p className={classes.diffBody}>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br> sed do eiusmod tempor incididunt ut labore et dolore <br></br>magna aliqua. Ut enim ad minim veniam, quis nostrud <br></br> exercitation ullamco laboris nisi ut aliquip ex ea commodo <br></br>consequat.
-</p>
-<Container className={classes.container}>
-  
-  <Button variant='contained'
-  
-    className={classes.navButton2}
-    style={{ backgroundColor: '#41798C', disabled: true }}>
-    Learn more
-  </Button>
-</Container>
+          <p className={classes.subheading2}>
+            Speakers
+          </p>
+          <p className={classes.diffBody}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br> sed do eiusmod tempor incididunt ut labore et dolore <br></br>magna aliqua. Ut enim ad minim veniam, quis nostrud <br></br> exercitation ullamco laboris nisi ut aliquip ex ea commodo <br></br>consequat.
+          </p>
+          <Container className={classes.container}>
+            
+            <Button variant='contained'
+            
+              className={classes.navButton2}
+              style={{ backgroundColor: '#41798C', disabled: true }}>
+              Learn more
+            </Button>
+          </Container>
 
 
-</Col>
+      </Col>
+      */}
     </>
     // </Container>
   );

@@ -4,11 +4,11 @@
 	 viewBox="0 0 1512 696.1" style="enable-background:new 0 0 1512 696.1;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_00000042694571769256622660000008416062061928433584_);stroke:#FFFFFF;}
-	.st1{fill:none;stroke:#FFFFFF;stroke-width:5;}
-	.st2{fill:none;stroke:#EE6350;stroke-width:5;stroke-opacity:0.7;}
-	.st3{fill:none;stroke:#EE6350;stroke-width:5;stroke-opacity:0.5;}
-	.st4{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-opacity:0.1;}
-	.st5{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-opacity:0.3;}
+	.st1{fill:none;stroke:#FDE2DF;stroke-width:5;}
+	.st2{fill:none;stroke:#FDE2DF;stroke-width:5;stroke-opacity:0.7;}
+	.st3{fill:none;stroke:#FDE2DF;stroke-width:5;stroke-opacity:0.5;}
+	.st4{fill:none;stroke:#FDE2DF;stroke-width:5;stroke-opacity:0.1;}
+	.st5{fill:none;stroke:#FDE2DF;stroke-width:5;stroke-opacity:0.3;}
 </style>
 <g id="Background">
 </g>
@@ -27,9 +27,28 @@
 		<stop  offset="0" style="stop-color:#FDE2DF"/>
 		<stop  offset="1" style="stop-color:#FDE2DF"/>
 	</radialGradient>
-	<path style="fill:url(#SVGID_00000026852987393572082520000011873610655993723053_);stroke:#FFFFFF;" d="M1512,245.9v420.4
+	<path style="fill:url(#SVGID_00000026852987393572082520000011873610655993723053_);stroke:#FDE2DF;" d="M1512,245.9v420.4
 		c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,616.6,0,616.6V196.2c0,0,142.3,78.6,398.5,78.6s585.6-165.9,783-165.9
 		S1512,245.9,1512,245.9z"/>
 </g>
 
+<g id="White_Stroke">
+	<path class="st1" d="M1512,245.9c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,196.2,0,196.2"/>
+</g>
+<g id="Red_Stroke_Near_1">
+	<!-- <path style="fill:url(#SVGID_00000026852987393572082520000011873610655993723053_);stroke:#FDE2DF;" d="M1512,220.4c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,171.2,0,171.2"/> -->
+
+	<path style="fill:url(#SVGID_00000026852987393572082520000011873610655993723053_);stroke:#FDE2DF;" d="M1512,220.4c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,171.2,0,171.2"/>
+</g>
+<g id="Red_Stroke_Near">
+	<path class="st1" d="M1512,195.4c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,145.7,0,145.7"/>
+</g>
+<g id="Red_Stroke_Far">
+	<path class="st1" d="M1511.7,145.3c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S-0.3,95.7-0.3,95.7"/>
+</g>
+
+<g id="White_Stroke_Far">
+	<path class="st4" d="M1512,347.2c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,297.5,0,297.5"/>
+	<path class="st5" d="M1512,296.7c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,247,0,247"/>
+</g>
 </svg>

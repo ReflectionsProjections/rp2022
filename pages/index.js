@@ -12,13 +12,17 @@ import Header from '../components/ui/Header';
 import Footer from '../components/ui/Footer'
 import { Google } from 'react-bootstrap-icons';
 
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+
+
 export default function Index() {
   const { rpData } = useGetStaticData();
   const { faqSection, sponsors } = rpData;
 
   return (
     <>
-    <div className={styles.backgroundRedandBlue} >
+    <div className={styles.backgroundRed} >
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -43,12 +47,97 @@ export default function Index() {
           </a>
         </main> */}
         
-         <About name="about" /> 
-         <Section className={"Prepare for Events"}/>
+          <About name="about" />     
+      </div>
 
-         
-         
-        {/* <FAQ faqData={faqSection ?? { sections: [] }} />
+      
+      {/* <div className={styles.backgroundBlue}></div>  */}
+      <div className={styles.landingContainer}>
+        <Col className={styles.mainCol}>
+          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+          <p className={styles.subheading2}>
+          What is Reflections | Projections?
+          </p>
+          <p className={styles.diffBody}>
+          Reflections | Projections is a tech conference organized and run by students at  
+          <br></br>the University of Illinois at Urbana-Champaign. 
+
+          <br></br>
+            <br></br>
+
+          We draw students, speakers, and companies from around the world. Join us to <br></br> listen to tech talks from across the industry, to participate in an Artificial <br></br> Intelligence programming competition in Mechmania, to solve puzzles <br></br>throughout the conference during PuzzleBang!, and to attend our job and <br></br>startup fairs. 
+            <br></br>
+            <br></br>
+            The conference is free and open to anyone regardless of age, major, job, or <br></br> affiliation with the University of Illinois. So come join a discussion led by some <br></br>of the brightest minds in the business about the bleeding edge of the tech <br></br> industry!
+          </p>
+          <Container className={styles.container}>
+            
+            <Button variant='contained'
+              className={styles.navButton2}
+              style={{ backgroundColor: '#41798C', disabled: true }}>
+              Learn more
+            </Button>
+            <br></br><br></br><br></br><br></br>
+          </Container>
+
+        </Col>
+        
+        
+
+      </div> 
+
+        
+
+      <div className={styles.backgroundPink}>
+        
+        <Col className={styles.mainCol}>
+          
+          <p className={styles.subheadingBold2}>
+            Prepare for 5 days full of events and tech!
+          </p>
+        
+        
+        <Container className={styles.container}>
+          
+          <Button variant='contained'
+            className={styles.navButton2}
+            style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
+            View schedule
+          </Button>
+        </Container>
+        </Col>
+      </div>
+      {/* <SponsorSection sponsors={sponsors}/> */}
+      <Footer/>
+    </div>
+    <div className={styles.bgFixed}>
+        <img className="bg-img" src="/resources/Blue Curve.svg" alt="Blue Wavy Background"  />
+      </div>
+    
+  
+
+{/*  
+    <div className={styles.bg}>
+
+      <img className = "bg-img" 
+      style={{ height: 893.94, width: 935, marginTop: 100, marginLeft: 745 }}
+      
+      src="/resources/Ripples.svg" alt="Radial circles" />
+    </div> */}
+{/*  
+    <div>
+      <div className={styles.bg}>
+      <img className = "bg-img" 
+        style={{height: 560, width: 560, marginTop: 570,marginLeft: 760}}
+      src={"/resources/speaker.png"} alt="Speaker"/>
+      </div>
+      
+    </div>
+    */}
+    </>
+  );
+}
+ {/* <FAQ faqData={faqSection ?? { sections: [] }} />
         {sponsors && <SponsorSection sponsors={sponsors} />}
 
         <footer className={styles.footer}>
@@ -70,40 +159,3 @@ export default function Index() {
             here
           </a>
         </footer> */}
-      </div>
-      
-        {/* <img class = "fixed-to-top" src="/resources/MiddleWhiteStrokeBackground.png" alt="White Stroke" /> 
-        # How can I make this white line not take up document flow (space) */}
-        {/* <img className = "bg-img" src="/resources/Blue Curve.svg" alt="Blue Wavy Background" /> */}
-        
-
-      <div className={styles.bg}>
-        <img className = "bg-img" src="/resources/Pink Curve.svg" alt="Pink Wavy Background" />
-      </div>
-      {/* <SponsorSection sponsors={sponsors}/> */}
-      <Footer/>
-    </div>
-
-    
-  
-
-
-    <div className={styles.bg}>
-
-      <img className = "bg-img" 
-      style={{ height: 893.94, width: 935, marginTop: 100, marginLeft: 745 }}
-      
-      src="/resources/Ripples.svg" alt="Radial circles" />
-    </div>
-
-    <div>
-      <div className={styles.bg}>
-      <img className = "bg-img" 
-        style={{height: 560, width: 560, marginTop: 570,marginLeft: 760}}
-      src={"/resources/speaker.png"} alt="Speaker"/>
-      </div>
-      
-    </div>
-    </>
-  );
-}
