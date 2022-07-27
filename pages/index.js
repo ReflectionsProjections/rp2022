@@ -88,15 +88,25 @@ export default function Index() {
 
         
 
-      <div className={styles.backgroundPink}>
-        
-        <Col className={styles.mainCol}>
+      {/* <div className={styles.backgroundPinkBlock}> */}
+      <div className={styles.backgroundPink}>  
+        <Col className={styles.mainCol} style={{display: 'flex'}}>
           
-          <p className={styles.subheadingBold2}>
+          <p className={styles.subheadingBold2} style={{flex: 1, marginTop: '30px'}}>
             Prepare for 5 days full of events and tech!
           </p>
+          <p className={styles.diffBody} style={{marginLeft: '60vw', float: 'right', flex: 1}}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        <div className={styles.bg}>
+        <img className = "bg-img" 
+          style={{height: 560, width: 560, float: 'right', marginLeft: '30vw', marginRight: '20vw'}}
+          src={"/resources/vertical_line.svg"} alt="line"/>
+        </div>
+        {/* <p className={styles.subheadingBold2} style={{marginLeft: '60vw', float: 'right'}}>
         
-        
+            Prepare for 5 days full of events and tech!
+          </p> */}
         <Container className={styles.container}>
           
           <Button variant='contained'
@@ -105,9 +115,39 @@ export default function Index() {
             View schedule
           </Button>
         </Container>
+        <br></br><br></br><br></br><br></br>
         </Col>
       </div>
       {/* <SponsorSection sponsors={sponsors}/> */}
+      <Col className={styles.mainCol}>
+
+          <p className={styles.subheading2}>
+            Speakers
+          </p>
+          <p className={styles.diffBody}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br> sed do eiusmod tempor incididunt ut labore et dolore <br></br>magna aliqua. Ut enim ad minim veniam, quis nostrud <br></br> exercitation ullamco laboris nisi ut aliquip ex ea commodo <br></br>consequat.
+          </p>
+        <div className={styles.bg}>
+          <img className = "bg-img" 
+        // style={{height: 560, width: 560, marginTop: 570,marginLeft: 760}}
+          style={{height: 560, width: 560, float: 'right', marginLeft: '50vw', marginRight: '20vw'}}
+          src={"/resources/speaker.png"} alt="Speaker"/>
+       </div>
+          <Container className={styles.container}>
+            
+            <Button variant='contained'
+            
+              className={styles.navButton2}
+              style={{ backgroundColor: '#41798C', disabled: true }}>
+              Learn more
+            </Button>
+          </Container>
+
+          <div>
+      
+      
+    </div>
+      </Col>
       <Footer/>
     </div>
     <div className={styles.bgFixed}>
@@ -124,16 +164,17 @@ export default function Index() {
       
       src="/resources/Ripples.svg" alt="Radial circles" />
     </div> */}
-{/*  
-    <div>
+  
+    {/* <div>
       <div className={styles.bg}>
       <img className = "bg-img" 
-        style={{height: 560, width: 560, marginTop: 570,marginLeft: 760}}
+        // style={{height: 560, width: 560, marginTop: 570,marginLeft: 760}}
+        style={{height: 560, width: 560, marginTop: '100vw',marginLeft: 760}}
       src={"/resources/speaker.png"} alt="Speaker"/>
       </div>
       
-    </div>
-    */}
+    </div> */}
+    
     </>
   );
 }

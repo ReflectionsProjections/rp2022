@@ -43,34 +43,32 @@
 
 .backgroundRed {
   height: 1000px;
-
+  // height: auto;
   // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
   background-image: url('../public/resources/Grain.png');
+  // background-image: url('../public/resources/Pink Grain.svg');
+  
 }
 
 .backgroundRedSvg {
   height: 1000px;
+  width: 4000px;
+  // width: '100vw';
   // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
-  background-image: url('../public/resources/Grain_adobe_express.svg');
+  background-image: url('../public/resources/Pink Grain.svg');
+  
   background-repeat: no-repeat;
 }
 
-.backgroundRedandBlue {
-  // height: 1000px;
-  height: 1000px;
-  // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
-  background-repeat: no-repeat;
-  //position: relative;
-  background-position: right bottom;
-
-  background-image: url('../public/resources/Blue Curve.svg') , url('../public/resources/Grain.png');
-}
 
 .backgroundPink {
-  height: 1000px;
+  // height: 1000px;
   // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
   background-repeat: no-repeat;
-  background-image: url('../public/resources/Pink Curve.svg');
+  background-size: cover;
+  height: '100vw';
+  overflow: visible;
+  background-image: url('../public/resources/Blue CurvePink_curve.svg');
   
 }
 
@@ -98,7 +96,13 @@
   height: 50;
 }
 
-
+.backgroundPinkBlock {
+  background-image: url('../public/resources/bottomwave.svg'), url('../public/resources/wave.svg');
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #FDE2DF;
+  
+}
 
 .main {
   padding: 2%;
@@ -181,6 +185,8 @@
 .container {
   justify-content: flex-start;
   flex-flow: row;
+  margin-left: 100px;
+  
 }
 
 .navButton2 {
@@ -198,7 +204,9 @@
   height: 60px;
   
   white-space: nowrap;
-  text-align: center; 
+  text-align: center;
+  // margin-top: 10px; 
+  // margin-bottom: 10vw;
 }
 
 
@@ -206,8 +214,11 @@
   font-size: 48px;
   color: black;
   width: 30vw;
+  // min-height: 300px;
+  // margin-bottom: 10vw;
   font-weight: bold;
-  margin-bottom: 2vw,
+  // margin-bottom: 10vw;
+  // margin-top: 20vw;
   // [`@media (max-width: 600px)`]: {
   //     width: "60vw",
   // }
