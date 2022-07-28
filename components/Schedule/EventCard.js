@@ -3,7 +3,11 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { useStyles } from './EventCardStyles.js';
 
+<<<<<<< HEAD
 export default function EventCard({ startTime, endTime, title, description }) {
+=======
+export default function EventCard({startTime, endTime, title, description}) {
+>>>>>>> e470039 (Created EventCard component)
     const classes = useStyles();
     return(
         <>

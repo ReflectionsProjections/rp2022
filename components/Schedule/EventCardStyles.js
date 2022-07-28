@@ -10,6 +10,7 @@ const useStyles = makeStyles({
         display: "flex",
         flexDirection: "column",
         alignItems: "left",
+<<<<<<< HEAD
 
         width: "100%",
         height: "195px",
@@ -19,6 +20,15 @@ const useStyles = makeStyles({
             height: "185px",
             gap: "20px",
         },
+=======
+        // padding: "40px 0px",
+        // gap: "48px",
+
+        width: "502px",
+        height: "195px",
+        width: "26vw",
+        height: "195px",
+>>>>>>> e470039 (Created EventCard component)
 
         background:"#FFFFFF",
 
@@ -27,7 +37,10 @@ const useStyles = makeStyles({
         flexGrow: 0,
         zIndex: 1,
         gap: '100px',
+<<<<<<< HEAD
         marginBottom: '2.61px',
+=======
+>>>>>>> e470039 (Created EventCard component)
     },
 
     headerBox: {
@@ -36,14 +49,23 @@ const useStyles = makeStyles({
         flexDirection: "row",
         justifyContent: "left",
         alignItems: "flex-start",
+<<<<<<< HEAD
         width: 'auto',
+=======
+        width: '100%',
+>>>>>>> e470039 (Created EventCard component)
         gap: '22px',
         top: '30px',
         left: '22px',
     },
 
     time: {
+<<<<<<< HEAD
         width: "auto",
+=======
+        // position: "absolute",
+        width: "227px",
+>>>>>>> e470039 (Created EventCard component)
         height: "28px",
         left: "180px",
         top: "30px",
@@ -53,12 +75,15 @@ const useStyles = makeStyles({
         fontWeight: 400,
         fontSize: "24px",
         lineHeight: "28px",
+<<<<<<< HEAD
 
         [`@media (max-width: ${mobile})`]: {
             fontSize: "14px",
             lineHeight: "24px",
         },
 
+=======
+>>>>>>> e470039 (Created EventCard component)
         display: "flex",
         alignItems: "center",
         textAlign: "center",
@@ -70,6 +95,10 @@ const useStyles = makeStyles({
     },
 
     dot: {
+<<<<<<< HEAD
+=======
+        // position: "absolute",
+>>>>>>> e470039 (Created EventCard component)
         width: "28px",
         height: "28px",
         borderRadius: '75%',
@@ -89,6 +118,7 @@ const useStyles = makeStyles({
         padding: "0px",
         gap: "6px",
 
+<<<<<<< HEAD
         width: "auto",
         height: "70px",
         left: "75px",
@@ -98,11 +128,22 @@ const useStyles = makeStyles({
             top: "80px"
         },
 
+=======
+        // position: "absolute",
+        width: "320px",
+        height: "70px",
+        left: "75px",
+        top: "99px",
+>>>>>>> e470039 (Created EventCard component)
         zIndex: 2
     },
 
     title: {
+<<<<<<< HEAD
         width: "auto",
+=======
+        width: "320px",
+>>>>>>> e470039 (Created EventCard component)
         height: "32px",
 
         fontFamily: 'Roboto',
@@ -112,11 +153,14 @@ const useStyles = makeStyles({
         lineHeight: "32px",
         /* identical to box height, or 100% */
 
+<<<<<<< HEAD
         [`@media (max-width: ${mobile})`]: {
             fontSize: "18px",
             lineHeight: "100%",
         },
 
+=======
+>>>>>>> e470039 (Created EventCard component)
         display: "flex",
         alignItems: "center",
         letterSpacing: "0.2px",
@@ -130,7 +174,11 @@ const useStyles = makeStyles({
     },
 
     description: {
+<<<<<<< HEAD
         width: "100%",
+=======
+        width: "152px",
+>>>>>>> e470039 (Created EventCard component)
         height: "32px",
 
         fontFamily: 'Roboto',
@@ -139,10 +187,13 @@ const useStyles = makeStyles({
         fontSize: "20px",
         lineHeight: "32px",
         /* identical to box height, or 160% */
+<<<<<<< HEAD
         [`@media (max-width: ${mobile})`]: {
             fontSize: "13px",
             lineHeight: "160%",
         },
+=======
+>>>>>>> e470039 (Created EventCard component)
 
         display: "flex",
         alignItems: "center",
