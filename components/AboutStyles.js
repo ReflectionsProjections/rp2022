@@ -50,12 +50,11 @@ const useStyles = makeStyles({
         fontWeight: 70,
         fontSize: '16px',
         marginLeft: '-100px',
-        
         borderRadius: '30px',
+        
         
         width: '126px',
         height: '60px',
-        
         whiteSpace: 'nowrap',
         textAlign: 'center',
     },
@@ -67,6 +66,8 @@ const useStyles = makeStyles({
         fontWeight: 70,
         fontSize: '16px',
         marginLeft: '-100px',
+        fill: 'transparent',
+        backgroundColor: '#41798C',
         
         borderRadius: '30px',
         
@@ -75,6 +76,8 @@ const useStyles = makeStyles({
         
         whiteSpace: 'nowrap',
         textAlign: 'center', 
+        disabled: 'true',
+        paddingLeft: '1000px',
     },
 
     ridesFriends: {

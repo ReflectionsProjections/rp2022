@@ -61,10 +61,11 @@ export default function About() {
           */}
         </Container>
 
+
         
       </Col>
       
-      
+{/*       
       <br></br>
       <br></br>
       <br></br>
@@ -73,7 +74,7 @@ export default function About() {
       <br></br>
 
       
-      {/* 
+      
       <Col className={classes.mainCol}>
 
         <p className={classes.subheading2}>
@@ -101,12 +102,12 @@ export default function About() {
         </Container>
         
       </Col>
-          */}
-          {/*  
+         
+          
       <Col className={classes.mainCol}>
 
         <p className={classes.subheadingBold2}>
-        Prepare for 5 days full of events and tech!
+        Prepare for 5 days full of events and tech! 
         </p>
         
         
@@ -122,9 +123,9 @@ export default function About() {
        
         
       </Col>
-      */}
       
-        {/*  
+      
+        
       <Col className={classes.mainCol}>
 
           <p className={classes.subheading2}>
@@ -144,8 +145,8 @@ export default function About() {
           </Container>
 
 
-      </Col>
-      */}
+      </Col> */}
+      
     </>
     // </Container>
   );

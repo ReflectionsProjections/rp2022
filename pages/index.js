@@ -111,7 +111,7 @@ export default function Index() {
           
           <Button variant='contained'
             className={styles.navButton2}
-            style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
+            style={{ fontSize: '16px'}}>
             View schedule
           </Button>
         </Container>
@@ -125,6 +125,7 @@ export default function Index() {
             Speakers
           </p>
           <p className={styles.diffBody}>
+        
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br> sed do eiusmod tempor incididunt ut labore et dolore <br></br>magna aliqua. Ut enim ad minim veniam, quis nostrud <br></br> exercitation ullamco laboris nisi ut aliquip ex ea commodo <br></br>consequat.
           </p>
         <div className={styles.bg}>
@@ -135,18 +136,16 @@ export default function Index() {
        </div>
           <Container className={styles.container}>
             
-            <Button variant='contained'
+            <Button variant='contained' disabled
+          
             
               className={styles.navButton2}
-              style={{ backgroundColor: '#41798C', disabled: true }}>
+              style={{backgroundColor: '#41798C'}}>
               Learn more
             </Button>
           </Container>
 
-          <div>
-      
-      
-    </div>
+  
       </Col>
       <Footer/>
     </div>
