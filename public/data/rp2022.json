@@ -208,14 +208,14 @@
     "events": [
         {
             "key": 1,
-            "date": "09-24-2022",
+            "date": "09-26-2022",
             "events": [
                 {
                     "eventID": "event1",
                     "title": "Event 1",
                     "description": "Description for event 1",
-                    "startDate": "09-24-2022 8:00",
-                    "endDate": "09-24-2022 9:00"
+                    "startDate": "09-26-2022 8:00",
+                    "endDate": "09-26-2022 9:00"
                 },
                 {
                     "eventID": "event2",
@@ -235,7 +235,7 @@
         },
         {
             "key": 2,
-            "date": "09-25-2022",
+            "date": "09-27-2022",
             "events": [
                 {
                     "eventID": "event3",

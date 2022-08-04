@@ -86,6 +86,61 @@ const useStyles = makeStyles({
         flex: "none",
         order: 1,
         flexGrow: 0,
+    },
+
+    buttonContainer: {
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "flex-start",
+        padding: "0px",
+        gap: "48px",
+    },
+
+    dayButton: {
+        boxSizing: "border-box",
+
+        /* Auto layout */
+
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+        padding: "20px 40px",
+        gap: "10px",
+
+        width: "165px",
+        height: "60px",
+
+        border: "2px solid #ED8A88",
+        borderRadius: "30px",
+        backgroundColor: 'transparent!important',
+
+        /* Inside auto layout */
+
+        flex: "none",
+        order: 0,
+        flexGrow: 0,
+    },
+
+    dayFont: {
+        fontFamily: 'Roboto',
+        fontStyle: "normal",
+        fontWeight: 700,
+        fontSize: "16px",
+        lineHeight: "32px",
+        /* identical to box height, or 200% */
+
+        display: "flex",
+        alignItems: "center",
+        letterSpacing: "0.2px",
+        textTransform: "capitalize",
+
+        color: "#DF6C57",
+    },
+
+    anchor: {
+        position: "absolute",
+        transform: "translateY(-50vh)",
     }
 }, { index: 1 });
 
