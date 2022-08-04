@@ -7,7 +7,7 @@ import styles from '../styles/Landing.module.scss';
 import useGetStaticData from '../services/useGetStaticData';
 import SponsorSection from '../components/SponsorSection.js';
 import Nav from '../components/ui/Nav';
-import Button from 'react-bootstrap/Button';
+import { Button } from '@mui/material';
 import Header from '../components/ui/Header';
 import Footer from '../components/ui/Footer'
 import { Google } from 'react-bootstrap-icons';
@@ -74,7 +74,7 @@ export default function Index() {
             
             <Button variant='contained'
               className={styles.navButton2}
-              style={{ backgroundColor: '#41798C', disabled: true }}>
+              style={{ backgroundColor: '#41798C', disabled: true }} disableElevation>
               Learn more
             </Button>
             <br></br><br></br><br></br><br></br>
@@ -91,7 +91,6 @@ export default function Index() {
       {/* <div className={styles.backgroundPinkBlock}> */}
       <div className={styles.backgroundPink}>  
         <Col className={styles.mainCol} style={{display: 'flex'}}>
-          
           <p className={styles.subheadingBold2} style={{flex: 1, marginTop: '30px'}}>
             Prepare for 5 days full of events and tech!
           </p>
@@ -111,7 +110,7 @@ export default function Index() {
           
           <Button variant='contained'
             className={styles.navButton2}
-            style={{ fontSize: '16px'}}>
+            style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
             View schedule
           </Button>
         </Container>
@@ -137,8 +136,6 @@ export default function Index() {
           <Container className={styles.container}>
             
             <Button variant='contained' disabled
-          
-            
               className={styles.navButton2}
               style={{backgroundColor: '#41798C'}}>
               Learn more
