@@ -21,8 +21,8 @@ export default function Header() {
         },
         {
             label: 'Speakers',
-            // href: '/speakers'
-            href: '/'
+            href: '/speakers'
+            // href: '/'
         },
         {
             label: 'Sponsors',
