@@ -90,28 +90,38 @@ export default function Index() {
 
         {/* <div className={styles.backgroundPinkBlock}> */}
         <div className={styles.backgroundPink}>
-          <Col className={styles.mainCol} style={{ display: 'flex' }}>
-            <div className={styles.scheduleContainer}>
-              <Typography className={styles.scheduleDesc1}>
-                Prepare for 5 days
-                full of events and tech!
-              </Typography>
-              <Button variant='contained'
-                className={styles.navButton2}
-                style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
-                View schedule
-              </Button>
-            </div>
-            <img
-              className={styles.middleLine}
-              src={"/resources/vertical_line.svg"} alt="line" />
+          {/* <Col className={styles.mainCol} style={{ display: 'flex' }}> */}
+          <div className={styles.content}>
+            <div className={styles.row}>
+              <div className={styles.left}>
+                {/* <div className={styles.scheduleContainer}> */}
+                  <Typography className={styles.scheduleDesc1}>
+                    Prepare for 5 days full of events and tech!
+                  </Typography>
+                  <Button variant='contained'
+                    className={styles.navButton2}
+                    style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
+                    View schedule
+                  </Button>
+                {/* </div> */}
+              </div>
 
-            <div className={styles.scheduleContainer2}>
-              <Typography className={styles.scheduleDesc2}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </Typography>
+              <div className={styles.middle}>
+                {/* <div className={styles.lineContainer}> */}
+                  <img className={styles.middleLine} src={"/resources/vertical_line.svg"} alt="line" />
+                {/* </div> */}
+              </div>
+
+              <div className={styles.right}>
+                {/* <div className={styles.scheduleContainer2}> */}
+                  <Typography className={styles.scheduleDesc2}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </Typography>
+                {/* </div> */}
+              </div>
             </div>
-          </Col>
+          </div>
+          {/* </Col> */}
         </div>
 
 

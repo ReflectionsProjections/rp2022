@@ -231,18 +231,18 @@
 }
 
 .scheduleContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 30px;
-  gap: 36px;
-  // top: 90%;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: flex-start;
+  // margin-top: 30px;
+  // gap: 36px;
+  // // top: 90%;
 
-  position: absolute;
-  width: 642px;
-  height: 224px;
+  // position: absolute;
+  // width: 642px;
+  // height: 224px;
 
-  // border: 5px solid blue;
+  border: 5px solid blue;
 }
 
 .scheduleDesc1 {
@@ -282,23 +282,111 @@
 }
 
 .middleLine {
-  height: 290px;
-  width: 40px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  // border: 1px solid #555;
+  // position: absolute;
+  // left: 50%;
+  // top: 50%;
+  // transform: translate(-50%, -50%);
+
+  // position: absolute;
+  // margin: auto;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // bottom: 0;
+
+  // position:absolute;
+  // top:50%;
+  // left:50%;
+  // margin-top:-2px;
+  // margin-left:-145px;
+  vertical-align: middle;
+
 }
 
 .lineContainer {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Centering y-axis */
+  align-items: center;
+  /* Centering x-axis */
+  border: 1px solid #555;
 }
 
 .scheduleContainer2 {
-  position: absolute;
-  width: 638px;
-  height: 180px;
-  right: 10%;
-  top: calc(50% - 180px/2 + 227px);
-  // border: 5px solid green;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: flex-start;
+  // margin-top: 30px;
+  // gap: 36px;
+  // // top: 90%;
+
+  // position: absolute;
+  // width: 642px;
+  // height: 224px;
+  border: 5px solid green;
+  
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // border: 5px solid purple;
+  width: 100%;
+  // top: 50%;
+  // left: 0;
+  transform: translate(0, 50%);
+  line-height: 200px; /* or whatever you want, should match height */
+  // text-align: center;
+}
+
+.column {
+  float: left;
+  width: 47.5%;
+  height: 100%;
+  
+}
+
+.columnMid {
+  float: left;
+  width: 5%;
+  // border: 1px solid #555;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  // border: 10px solid black;
+  
+}
+
+.left {
+  width: 47.5%;
+  float: left;
+  // padding: 10px;
+  // border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 50px;
+  margin-top: 50px;
+  gap: 36px;
+}
+
+.right {
+  width: 47.5%;
+  float: left;
+  padding: 10px;
+  margin-top: 50px;
+  // border: 5px solid black;
+}
+
+.middle {
+  width: 5%;
+  float: left;
+  padding: 10px;
 }
