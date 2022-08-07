@@ -33,13 +33,14 @@ export default function ScheduleCard({ data }) {
 
                     <Box className={classes.card}>
                         {events.length > 0 
-                            ? (events.map(({ eventId, title, description, startDate, endDate }) => (
+                            ? (events.map(({ eventId, title, description, startDate, endDate, location }) => (
                             <EventCard 
                                 key={eventId} 
                                 startTime={getTime(startDate)} 
                                 endTime={getTime(endDate)}
                                 title={title}
                                 description={description}
+                                location={location}
                             />
                         )))
                         : (<EventCard 
@@ -48,6 +49,7 @@ export default function ScheduleCard({ data }) {
                                 endTime="N/A" 
                                 title="No Events Scheduled for Today..."
                                 description=""
+                                location=""
                             />
                         )
                         }

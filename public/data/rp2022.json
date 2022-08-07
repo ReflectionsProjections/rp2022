@@ -215,28 +215,32 @@
                     "title": "Opening Ceremony",
                     "description": "Welcome to Reflections Projections 2022!",
                     "startDate": "09-26-2022 15:00",
-                    "endDate": "09-26-2022 16:00"
+                    "endDate": "09-26-2022 16:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d1e2",
                     "title": "Todd Little",
-                    "description": "Siebel 1131",
+                    "description": "Speaker Talk",
                     "startDate": "09-26-2022 16:00",
-                    "endDate": "09-26-2022 17:00"
+                    "endDate": "09-26-2022 17:00",
+                    "location": "Siebel 1131"
                 },
                 {
                     "eventID": "d1e5",
                     "title": "Dinner",
                     "description": "",
                     "startDate": "09-26-2022 11:00",
-                    "endDate": "09-26-2022 13:00"
+                    "endDate": "09-26-2022 13:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d1e6",
                     "title": "Shravan Goli",
-                    "description": "Siebel 2407",
+                    "description": "Speaker Talk",
                     "startDate": "09-26-2022 20:00",
-                    "endDate": "09-26-2022 21:00"
+                    "endDate": "09-26-2022 21:00",
+                    "location": "Siebel 2407"
                 }
             ]
         },
@@ -249,42 +253,48 @@
                     "title": "Snack",
                     "description": "",
                     "startDate": "09-27-2022 14:00",
-                    "endDate": "09-27-2022 15:00"
+                    "endDate": "09-27-2022 15:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d2e2",
                     "title": "Jeetu Patel",
-                    "description": "Siebel 2405 (Virtual Talk)",
+                    "description": "Speaker Talk",
                     "startDate": "09-27-2022 14:00",
-                    "endDate": "09-27-2022 15:00"
+                    "endDate": "09-27-2022 15:00",
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d2e4",
                     "title": "Ken Turkowski",
-                    "description": "Siebel 1304",
+                    "description": "Speaker Talk",
                     "startDate": "09-27-2022 17:00",
-                    "endDate": "09-27-2022 18:00"
+                    "endDate": "09-27-2022 18:00",
+                    "location": "Siebel 1304"
                 },
                 {
                     "eventID": "d2e5",
-                    "title": "Aechelon Technology Tech Talk",
-                    "description": "Siebel 2405",
+                    "title": "Aechelon Technology",
+                    "description": "Tech Talk",
                     "startDate": "09-27-2022 18:00",
-                    "endDate": "09-27-2022 19:00"
+                    "endDate": "09-27-2022 19:00",
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d2e6",
                     "title": "Dinner",
                     "description": "",
                     "startDate": "09-27-2022 19:00",
-                    "endDate": "09-27-2022 20:00"
+                    "endDate": "09-27-2022 20:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d2e7",
-                    "title": "Ocient Tech Talk",
-                    "description": "Siebel 2407",
+                    "title": "Ocient",
+                    "description": "Tech Talk",
                     "startDate": "09-27-2022 20:00",
-                    "endDate": "09-27-2022 21:00"
+                    "endDate": "09-27-2022 21:00",
+                    "location": "Siebel 2407"
                 }
             ]
         },
@@ -295,44 +305,50 @@
                 {
                     "eventID": "d3e1",
                     "title": "Career Fair",
-                    "description": "Siebel Atrium",
+                    "description": "All Day Event",
                     "startDate": "09-28-2022 14:00",
-                    "endDate": "09-28-2022 21:00"
+                    "endDate": "09-28-2022 21:00",
+                    "location": "Siebel Atrium"
                 },
                 {
                     "eventID": "d3e2",
                     "title": "Snack",
                     "description": "",
                     "startDate": "09-28-2022 14:00",
-                    "endDate": "09-28-2022 15:00"
+                    "endDate": "09-28-2022 15:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d3e3",
                     "title": "Speaker Event",
-                    "description": "Siebel 1131",
+                    "description": "Speaker Event",
                     "startDate": "09-28-2022 15:00",
-                    "endDate": "09-28-2022 16:00"
+                    "endDate": "09-28-2022 16:00",
+                    "location": "Siebel 1131"
                 },
                 {
                     "eventID": "d3e4",
                     "title": "Speaker Event",
-                    "description": "Siebel 2405",
+                    "description": "Speaker Event",
                     "startDate": "09-28-2022 16:00",
-                    "endDate": "09-28-2022 17:00"
+                    "endDate": "09-28-2022 17:00",
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d3e5",
                     "title": "Rashmi Kumar",
                     "description": "Siebel 1304",
                     "startDate": "09-28-2022 17:00",
-                    "endDate": "09-28-2022 18:00"
+                    "endDate": "09-28-2022 18:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d3e7",
                     "title": "Dinner",
                     "description": "",
                     "startDate": "09-28-2022 19:00",
-                    "endDate": "09-28-2022 20:00"
+                    "endDate": "09-28-2022 20:00",
+                    "location": ""
                 }
             ]
         },
@@ -345,42 +361,48 @@
                     "title": "Snack",
                     "description": "",
                     "startDate": "09-28-2022 14:00",
-                    "endDate": "09-28-2022 15:00"
+                    "endDate": "09-28-2022 15:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d4e2",
                     "title": "Speaker Event",
-                    "description": "Siebel 1304",
+                    "description": "Speaker Event",
                     "startDate": "09-28-2022 15:00",
-                    "endDate": "09-28-2022 16:00"
+                    "endDate": "09-28-2022 16:00",
+                    "location": "Siebel 1304"
                 },
                 {
                     "eventID": "d4e3",
                     "title": "Speaker Event",
-                    "description": "Siebel 1131",
+                    "description": "Speaker Event",
                     "startDate": "09-28-2022 16:00",
-                    "endDate": "09-28-2022 17:00"
+                    "endDate": "09-28-2022 17:00",
+                    "location": "Siebel 1131"
                 },
                 {
                     "eventID": "d4e4",
                     "title": "Speaker Event",
-                    "description": "Siebel 1105",
+                    "description": "Speaker Event",
                     "startDate": "09-28-2022 17:00",
-                    "endDate": "09-28-2022 18:00"
+                    "endDate": "09-28-2022 18:00",
+                    "location": "Siebel 1105"
                 },
                 {
                     "eventID": "d4e5",
                     "title": "Speaker Event",
-                    "description": "Siebel 2405",
+                    "description": "Speaker Event",
                     "startDate": "09-28-2022 18:00",
-                    "endDate": "09-28-2022 19:00"
+                    "endDate": "09-28-2022 19:00",
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d4e6",
                     "title": "Dinner",
                     "description": "",
                     "startDate": "09-28-2022 19:00",
-                    "endDate": "09-28-2022 20:00"
+                    "endDate": "09-28-2022 20:00",
+                    "location": ""
                 }
             ]
         },
@@ -391,51 +413,58 @@
                 {
                     "eventID": "d5e0",
                     "title": "PuzzleBang",
-                    "description": "All Day",
+                    "description": "All Day Event",
                     "startDate": "09-30-2022 00:00",
-                    "endDate": "09-30-2022 00:00"
+                    "endDate": "09-30-2022 00:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d5e1",
                     "title": "Snack",
                     "description": "",
                     "startDate": "09-30-2022 14:00",
-                    "endDate": "09-30-2022 15:00"
+                    "endDate": "09-30-2022 15:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d5e2",
                     "title": "John Arends",
-                    "description": "Siebel 2405",
+                    "description": "Speaker Talk",
                     "startDate": "09-30-2022 15:00",
-                    "endDate": "09-30-2022 16:00"
+                    "endDate": "09-30-2022 16:00",
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d5e3",
                     "title": "Speaker Event",
-                    "description": "Siebel 2405",
+                    "description": "Speaker Event",
                     "startDate": "09-30-2022 16:00",
-                    "endDate": "09-30-2022 17:00"
+                    "endDate": "09-30-2022 17:00",
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d5e4",
                     "title": "Closing Ceremony",
-                    "description": "",
+                    "description": "Event",
                     "startDate": "09-30-2022 17:00",
-                    "endDate": "09-30-2022 18:30"
+                    "endDate": "09-30-2022 18:30",
+                    "location": ""
                 },
                 {
                     "eventID": "d5e5",
                     "title": "Dinner",
                     "description": "",
                     "startDate": "09-30-2022 18:30",
-                    "endDate": "09-30-2022 20:00"
+                    "endDate": "09-30-2022 20:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d5e6",
                     "title": "MechMania",
-                    "description": "1404 Siebel (September 30, 2022, 7:00pm - October 1, 2022, 9:00pm)",
+                    "description": "Friday, 7:00pm - Saturday, 9:00pm",
                     "startDate": "09-30-2022 19:00",
-                    "endDate": "09-30-2022 00:00"
+                    "endDate": "09-30-2022 00:00",
+                    "location": "1404 Siebel "
                 }
             ]
         },
@@ -446,16 +475,18 @@
                 {
                     "eventID": "d6e0",
                     "title": "PuzzleBang",
-                    "description": "All Day",
+                    "description": "All Day Event",
                     "startDate": "09-30-2022 00:00",
-                    "endDate": "09-30-2022 00:00"
+                    "endDate": "09-30-2022 00:00",
+                    "location": ""
                 },
                 {
                     "eventID": "d6e1",
                     "title": "MechMania",
-                    "description": "1404 Siebel (September 30, 2022, 7:00pm - October 1, 2022, 9:00pm)",
+                    "description": "Friday, 7:00pm - Saturday, 9:00pm",
                     "startDate": "09-30-2022 00:00",
-                    "endDate": "09-30-2022 21:00"
+                    "endDate": "09-30-2022 21:00",
+                    "location": "1404 Siebel "
                 }
             ]
         }
