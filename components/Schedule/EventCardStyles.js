@@ -142,6 +142,7 @@ const useStyles = makeStyles({
         [`@media (max-width: ${mobile})`]: {
             fontSize: "13px",
             lineHeight: "160%",
+            paddingRight: "10px"
         },
 
         display: "flex",

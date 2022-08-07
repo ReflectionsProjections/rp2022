@@ -1,4 +1,5 @@
 import { makeStyles } from '@mui/styles';
+import { textAlign } from '@mui/system';
 
 const tablet = '850px';
 const mobile = '420px';
@@ -23,7 +24,7 @@ const useStyles = makeStyles({
         background: "white",
         paddingBottom: "100px"
     },
-    
+
     eventsContainer: {
         display: "flex",
         flexDirection: "column",
@@ -32,7 +33,7 @@ const useStyles = makeStyles({
         gap: "80px",
         width: "100%",
     },
-    
+
     headerBox: {
         display: "flex",
         flexDirection: "column",
@@ -48,41 +49,41 @@ const useStyles = makeStyles({
         top: "30%",
         left: "50%",
     },
-    
+
     scheduleTitle: {
         width: "auto",
         height: "56px",
-    
+
         fontFamily: 'Roboto',
         fontStyle: "normal",
         fontWeight: 700,
         fontSize: "48px",
         lineHeight: "56px",
         letterSpacing: "0.3px",
-    
+
         color: "#EE6350",
-        
+
         flex: "none",
         order: 0,
         flexGrow: 0,
     },
-    
+
     scheduleDescription: {
         width: "auto",
         height: "36px",
-    
+
         fontFamily: 'Roboto',
         fontStyle: "normal",
         fontWeight: 700,
         fontSize: "24px",
         lineHeight: "36px",
         /* identical to box height, or 150% */
-    
+
         textAlign: "center",
         letterSpacing: "0.3px",
-    
+
         color: "#000000",
-        
+
         flex: "none",
         order: 1,
         flexGrow: 0,
@@ -94,6 +95,50 @@ const useStyles = makeStyles({
         alignItems: "flex-start",
         padding: "0px",
         gap: "48px",
+
+        [`@media (max-width: ${tablet})`]: {
+            display: "none"
+        },
+
+        [`@media (max-width: ${mobile})`]: {
+            display: "none"
+        },
+    },
+
+    mobileButtonContainer: {
+        display: "none",
+
+        [`@media (max-width: ${tablet})`]: {
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "flex-start",
+            padding: "0px",
+            gap: "5px",
+            fontSize: "30px",
+            textAlign: "center"
+        },
+
+        [`@media (max-width: ${mobile})`]: {
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "flex-start",
+            padding: "0px",
+            gap: "5px",
+            fontSize: "16px",
+            textAlign: "center"
+        },
+    },
+
+    tabletFont: {
+        [`@media (max-width: ${tablet})`]: {
+            fontSize: "30px",
+            textAlign: "center"
+        },
+
+        [`@media (max-width: ${mobile})`]: {
+            fontSize: "16px",
+            textAlign: "center"
+        },
     },
 
     dayButton: {
@@ -141,6 +186,41 @@ const useStyles = makeStyles({
     anchor: {
         position: "absolute",
         transform: "translateY(-50vh)",
+    },
+
+    page: {
+        textDecoration: 'none',
+        cursor: 'pointer',
+        color: 'white',
+        marginLeft: '38px',
+        fontFamily: 'Roboto',
+        fontStyle: 'normal',
+        fontWeight: 700,
+        fontSize: '16px',
+
+        ['@media (max-width: 1000px)']: {
+            display: 'none',
+        },
+        
+        '&:hover, &:visited, &:focus, &:active': {
+            textDecoration: 'none',
+            borderBottom: "3px solid",
+            cursor: 'pointer',
+            color: 'white',
+            marginLeft: '38px',
+            fontFamily: 'Roboto',
+            fontStyle: 'normal',
+            fontWeight: 700,
+            fontSize: '16px',
+
+            ['@media (max-width: 1000px)']: {
+                display: 'none',
+            }
+        }
+    },
+
+    ev: {
+        width: "100%"
     }
 }, { index: 1 });
 

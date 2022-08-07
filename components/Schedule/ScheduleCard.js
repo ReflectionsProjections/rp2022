@@ -22,7 +22,7 @@ export default function ScheduleCard({ data }) {
 
     const events = data[2];
 
-    return(
+    return (
         <>
             {data && data.length > 0 &&
                 <Box className={classes.container}>

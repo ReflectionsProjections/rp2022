@@ -8,16 +8,16 @@ const useStyles = makeStyles({
         display: "flex",
         flexDirection: "row",
         alignItems: "flex-start",
+        justifyContent: "center",
         gap: "40px",
 
         flex: "none",
         order: 0,
         flexGrow: 0,
-        transform: "translate(-8%, 0)",
+        paddingRight: "5vw",
 
         [`@media (max-width: ${mobile})`]: {
             width: '100%',
-            paddingLeft: "30px",
             gap: "16px"
         },
     },
@@ -62,9 +62,6 @@ const useStyles = makeStyles({
             fontSize: "20px"
         },
 
-        // display: "flex",
-        // alignItems: "center",
-        // textAlign: "center",
         letterSpacing: "0.2px",
         textTransform: "capitalize",
 
@@ -119,7 +116,7 @@ const useStyles = makeStyles({
         flex: "none",
         order: 1,
         flexGrow: 0
-    }
+    },
 }, { index: 1 });
 
 export { useStyles };

@@ -3,6 +3,7 @@ import Header from '../components/ui/Header';
 import ScheduleCard from '../components/Schedule/ScheduleCard';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import Link from 'next/link';
 import Head from 'next/head';
 import { useStyles } from './scheduleStyles';
 import useGetStaticData from '../services/useGetStaticData';
@@ -50,16 +51,36 @@ export default function Schedule() {
                 <Typography className={classes.dayFont}>Friday</Typography>
               </Button>
             </div>
+
+            <div className={classes.mobileButtonContainer}>
+              <Link href='#09-26-2022' passHref>
+                <a rel="noreferrer"><Typography className={classes.tabletFont}>Monday</Typography></a>
+              </Link>
+              |
+              <Link href='#09-27-2022' passHref>
+                <a rel="noreferrer"><Typography className={classes.tabletFont}>Tuesday</Typography></a>
+              </Link>
+              |
+              <Link href='#09-28-2022' passHref>
+                <a rel="noreferrer"><Typography className={classes.tabletFont}>Wednesday</Typography></a>
+              </Link>
+              |
+              <Link href='#09-29-2022' passHref>
+                <a rel="noreferrer"><Typography className={classes.tabletFont}>Thursday</Typography></a>
+              </Link>
+              |
+              <Link href='#09-30-2022' passHref>
+                <a rel="noreferrer"><Typography className={classes.tabletFont}>Friday</Typography></a>
+              </Link>
+            </div>
           </div>
 
           <div className={classes.eventsContainer}>
             {isLoaded && (
               events.map((eventDay) =>
-                <div>
-                  <span className={classes.anchor} id={eventDay.date}></span>
-                  <div >
+                <div className={classes.ev}>
+                   <span className={classes.anchor} id={eventDay.date}></span>
                     <ScheduleCard key={eventDay.key} data={Object.values(eventDay)} />
-                  </div>
                 </div>
               ))}
           </div>
