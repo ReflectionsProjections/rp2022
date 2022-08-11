@@ -71,19 +71,15 @@ export default function Index() {
               The conference is free and open to anyone regardless of age, major, job, or <br></br> affiliation with the University of Illinois. So come join a discussion led by some <br></br>of the brightest minds in the business about the bleeding edge of the tech <br></br> industry!
             </p>
             <Container className={styles.container}>
-
               <Button variant='contained'
                 className={styles.navButton2}
-                style={{ backgroundColor: '#41798C', disabled: true }} disableElevation>
+                disableElevation disabled>
                 Learn more
               </Button>
               <br></br><br></br><br></br><br></br>
             </Container>
 
           </Col>
-
-
-
         </div>
 
 
@@ -100,7 +96,7 @@ export default function Index() {
                   </Typography>
                   <Button variant='contained'
                     className={styles.navButton2}
-                    style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
+                    disableElevation disabled>
                     View schedule
                   </Button>
                 {/* </div> */}
@@ -115,8 +111,7 @@ export default function Index() {
               <div className={styles.right}>
                 {/* <div className={styles.scheduleContainer2}> */}
                   <Typography className={styles.scheduleDesc2}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </Typography>
+                    We bring industry and academia into one conference to incite the spread of novel ideas, connect students with professional opportunities, and host a one of a kind AI hackathon. This year’s conference marks the 28th edition of Reflections | Projections, and will be held from September 26-30.                   </Typography>
                 {/* </div> */}
               </div>
             </div>
@@ -133,8 +128,7 @@ export default function Index() {
             Speakers
           </p>
           <p className={styles.diffBody}>
-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br></br> sed do eiusmod tempor incididunt ut labore et dolore <br></br>magna aliqua. Ut enim ad minim veniam, quis nostrud <br></br> exercitation ullamco laboris nisi ut aliquip ex ea commodo <br></br>consequat.
+            Each year, we host a variety of speakers from leading roles in tech and <br></br>cutting-edge minds in research. We also host tech talks from companies at the <br></br> forefront of emerging technologies. <br></br>Check out our speaker schedule to find out more.
           </p>
           <div className={styles.bg}>
             <img className="bg-img"
@@ -143,10 +137,9 @@ export default function Index() {
               src={"/resources/speaker.png"} alt="Speaker" />
           </div>
           <Container className={styles.container}>
-
-            <Button variant='contained' disabled
+            <Button variant='contained'
               className={styles.navButton2}
-              style={{ backgroundColor: '#41798C' }}>
+              disableElevation disabled>
               Learn more
             </Button>
           </Container>
@@ -183,25 +176,3 @@ export default function Index() {
     </>
   );
 }
-{/* <FAQ faqData={faqSection ?? { sections: [] }} />
-        {sponsors && <SponsorSection sponsors={sponsors} />}
-
-        <footer className={styles.footer}>
-          Questions? Interested in sponsoring?&nbsp;
-          <a
-            href="mailto:contact@reflectionsprojections.org"
-            rel="noopener noreferrer"
-          >
-            Email us at contact [at] reflectionsprojections.org
-          </a>
-        </footer>
-
-        <footer className={styles.footer}>
-          Visit our old website&nbsp;
-          <a
-            href="https://2020.reflectionsprojections.org"
-            rel="noopener noreferrer"
-          >
-            here
-          </a>
-        </footer> */}
