@@ -22,7 +22,7 @@ const useStyles = makeStyles({
         justifyContent: 'flex-start',
         flexDirection: 'column',
         paddingLeft: '7vw',
-        paddingTop: '10vw',
+        paddingTop: '18vw',
     },
     
     logo: {

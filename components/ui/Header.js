@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import styles from './Header.module.scss';
 import { AppBar, Toolbar, Typography, Button, Grid, Box, Container, Menu, MenuItem, IconButton, ClickAwayListener } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-// import { makeStyles, StylesProvider } from '@mui/styles';
-import { useStyles } from './HeaderStyles.js'
+import { useStyles } from './HeaderStyles.js';
+import { Squash as Hamburger } from 'hamburger-react';
 
-export default function Header({ isHero }) {
+export default function Header() {
     const classes = useStyles();
     const small_logo = '/rp_logo_2022_sm.png';
     const small_logo_no_bg = '/rp_logo_2022_no_bg.png';
+    const red_curve = '/resources/red_curve.svg'
     const pagesData = [
         {
             label: 'About',
@@ -22,8 +21,8 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Speakers',
-            // href: '/speakers'
-            href: '/'
+            href: '/speakers'
+            // href: '/'
         },
         {
             label: 'Sponsors',
@@ -43,7 +42,8 @@ export default function Header({ isHero }) {
 
     return (
         <>
-            <AppBar className={isHero ? classes.hero : classes.header}>
+            <AppBar className={classes.header}>
+                <img src={red_curve} className={classes.curve}/>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <Box>
@@ -96,21 +96,21 @@ export default function Header({ isHero }) {
                                     aria-controls="menu-appbar"
                                     onClick={handleOpenMenu}
                                     color="inherit"
-
+                                    disableRipple="true"
                                 >
-                                    <MenuIcon />
+                                    <Hamburger  toggled={needsMenu} toggle={setNeedsMenu} size={24}/>
                                 </IconButton>
                                 <Menu
                                     id="menu-appbar"
                                     anchorEl={needsMenu}
                                     anchorOrigin={{
                                         vertical: 'bottom',
-                                        horizontal: 'left',
+                                        horizontal: 'center',
                                     }}
                                     keepMounted
                                     transformOrigin={{
                                         vertical: 'top',
-                                        horizontal: 'left',
+                                        horizontal: 'center',
                                     }}
                                     open={Boolean(needsMenu)}
                                     onClose={handleCloseMenu}
