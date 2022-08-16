@@ -18,7 +18,7 @@ const Speaker = ({ speakers }) => {
         </Section.Header>
         <Section.Body>
             {speakers.length === 0 ? (
-              <h4>Coming Soon...</h4>
+              <h4>Coming Soon....</h4>
             ) : (
               <>
                 {speakers.map((speaker) => {
