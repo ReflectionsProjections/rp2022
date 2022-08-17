@@ -1,13 +1,20 @@
+$laptop: '1000px';
+$tablet: '850px';
+$mobile: '420px';
+
 .landingContainer {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
+  width: 100%;
 
   font-family: var(--font-family);
   color: black;
+
+  gap: 100px;
 }
 
 .landingContainer2 {
@@ -17,6 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
   font-family: var(--font-family);
   color: black;
@@ -74,6 +82,7 @@
   position: relative;
   // border: solid;
   // border-color: red;
+
 }
 
 .backgroundBlue {
@@ -190,7 +199,7 @@
 .container {
   justify-content: flex-start;
   flex-flow: row;
-  margin-left: 100px;
+  width: 100%;
 
 }
 
@@ -230,20 +239,20 @@
   // }
 }
 
-.scheduleContainer {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: flex-start;
-  // margin-top: 30px;
-  // gap: 36px;
-  // // top: 90%;
+// .scheduleContainer {
+//   // display: flex;
+//   // flex-direction: column;
+//   // align-items: flex-start;
+//   // margin-top: 30px;
+//   // gap: 36px;
+//   // // top: 90%;
 
-  // position: absolute;
-  // width: 642px;
-  // height: 224px;
+//   // position: absolute;
+//   // width: 642px;
+//   // height: 224px;
 
-  border: 5px solid blue;
-}
+//   border: 5px solid blue;
+// }
 
 .scheduleDesc1 {
   width: 642px;
@@ -325,7 +334,7 @@
   // width: 642px;
   // height: 224px;
   border: 5px solid green;
-  
+
 }
 
 .content {
@@ -337,7 +346,8 @@
   // top: 50%;
   // left: 0;
   transform: translate(0, 50%);
-  line-height: 200px; /* or whatever you want, should match height */
+  line-height: 200px;
+  /* or whatever you want, should match height */
   // text-align: center;
 }
 
@@ -345,7 +355,7 @@
   float: left;
   width: 47.5%;
   height: 100%;
-  
+
 }
 
 .columnMid {
@@ -361,7 +371,7 @@
   display: table;
   clear: both;
   // border: 10px solid black;
-  
+
 }
 
 .left {
@@ -389,4 +399,378 @@
   width: 5%;
   float: left;
   padding: 10px;
+}
+
+
+
+/* Speaker Section */
+
+.speakersContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 7vw;
+
+  @media screen and (max-width: $mobile) {
+    flex-direction: column;
+  }
+
+  position: relative;
+
+  // border: solid 3px red;
+
+  width: 100%;
+  height: auto;
+}
+
+.speakersSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  width: 50%;
+  height: auto;
+
+  @media screen and (max-width: $mobile) {
+    width: 100%;
+    align-items: center;
+  }
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  // border: solid 3px blue;
+
+}
+
+.speakersTitle {
+  width: 204px;
+  height: 56px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.3px;
+
+  color: #EE6350;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.speakersContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  width: 100%;
+  height: auto;
+
+  @media screen and (max-width: $mobile) {
+    width: 100%;
+    align-items: center;
+  }
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  // border: solid 3px green;
+
+}
+
+.speakersText {
+  width: 90%;
+  height: auto;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  letter-spacing: 0.3px;
+
+  color: #000000;
+
+  @media screen and (max-width: $mobile) {
+    text-align: center;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.speakersImg {
+  width: 35%;
+  height: auto;
+
+  @media screen and (max-width: $tablet) {
+    width: 40%;
+  }
+
+  @media screen and (max-width: $mobile) {
+    width: 70%;
+  }
+
+  // background: url(image.png);
+  border-radius: 30px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  // border: solid 3px purple;
+}
+
+
+
+
+/* Schedule Section */
+
+.scheduleContainer {
+  // border: solid 3px red;
+  margin: 30px 0px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 651.6px;
+  overflow: visible;
+  background-image: url('../public/resources/Blue CurvePink_curve.svg');
+  position: relative;
+}
+
+.scheduleContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border: 3px solid blue;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.scheduleLine {
+  // border-left: 6px solid green;
+  // height: 50px;
+
+  max-width: 100%;
+  max-height: 100%;
+
+  @media screen and (max-width: $mobile) {
+    -webkit-transform: rotate(90deg);
+    /* Chrome, Safari, Opera */
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    /* Standard syntax */
+  }
+}
+
+.scheduleLeft {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  // border: 3px solid orange;
+  left: 0;
+
+  @media screen and (max-width: $mobile) {
+    width: 100%;
+    top: 15%;
+    gap: 24px;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 36px;
+  margin-left: 5vw;
+}
+
+.scheduleRight {
+  position: absolute;
+  width: 45%;
+  height: auto;
+  // border: 3px solid yellow;
+  right: 0;
+
+  @media screen and (max-width: $mobile) {
+    width: 100%;
+    bottom: 15%;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  // margin-right: 5vw;
+}
+
+.scheduleHeader {
+  width: 100%;
+  height: auto;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+
+  @media screen and (max-width: $mobile) {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+  }
+
+  letter-spacing: 0.3px;
+
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.scheduleText {
+  width: 100%;
+  height: auto;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  @media screen and (max-width: $mobile) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    padding: 0 10px;
+  }
+
+  letter-spacing: 0.3px;
+
+  color: #000000;
+}
+
+
+
+
+/* About Section */
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  position: relative;
+
+  border: 3px solid red;
+}
+
+.aboutHeader {
+  width: 733px;
+  height: 56px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.3px;
+
+  color: #EE6350;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  width: 868px;
+  height: 576px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  border: 3px solid blue;
+
+}
+
+.aboutText {
+  width: 868px;
+  height: 468px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  letter-spacing: 0.3px;
+
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }

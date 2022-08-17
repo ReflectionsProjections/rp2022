@@ -19,7 +19,9 @@ const useStyles = makeStyles({
         left: "50%",
         bottom: "0px",
         // transform: "translate(-50%, -50%)",
-        margin: "0 auto",
+        marginLeft: "auto",
+        marginRight: "auto",
+        marginTop: "30px",
 
         [`@media (max-width: ${laptop})`]: {
             gap: "60%",
