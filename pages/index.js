@@ -1,24 +1,18 @@
 import Head from 'next/head';
-import FAQ from '../components/FAQ';
 import About from '../components/About';
-import Section from '../components/Section';
 
 import styles from '../styles/Landing.module.scss';
 import useGetStaticData from '../services/useGetStaticData';
 import SponsorSection from '../components/SponsorSection.js';
-import Nav from '../components/ui/Nav';
 import { Button, Typography } from '@mui/material';
 import Header from '../components/ui/Header';
 import Footer from '../components/ui/Footer'
-import { Google } from 'react-bootstrap-icons';
-
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
 
 
 export default function Index() {
   const { rpData } = useGetStaticData();
-  const { faqSection, sponsors } = rpData;
+  console.log(rpData)
+  const { sponsors } = rpData;
 
   return (
     <>
@@ -84,7 +78,7 @@ export default function Index() {
               <img className={styles.scheduleLine} src={"/resources/vertical_line.svg"} alt="line" />
               <div className={styles.scheduleRight}>
                 <Typography className={styles.scheduleText}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  We bring industry and academia into one conference to incite the spread of novel ideas, connect students with professional opportunities, and host a one of a kind AI hackathon. This year’s conference marks the 28th edition of Reflections | Projections, and will be held from September 26-30.
                 </Typography>
               </div>
             </div>
@@ -97,7 +91,7 @@ export default function Index() {
               <Typography className={styles.speakersTitle}>Speakers</Typography>
               <div className={styles.speakersContent}>
                 <Typography className={styles.speakersText}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Each year, we host a variety of speakers from leading roles in tech and innovations and cutting-edge minds in research. We also host tech talks from companies at the forefront of emerging technologies. Check out our speaker schedule to find out more.
                 </Typography>
                 <Button variant='contained'
                   className={styles.navButton2}
@@ -110,6 +104,10 @@ export default function Index() {
             <img className={styles.speakersImg} src={"/resources/speaker.png"} alt="Speaker" />
           </div>
         </div>
+
+
+        <SponsorSection sponsors={sponsors} />
+
 
         <Footer />
       </div>

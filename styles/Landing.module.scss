@@ -51,7 +51,7 @@ $mobile: '420px';
 }
 
 .backgroundRed {
-  height: 1000px;
+  height: 100vh;
   // height: auto;
   // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
   background-image: url('../public/resources/Grain.png');
@@ -485,6 +485,7 @@ $mobile: '420px';
   @media screen and (max-width: $mobile) {
     width: 100%;
     align-items: center;
+    gap: 24px;
   }
 
   /* Inside auto layout */
@@ -702,17 +703,28 @@ $mobile: '420px';
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 10px;
+  margin-top: 25%;
+
+  @media screen and (max-width: $tablet) {
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: $mobile) {
+    // margin-top: 100%;
+  }
+
   gap: 48px;
 
-  position: relative;
+  width: 100%;
+  height: auto;
 
-  border: 3px solid red;
+  position: relative;
 }
 
 .aboutHeader {
-  width: 733px;
-  height: 56px;
+  width: 100%;
+  height: auto;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -723,6 +735,10 @@ $mobile: '420px';
 
   color: #EE6350;
 
+  @media screen and (max-width: $mobile) {
+    font-size: 36px;
+    text-align: center;
+  }
 
   /* Inside auto layout */
 
@@ -738,23 +754,29 @@ $mobile: '420px';
   padding: 0px;
   gap: 48px;
 
-  width: 868px;
-  height: 576px;
+  width: 100%;
+  height: auto;
 
+  @media screen and (max-width: $mobile) {
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 24px;
+  }
+
+  @media screen and (max-width: $tablet) {
+    align-items: center;
+  }
 
   /* Inside auto layout */
 
   flex: none;
   order: 1;
   flex-grow: 0;
-
-  border: 3px solid blue;
-
 }
 
 .aboutText {
-  width: 868px;
-  height: 468px;
+  width: 100%;
+  height: auto;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -762,6 +784,12 @@ $mobile: '420px';
   font-size: 24px;
   line-height: 36px;
   /* or 150% */
+
+  @media screen and (max-width: $mobile) {
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+  }
 
   letter-spacing: 0.3px;
 
