@@ -1,6 +1,5 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
-import { Grid, Button, Typography } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import styles from './SponsorSection.module.scss';
 import SponsorCard from './Sponsor/SponsorCard';
 
@@ -8,7 +7,7 @@ const SponsorSection = ({ sponsors }) => {
   if (!sponsors) {
     return (
       <>
-        <h1>Loading</h1>
+        <h1>Loading...</h1>
       </>
     )
   }
@@ -29,6 +28,7 @@ const SponsorSection = ({ sponsors }) => {
             </div>
             <Button variant='contained'
               className={styles.button}
+              href='/sponsor'
               style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
               View All Sponsors
             </Button>

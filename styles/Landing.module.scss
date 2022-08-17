@@ -7,8 +7,6 @@ $mobile: '420px';
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
   width: 100%;
 
   font-family: var(--font-family);
@@ -52,166 +50,16 @@ $mobile: '420px';
 
 .backgroundRed {
   height: 100vh;
-  // height: auto;
-  // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
   background-image: url('../public/resources/Grain.png');
-  // background-image: url('../public/resources/Pink Grain.svg');
-
 }
 
-.backgroundRedSvg {
-  height: 1000px;
-  width: 4000px;
-  // width: '100vw';
-  // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
-  background-image: url('../public/resources/Pink Grain.svg');
-
-  background-repeat: no-repeat;
-}
-
-
-.backgroundPink {
-  // height: 1000px;
-  // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 651.6px;
-  overflow: visible;
-  background-image: url('../public/resources/Blue CurvePink_curve.svg');
-  position: relative;
-  // border: solid;
-  // border-color: red;
-
-}
-
-.backgroundBlue {
-  height: 1000px;
-  // background: radial-gradient(101.76% 173.53% at 51.92% 63.09%, #EE6350 0%, #F9E3E0 100%)
-  background-image: url('../public/resources/Blue Curve.svg');
-  // position: fixed;
-}
-
-
-
-.backgroundRedGradNoGrain {
-  height: 1000px;
-  background: rgb(244, 179, 170);
-
-  background: linear-gradient(90deg, rgba(244, 179, 170, 1) 0%, rgba(243, 159, 147, 1) 83%);
-  background-image: url('../public/resources/Blue Curve.svg') no-repeat;
-
-}
-
-
-.tinyImg {
-  width: 50;
-  height: 50;
-}
-
-.backgroundPinkBlock {
-  background-image: url('../public/resources/bottomwave.svg'), url('../public/resources/wave.svg');
-  background-position: top, bottom;
-  background-repeat: no-repeat, no-repeat;
-  background-color: #FDE2DF;
-
-}
-
-.main {
-  padding: 2%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  img {
-    max-width: 500px;
-    width: 90%;
-
-    // logo22 {
-    position: relative;
-    // width: 636px;
-    // height: 148px;
-    right: 80%;
-    // top: 50px;
-    // }
-  }
-
-  Button {
-    font-family: var(--alt-font);
-    text-align: center;
-    margin-bottom: 2em;
-    color: black;
-  }
-
-  Button:focus,
-  Button:hover {
-    opacity: 0.75;
-  }
-
-  // .rp22logo {
-
-  // }
-}
-
-.footer {
-  width: 100%;
-  padding: 10px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  @media screen and (max-width: 720px) {
-    flex-direction: column;
-  }
-
-  a {
-    color: var(--orange-1);
-  }
-
-  &:last-child {
-    margin-bottom: 3em;
-  }
-}
-
-.mainCol {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  padding-left: 7vw;
-  padding-top: 10vw;
-}
-
-
-.subheading2 {
-  font-size: 48px;
-  font-family: Roboto;
-  color: #EE6350;
-}
-
-.diffBody {
-  font-size: 18px;
-  font-family: var(--font-family);
-  color: black;
-}
-
-.container {
-  justify-content: flex-start;
-  flex-flow: row;
-  width: 100%;
-
-}
-
-.navButton2 {
+.navButton {
   box-shadow: none;
   text-transform: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 70;
   font-size: 16px;
-
-  // margin-left: -100px;
 
   border-radius: 30px;
 
@@ -220,185 +68,6 @@ $mobile: '420px';
 
   white-space: nowrap;
   text-align: center;
-  // margin-top: 10px; 
-  // margin-bottom: 10vw;
-}
-
-
-.subheadingBold2 {
-  font-size: 48px;
-  color: black;
-  width: 30vw;
-  // min-height: 300px;
-  // margin-bottom: 10vw;
-  font-weight: bold;
-  // margin-bottom: 10vw;
-  // margin-top: 20vw;
-  // [`@media (max-width: 600px)`]: {
-  //     width: "60vw",
-  // }
-}
-
-// .scheduleContainer {
-//   // display: flex;
-//   // flex-direction: column;
-//   // align-items: flex-start;
-//   // margin-top: 30px;
-//   // gap: 36px;
-//   // // top: 90%;
-
-//   // position: absolute;
-//   // width: 642px;
-//   // height: 224px;
-
-//   border: 5px solid blue;
-// }
-
-.scheduleDesc1 {
-  width: 642px;
-  height: 128px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
-  /* or 133% */
-
-  letter-spacing: 0.3px;
-
-  color: #000000;
-
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.scheduleDesc2 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  /* or 150% */
-
-  letter-spacing: 0.3px;
-
-  color: #000000;
-}
-
-.middleLine {
-  // position: absolute;
-  // left: 50%;
-  // top: 50%;
-  // transform: translate(-50%, -50%);
-
-  // position: absolute;
-  // margin: auto;
-  // top: 0;
-  // left: 0;
-  // right: 0;
-  // bottom: 0;
-
-  // position:absolute;
-  // top:50%;
-  // left:50%;
-  // margin-top:-2px;
-  // margin-left:-145px;
-  vertical-align: middle;
-
-}
-
-.lineContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* Centering y-axis */
-  align-items: center;
-  /* Centering x-axis */
-  border: 1px solid #555;
-}
-
-.scheduleContainer2 {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: flex-start;
-  // margin-top: 30px;
-  // gap: 36px;
-  // // top: 90%;
-
-  // position: absolute;
-  // width: 642px;
-  // height: 224px;
-  border: 5px solid green;
-
-}
-
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  // border: 5px solid purple;
-  width: 100%;
-  // top: 50%;
-  // left: 0;
-  transform: translate(0, 50%);
-  line-height: 200px;
-  /* or whatever you want, should match height */
-  // text-align: center;
-}
-
-.column {
-  float: left;
-  width: 47.5%;
-  height: 100%;
-
-}
-
-.columnMid {
-  float: left;
-  width: 5%;
-  // border: 1px solid #555;
-
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  // border: 10px solid black;
-
-}
-
-.left {
-  width: 47.5%;
-  float: left;
-  // padding: 10px;
-  // border: 5px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 50px;
-  margin-top: 50px;
-  gap: 36px;
-}
-
-.right {
-  width: 47.5%;
-  float: left;
-  padding: 10px;
-  margin-top: 50px;
-  // border: 5px solid black;
-}
-
-.middle {
-  width: 5%;
-  float: left;
-  padding: 10px;
 }
 
 
@@ -446,9 +115,6 @@ $mobile: '420px';
   flex: none;
   order: 0;
   flex-grow: 0;
-
-  // border: solid 3px blue;
-
 }
 
 .speakersTitle {
@@ -493,9 +159,6 @@ $mobile: '420px';
   flex: none;
   order: 1;
   flex-grow: 0;
-
-  // border: solid 3px green;
-
 }
 
 .speakersText {
@@ -538,7 +201,6 @@ $mobile: '420px';
     width: 70%;
   }
 
-  // background: url(image.png);
   border-radius: 30px;
 
   /* Inside auto layout */
@@ -546,8 +208,6 @@ $mobile: '420px';
   flex: none;
   order: 1;
   flex-grow: 0;
-
-  // border: solid 3px purple;
 }
 
 
@@ -556,7 +216,6 @@ $mobile: '420px';
 /* Schedule Section */
 
 .scheduleContainer {
-  // border: solid 3px red;
   margin: 30px 0px;
 
   background-repeat: no-repeat;
@@ -572,27 +231,23 @@ $mobile: '420px';
   display: flex;
   justify-content: center;
   align-items: center;
-  // border: 3px solid blue;
   width: 100%;
   height: 100%;
   position: relative;
 }
 
 .scheduleLine {
-  // border-left: 6px solid green;
-  // height: 50px;
-
   max-width: 100%;
   max-height: 100%;
 
   @media screen and (max-width: $mobile) {
     -webkit-transform: rotate(90deg);
+
     /* Chrome, Safari, Opera */
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
-    /* Standard syntax */
   }
 }
 
@@ -600,7 +255,6 @@ $mobile: '420px';
   position: absolute;
   width: 40%;
   height: auto;
-  // border: 3px solid orange;
   left: 0;
 
   @media screen and (max-width: $mobile) {
@@ -624,7 +278,6 @@ $mobile: '420px';
   position: absolute;
   width: 45%;
   height: auto;
-  // border: 3px solid yellow;
   right: 0;
 
   @media screen and (max-width: $mobile) {
@@ -639,7 +292,6 @@ $mobile: '420px';
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  // margin-right: 5vw;
 }
 
 .scheduleHeader {
@@ -708,10 +360,6 @@ $mobile: '420px';
 
   @media screen and (max-width: $tablet) {
     margin-top: 0;
-  }
-
-  @media screen and (max-width: $mobile) {
-    // margin-top: 100%;
   }
 
   gap: 48px;

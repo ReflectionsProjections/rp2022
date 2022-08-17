@@ -54,7 +54,8 @@ export default function Index() {
               </Typography>
 
               <Button variant='contained'
-                className={styles.navButton2}
+                className={styles.navButton}
+                href=''
                 style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
                 Learn More
               </Button>
@@ -70,7 +71,8 @@ export default function Index() {
                   Prepare for 5 days full of events and tech!
                 </Typography>
                 <Button variant='contained'
-                  className={styles.navButton2}
+                  className={styles.navButton}
+                  href='/schedule'
                   style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
                   View Schedule
                 </Button>
@@ -94,7 +96,8 @@ export default function Index() {
                   Each year, we host a variety of speakers from leading roles in tech and innovations and cutting-edge minds in research. We also host tech talks from companies at the forefront of emerging technologies. Check out our speaker schedule to find out more.
                 </Typography>
                 <Button variant='contained'
-                  className={styles.navButton2}
+                  className={styles.navButton}
+                  href='/speakers'
                   style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
                   View Speakers
                 </Button>
