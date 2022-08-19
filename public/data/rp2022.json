@@ -246,5 +246,43 @@
                 }
             ]
         }
+    ],
+    "sponsors": [
+        {
+            "key": 0,
+            "name": "Aechelon Technology",
+            "img": "/resources/AELOGO - David Morgan.jpg",
+            "website": "https://aechelon.com/"
+        },
+        {   
+            "key": 1,
+            "name": "Caterpillar",
+            "img": "/resources/Caterpillar Logo - Angela Middleton.png",
+            "website": "https://www.caterpillar.com/"
+        },
+        {
+            "key": 2,
+            "name": "Databricks",
+            "img": "/resources/DAT_Small_Scale_Lock_up_Full_Color@2x - Katie Tenboer.png",
+            "website": "https://www.databricks.com/"
+        },
+        {
+            "key": 3,
+            "name": "Uber",
+            "img": "/resources/Uber_Logo_Black_RGB - Ricardo Luna.png",
+            "website": "https://www.uber.com/"
+        },
+        {
+            "key": 4,
+            "name": "Verkada",
+            "img": "/resources/Verkada-Logo-Horiz-Black-RGB (1) - Alex Huynh.png",
+            "website": "https://www.verkada.com/"
+        },
+        {
+            "key": 5,
+            "name": "Visa",
+            "img": "/resources/Visa_Brandmark_Blue_RGB_72ppi (1) - Kai Armstrong.png",
+            "website": "https://www.visa.com/"
+        }
     ]
 }

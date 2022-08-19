@@ -1,157 +1,146 @@
 import { makeStyles } from '@mui/styles';
 
+const tablet = '850px';
+const mobile = '420px';
+
 const useStyles = makeStyles({
-    aboutSection: {
-        minHeight: 0,
-    },
-    
-    title: {
-        fontSize: '1.75rem',
-        fontSize: '30px',
-        fontFamily: 'var(--alt-font)',
+    container: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        padding: "0px",
+        gap: "48px",
+
+        position: "relative",
+        width: "85%",
+        height: "100vh",
+
+        left: "5%",
     },
 
-    subheading2: {
-        fontSize: '48px',
-        fontFamily: 'Roboto',
-        color: '#EE6350'
-    },
-    
-    mainCol: {
-        display: 'flex',
-        justifyContent: 'flex-start',
-        flexDirection: 'column',
-        paddingLeft: '7vw',
-        paddingTop: '18vw',
-    },
-    
     logo: {
         width: '42vw',
         marginBottom: '50px',
-        [`@media (max-width: 600px)`]: {
+        [`@media (max-width: ${tablet})`]: {
             width: "90%",
         },
     },
-    
-    mainText: {
-        color: 'white',
-        width: '30vw',
-        marginBottom: '4vw',
-        [`@media (max-width: 600px)`]: {
-            width: "60vw",
-        },
+
+    headerBox: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        padding: "0px",
+        gap: "19px",
+        
+        width: "100%",
+        height: "auto",
+        
+        
+        /* Inside auto layout */
+        
+        flex: "none",
+        order: 0,
+        flexGrow: 0,
     },
 
-    navButton: {
-        boxShadow: 'none',
-        textTransform: 'none',
+    header: {
+        width: "100%",
+        height: "auto",
+        
         fontFamily: 'Roboto',
-        fontStyle: 'normal',
-        fontWeight: 70,
-        fontSize: '16px',
-        marginLeft: '-100px',
-        borderRadius: '30px',
+        fontStyle: "normal",
+        fontWeight: 700,
+        fontSize: "24px",
+        lineHeight: "17px",
+        /* identical to box height, or 71% */
+
+        [`@media (max-width: ${mobile})`]: {
+            fontSize: "18px",
+            lineHeight: "71%",
+        },
+        
+        letterSpacing: "0.3px",
+        
+        color: "#FFFFFF",
         
         
-        width: '126px',
-        height: '60px',
-        whiteSpace: 'nowrap',
-        textAlign: 'center',
+        /* Inside auto layout */
+        
+        flex: "none",
+        order: 1,
+        flexGrow: 0,
     },
-    navButton2: {
-        boxShadow: 'none',
-        textTransform: 'none',
+
+    content: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        padding: "0px",
+        gap: "36px",
+        
+        width: "80%",
+        height: "auto",
+        
+        
+        /* Inside auto layout */
+        
+        flex: "none",
+        order: 1,
+        flexGrow: 0,
+    },
+
+    text: {
+        width: "100%",
+        height: "auto",
+        
         fontFamily: 'Roboto',
-        fontStyle: 'normal',
+        fontStyle: "normal",
+        fontWeight: 700,
+        fontSize: "16px",
+        lineHeight: "22px",
+        /* or 138% */
+
+        [`@media (max-width: ${mobile})`]: {
+            fontSize: "12px",
+            lineHeight: "138%",
+        },
+        
+        letterSpacing: "0.3px",
+        
+        color: "#FFFFFF",
+        
+        
+        /* Inside auto layout */
+        
+        flex: "none",
+        order: 0,
+        flexGrow: 0,
+    },
+
+    button: {
+        boxShadow: "none",
+        textTransform: "none",
+        fontFamily: "Roboto",
+        fontStyle: "normal",
         fontWeight: 70,
-        fontSize: '16px',
-        marginLeft: '-100px',
-        fill: 'transparent',
-        backgroundColor: '#41798C',
-        
-        borderRadius: '30px',
-        
-        width: '126px',
-        height: '60px',
-        
-        whiteSpace: 'nowrap',
-        textAlign: 'center', 
-        disabled: 'true',
-        paddingLeft: '1000px',
-    },
+        fontSize: "16px",
 
-    ridesFriends: {
-        paddingTop: 70,
-        alignItems: 'center',
-        flexDirection: 'row',
-        justifyContent: 'space-evenly',
-        width: '100%',
-        marginBottom: 20,
-      },
-    
-    container: {
-        justifyContent: 'flex-start',
-        flexFlow: 'row',
-    },
-
-    verticleLine: {
-        height: '100%',
-        width: 1,
-        backgroundColor: '#909090',
-      },
-
-
-    container2: {
-        justifyContent: 'flex-start',
-        flexFlow: 'flex-inline',
-    },
-    
-    body: {
-        fontSize: '18px',
-        fontFamily: 'var(--font-family)',
-    },
-    
-    socialMediaIcons: {
-        display: 'flex',
-        justifyContent: 'flex-start',
-        width: '100%',
-    },
-    
-    subheadingBold: {
-        fontSize: 'x-large',
-        color: 'white',
-        width: '30vw',
-        fontWeight: 'bold',
-        marginBottom: '2vw',
-        [`@media (max-width: 600px)`]: {
-            width: "60vw",
+        [`@media (max-width: ${mobile})`]: {
+            fontSize: "12px",
+            width: "100px",
+            height: "40px",
         },
-    },
-    subheadingBold2: {
-        fontSize: '48px',
-        color: 'black',
-        width: '30vw',
-        fontWeight: 'bold',
-        marginBottom: '2vw',
-        [`@media (max-width: 600px)`]: {
-            width: "60vw",
-        },
-    },
-    diffBody: {
-        fontSize: '18px',
-        fontFamily: 'var(--font-family)',
-        color: 'black',
 
-    },
-        // socialMediaIcons i: {
-    //     padding-right: '2em',
-    //     font-size: 2em,
-    //     color: #0cbabb,
-    // },
-    
-    // socialMediaIcons i:hover: {
-    //     color: #f9bfcb,
-    // }
+        borderRadius: "30px",
+
+        width: "153px",
+        height: "60px",
+
+        whiteSpace: "nowrap",
+        textAlign: "center",
+    }
+
 }, {index: 1});
 
 export { useStyles };

@@ -1,58 +1,41 @@
 import React from 'react';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
-import Section from './Section';
+import { Button, Typography } from '@mui/material';
 import styles from './SponsorSection.module.scss';
-
-/* Sponsor Group */
-/* Use this for section styling */
-const SponsorGroup = ({ children }) => <div className="mb-5">{children}</div>;
-
-SponsorGroup.Title = ({ children }) => (
-  <Row>
-    <Col className="text-center pb-3">
-      <h4 style={{ fontFamily: 'Roboto Mono' }}>{children}</h4>
-    </Col>
-  </Row>
-);
-
-SponsorGroup.Body = ({ children }) => <Row>{children}</Row>;
+import SponsorCard from './Sponsor/SponsorCard';
 
 const SponsorSection = ({ sponsors }) => {
-  const { tier1, tier2, tier3, tier4 } = sponsors;
+  if (!sponsors) {
+    return (
+      <>
+        <h1>Loading...</h1>
+      </>
+    )
+  }
 
   return (
-    <div className={styles.sponsorSection}>
-      <Section>
-        <Section.Title>Sponsors</Section.Title>
-        <div className={styles.primarySponsor}>
-          {sponsors.tier1.map((sponsor, idx) => (
-            <a
-              key={`${sponsor.name}-${idx}`}
-              href={sponsor.website}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img src={sponsor.img} />
-            </a>
-          ))}
+    <>
+      <div className={styles.bg}>
+        <div className={styles.container}>
+          <div className={styles.headerBox}>
+            <Typography className={styles.header}>Sponsors</Typography>
+            <Typography className={styles.text}>Over 40+ sponsors support Reflections | Projections</Typography>
+          </div>
+          <div className={styles.content}>
+            <div className={styles.sponsors}>
+              {sponsors.map(({ key, name, img, website }) =>
+                <SponsorCard key={key} name={name} img={img} website={website} />
+              )}
+            </div>
+            <Button variant='contained'
+              className={styles.button}
+              href='/sponsor'
+              style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
+              View All Sponsors
+            </Button>
+          </div>
         </div>
-
-        <div className={styles.sponsorGrid}>
-          {sponsors.tier2.map((sponsor, idx) => (
-            <a
-              key={`${sponsor.name}-${idx}`}
-              href={sponsor.website}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img src={sponsor.img} />
-            </a>
-          ))}
-        </div>
-      </Section>
-    </div>
+      </div>
+    </>
   );
 };
 

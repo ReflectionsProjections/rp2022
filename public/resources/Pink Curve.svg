@@ -1,35 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1512 696.1" style="enable-background:new 0 0 1512 696.1;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:url(#SVGID_00000042694571769256622660000008416062061928433584_);stroke:#FFFFFF;}
-	.st1{fill:none;stroke:#FDE2DF;stroke-width:5;}
-	.st2{fill:none;stroke:#FDE2DF;stroke-width:5;stroke-opacity:0.7;}
-	.st3{fill:none;stroke:#FDE2DF;stroke-width:5;stroke-opacity:0.5;}
-	.st4{fill:none;stroke:#FDE2DF;stroke-width:5;stroke-opacity:0.1;}
-	.st5{fill:none;stroke:#FDE2DF;stroke-width:5;stroke-opacity:0.3;}
-</style>
-<g id="Background">
-</g>
-<g id="Clipping_Layer">
-	<defs>
-		<path id="SVGID_1_" d="M1512,245.9v420.4c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,616.6,0,616.6V196.2
-			c0,0,142.3,78.6,398.5,78.6s585.6-165.9,783-165.9S1512,245.9,1512,245.9z"/>
-	</defs>
-	<clipPath id="SVGID_00000021819445678216379060000016040677620921738665_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-</g>
-<g id="Pink_Wave">
-	
-		<radialGradient id="SVGID_00000026852987393572082520000011873610655993723053_" cx="-203.1157" cy="943.191" r="1" gradientTransform="matrix(-1402.9957 211.7824 321.037 2126.7749 -586664.625 -1962599.75)" gradientUnits="userSpaceOnUse">
-		<stop  offset="0" style="stop-color:#FDE2DF"/>
-		<stop  offset="1" style="stop-color:#FDE2DF"/>
-	</radialGradient>
-	<path style="fill:url(#SVGID_00000026852987393572082520000011873610655993723053_);stroke:#FDE2DF;" d="M1512,245.9v420.4
-		c0,0-133.1-136.9-330.5-136.9s-526.8,165.9-783,165.9S0,616.6,0,616.6V196.2c0,0,142.3,78.6,398.5,78.6s585.6-165.9,783-165.9
-		S1512,245.9,1512,245.9z"/>
-</g>
-
+<svg width="1511" height="850" viewBox="0 0 1511 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.7" d="M1512 801.183L1512 -1.01129e-05C1512 -1.01129e-05 1280.9 47.0817 1083.5 47.0818C886.099 47.0818 650.699 7.66816 394.499 7.66818C138.299 7.6682 -1.84e-05 94.6365 -1.84e-05 94.6365L0 850C0 850 142.3 801.183 398.5 801.183C654.7 801.183 796.099 845.958 993.5 845.958C1190.9 845.958 1512 801.183 1512 801.183Z" fill="url(#paint0_radial_508_1632)"/>
+<defs>
+<radialGradient id="paint0_radial_508_1632" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1105 623.935) rotate(-163.952) scale(1459.89 3907.14)">
+<stop stop-color="#FDE2DF"/>
+<stop offset="1" stop-color="#FDE2DF"/>
+</radialGradient>
+</defs>
 </svg>
