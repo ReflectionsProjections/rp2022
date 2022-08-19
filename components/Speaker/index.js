@@ -14,26 +14,27 @@ const Speaker = ({ speakers }) => {
     <div className={styles.speakerSection}>
       <Section>
         <Section.Header>
-          <Section.Title>Speakers</Section.Title>
+          <Section.Title><div className = {styles.speakerTitle}>Speakers</div></Section.Title>
         </Section.Header>
         <Section.Body>
             {speakers.length === 0 ? (
-              <h4>Coming Soon...</h4>
+              <h4>Coming Soon....</h4>
             ) : (
               <>
                 {speakers.map((speaker) => {
                   const { name, tagline, badge, bio, image } = speaker;
                   const imageURL = `${image}`;
                   return (
-                    
-                    // <div className={styles.speakerCardContainer} sm={12} md={6}>
-                    <Grid className = {styles.grid} spacing = {24}>
-                      <AvatarCard 
-                      img = {imageURL}
-                      title = {name}
-                      description = {bio} />
-                      </Grid>
-                    // </div>
+                    <div className={styles.speakerCardContainer} sm={12} md={6}>
+                      <SpeakerCard
+                        name={name}
+                        cardImage={imageURL}
+                        tagline={tagline}
+                        badge={badge}
+                        key={speaker.name}
+                        bio={bio}
+                      />
+                    </div>
                   );
                 })}
               </>
