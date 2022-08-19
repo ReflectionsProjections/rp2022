@@ -40,3 +40,4 @@ const SponsorSection = ({ sponsors }) => {
 };
 
 export default SponsorSection;
+
