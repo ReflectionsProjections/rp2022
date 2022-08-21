@@ -1,6 +1,6 @@
 import Agenda from '../components/Agenda';
 import { Element } from 'react-scroll';
-import Nav from '../components/ui/Nav';
+// import Nav from '../components/ui/Nav';
 import useGetStaticData from '../services/useGetStaticData';
 import Head from 'next/head';
 
