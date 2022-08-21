@@ -8,5 +8,71 @@
 
     letter-spacing: 0.3px;
 
-    color: #000000;
+    // color: #000000;
+}
+
+.faqSection {
+    position: relative;
+    background-color: #FEEBE9;
+    padding-bottom: 100px;
+}
+
+.a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.a svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 109px;
+}
+
+.a .shape-fill {
+    fill: #FFFFFF;
+}
+
+.layer1 {
+    aspect-ratio: 960/300;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./waves.svg');
+}
+
+.layer2 {
+    aspect-ratio: 960/300;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./wavesbottom.svg');
+}
+
+.myButton {
+	background-color:#fde2df;
+	border-radius:18px;
+	border:1px solid #ed8988;
+	display:inline-block;
+	cursor:pointer;
+	color:#ed8988;
+	font-family:Arial;
+	font-size:14px;
+	padding:11px 24px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
