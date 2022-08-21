@@ -23,10 +23,11 @@ const SpeakerCard = ({ name, cardImage, tagline, badge, bio }) => {
               <h6 className={styles.speakerTagline}>{tagline}</h6>
             </div>
             <div variant="outline-primary" className={styles.bio} size="sm">
-              <details>
+              {bio}
+              {/* <details>
                 <summary>Background</summary>
                 {ReactHtmlParser(bio)}
-              </details>
+              </details> */}
             </div>
           </div>
         </Col>

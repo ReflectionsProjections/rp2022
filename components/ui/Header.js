@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import styles from './Header.module.scss';
 import { AppBar, Toolbar, Typography, Button, Grid, Box, Container, Menu, MenuItem, IconButton, ClickAwayListener } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-// import { makeStyles, StylesProvider } from '@mui/styles';
 import { useStyles } from './HeaderStyles.js'
 
 export default function Header({ isHero }) {
@@ -17,7 +15,6 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Schedule',
-            // href: '/schedule'
             href: '/'
         },
         {
@@ -76,7 +73,7 @@ export default function Header({ isHero }) {
                                 className={classes.navButton}
                                 style={{ backgroundColor: '#41798C' }}
                                 disableElevation>
-                                Register
+                                Login
                             </Button>
 
                             <Button
@@ -130,8 +127,9 @@ export default function Header({ isHero }) {
                                             </Link>
                                         </MenuItem>
                                     ))}
-                                    <MenuItem>Register</MenuItem>
-                                    <MenuItem>Contact Us</MenuItem>
+                                    {/*  
+                                    <MenuItem>Hello</MenuItem>
+                                    <MenuItem>Contact Us</MenuItem> */}
                                 </Menu>
                             </Box>
                         </ClickAwayListener>

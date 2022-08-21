@@ -1,3 +1,6 @@
+import Speaker from '../components/Speaker';
+import { Element } from 'react-scroll';
+// import Nav from '../components/ui/Nav';
 import useGetStaticData from '../services/useGetStaticData';
 import Head from 'next/head';
 import Header from '../components/ui/Header';
@@ -32,7 +35,7 @@ export default function Speakers() {
           rel="stylesheet"
         />
       </Head>
-      <Header isHero={false} />
+      {/*<Nav />*/}
       {isLoaded && (
         <Box className={classes.container}>
           <Typography className={classes.title}>Speakers</Typography>
