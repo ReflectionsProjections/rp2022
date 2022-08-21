@@ -27,7 +27,7 @@ export default function Speakers() {
           rel="stylesheet"
         />
       </Head>
-      <Nav />
+      {/*<Nav />*/}
       {isLoaded && (
         <Element name="speakers">
           {<Speaker speakers={speakerSection.list} />}
