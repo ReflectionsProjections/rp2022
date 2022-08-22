@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Link from 'next/link';
 import Head from 'next/head';
-import { useStyles } from './scheduleStyles';
+import { useStyles } from '../styles/scheduleStyles';
 import useGetStaticData from '../services/useGetStaticData';
 
 export default function Schedule() {
@@ -29,7 +29,7 @@ export default function Schedule() {
           <link rel="icon" href="/favicon.png" />
         </Head>
 
-        <Header />
+        <Header isHero={false}/>
 
         <div className={classes.schedulePageContainer}>
           <div className={classes.headerBox}>
@@ -54,7 +54,7 @@ export default function Schedule() {
 
             <div className={classes.mobileButtonContainer}>
               <Link href='#09-26-2022' passHref>
-                <a rel="noreferrer"><Typography className={classes.tabletFont}>Monday</Typography></a>
+                <a rel="noreferrer" className={classes.tabletFont}><Typography className={classes.tabletFont} sx={{color: "red"}}>Monday</Typography></a>
               </Link>
               |
               <Link href='#09-27-2022' passHref>
