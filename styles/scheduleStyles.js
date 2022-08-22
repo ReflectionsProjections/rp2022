@@ -130,14 +130,17 @@ const useStyles = makeStyles({
     },
 
     tabletFont: {
+        textDecoration: "none",
+        color: "#EE6350",
+
         [`@media (max-width: ${tablet})`]: {
             fontSize: "30px",
-            textAlign: "center"
+            textAlign: "center",
         },
 
         [`@media (max-width: ${mobile})`]: {
             fontSize: "16px",
-            textAlign: "center"
+            textAlign: "center",
         },
     },
 
