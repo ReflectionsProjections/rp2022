@@ -11,9 +11,13 @@
 }
 
 .speakerCard {
-  border: none;
-  height: 100%;
+  height: fit-content;
+  width: 100%;
   display: flex;
+  background: #FFFFFF;
+  border-left: 8px solid #F7A399;
+  box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 4px 0px 0px 4px;
 }
 
 .cardImage {
@@ -23,6 +27,8 @@
 
 .imageContainer {
   width: 100%;
+  margin-top: 20px;
+  margin-left: 22px;
 }
 
 .gradientCircle {
@@ -37,6 +43,7 @@
   margin: -$border;
   background: linear-gradient(to bottom right, #ffcf45, #f58023, #ffcf45);
 }
+
 .text {
   display: block;
   margin-left: 1rem;
@@ -46,12 +53,16 @@
     margin-right: 20px;
   }
 }
+
 .speakerName {
+  margin-top: 10px;
   margin-bottom: 0;
   font-family: 'Roboto';
   color: black;
   font-weight: bold;
   width: 100%;
+
+
   @include mobile {
     font-size: 0.5rem;
     margin-right: 20px;
@@ -60,11 +71,12 @@
 
 .speakerTagline {
   font-family: 'Roboto Mono', monospace;
-  color: black;
-  margin-top: 0;
+  color: #878787;
+  margin-top: 5px;
   font-weight: normal;
   font-style: italic;
   width: 100%;
+
   @include mobile {
     font-size: 0.5rem;
     margin-right: 20px;

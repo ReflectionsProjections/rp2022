@@ -3,8 +3,10 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Section from '../Section';
 
+import AvatarCard from '../ui/AvatarCard';
 import SpeakerCard from './components/SpeakerCard';
 
+import Grid from "@mui/material/Grid";
 import styles from './Speaker.module.scss';
 
 const Speaker = ({ speakers }) => {
@@ -12,12 +14,11 @@ const Speaker = ({ speakers }) => {
     <div className={styles.speakerSection}>
       <Section>
         <Section.Header>
-          <Section.Title>Speakers</Section.Title>
+          <Section.Title><div className = {styles.speakerTitle}>Speakers</div></Section.Title>
         </Section.Header>
         <Section.Body>
-          <Container>
             {speakers.length === 0 ? (
-              <h4>Coming Soon...</h4>
+              <h4>Coming Soon....</h4>
             ) : (
               <>
                 {speakers.map((speaker) => {
@@ -38,7 +39,6 @@ const Speaker = ({ speakers }) => {
                 })}
               </>
             )}
-          </Container>
         </Section.Body>
       </Section>
     </div>

@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { AppBar, Toolbar, Typography, Button, Grid, Box, Container, Menu, MenuItem, IconButton, ClickAwayListener } from '@mui/material';
-import { useStyles } from './HeaderStyles.js';
-import { Squash as Hamburger } from 'hamburger-react';
+import MenuIcon from '@mui/icons-material/Menu';
+import { useStyles } from './HeaderStyles.js'
 
-export default function Header() {
+export default function Header({ isHero }) {
     const classes = useStyles();
     const small_logo = '/rp_logo_2022_sm.png';
     const small_logo_no_bg = '/rp_logo_2022_no_bg.png';
-    const red_curve = '/resources/red_curve.svg'
     const pagesData = [
         {
             label: 'About',
@@ -16,12 +15,10 @@ export default function Header() {
         },
         {
             label: 'Schedule',
-            href: '/schedule'
-            // href: '/'
+            href: '/'
         },
         {
             label: 'Speakers',
-            // href: '/speakers'
             href: '/'
         },
         {
@@ -42,12 +39,11 @@ export default function Header() {
 
     return (
         <>
-            <AppBar className={classes.header}>
-                <img src={red_curve} className={classes.curve}/>
+            <AppBar className={isHero ? classes.hero : classes.header}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <Box>
-                            <Link href="/" passHref>
+                            <Link href="#" passHref>
                                 <a rel="noreferrer">
                                     <img src={small_logo} alt='2022 R|P Logo' className={classes.logo} />
                                 </a>
@@ -76,7 +72,7 @@ export default function Header() {
                                 className={classes.navButton}
                                 style={{ backgroundColor: '#41798C' }}
                                 disableElevation>
-                                Register
+                                Login
                             </Button>
 
                             <Button
@@ -96,21 +92,21 @@ export default function Header() {
                                     aria-controls="menu-appbar"
                                     onClick={handleOpenMenu}
                                     color="inherit"
-                                    disableRipple="true"
+
                                 >
-                                    <Hamburger  toggled={needsMenu} toggle={setNeedsMenu} size={24}/>
+                                    <MenuIcon />
                                 </IconButton>
                                 <Menu
                                     id="menu-appbar"
                                     anchorEl={needsMenu}
                                     anchorOrigin={{
                                         vertical: 'bottom',
-                                        horizontal: 'center',
+                                        horizontal: 'left',
                                     }}
                                     keepMounted
                                     transformOrigin={{
                                         vertical: 'top',
-                                        horizontal: 'center',
+                                        horizontal: 'left',
                                     }}
                                     open={Boolean(needsMenu)}
                                     onClose={handleCloseMenu}
@@ -130,8 +126,9 @@ export default function Header() {
                                             </Link>
                                         </MenuItem>
                                     ))}
-                                    <MenuItem>Register</MenuItem>
-                                    <MenuItem>Contact Us</MenuItem>
+                                    {/*  
+                                    <MenuItem>Hello</MenuItem>
+                                    <MenuItem>Contact Us</MenuItem> */}
                                 </Menu>
                             </Box>
                         </ClickAwayListener>

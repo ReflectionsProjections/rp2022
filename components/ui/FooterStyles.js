@@ -11,15 +11,15 @@ const useStyles = makeStyles({
         justifyContent: "center",
         alignItems: "center",
         padding: "0px",
-        gap: "70vw",
+        gap: "60%",
 
         position: "static",
-        width: "90%",
+        width: "100%",
         height: "25.72px",
         left: "50%",
         bottom: "0px",
         // transform: "translate(-50%, -50%)",
-        margin: "0 auto",
+        marginTop: "30px",
 
         [`@media (max-width: ${laptop})`]: {
             gap: "60%",

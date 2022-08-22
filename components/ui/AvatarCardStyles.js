@@ -13,8 +13,8 @@ const useStyles = makeStyles({
         padding: "40px 0px",
         gap: "48px",
 
-        width: '416px',
-        height: '615px',
+        width: '310px',
+        height: '1800px',
 
         [`@media (max-width: ${tablet})`]: {
             width: "45%",

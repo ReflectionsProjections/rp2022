@@ -4,106 +4,143 @@ const tablet = '850px';
 const mobile = '420px';
 
 const useStyles = makeStyles({
-    aboutSection: {
-        minHeight: 0,
-    },
-    
-    title: {
-        fontSize: '1.75rem',
-        fontSize: '30px',
-        fontFamily: 'var(--alt-font)',
-    },
-    
-    mainCol: {
-        display: 'flex',
-        justifyContent: 'flex-start',
-        flexDirection: 'column',
-        paddingLeft: '7vw',
-        paddingTop: '18vw',
-        width: "100%",
+    container: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        padding: "0px",
+        gap: "48px",
 
-        [`@media (max-width: ${tablet})`]: {
-            // transform: "scale(1.25)"
-        },
+        position: "relative",
+        width: "85%",
+        height: "100vh",
 
-        [`@media (max-width: ${mobile})`]: {
-            paddingTop: '20vh',
-            paddingLeft: 0,
-        },
+        left: "5%",
     },
-    
+
     logo: {
         width: '42vw',
         marginBottom: '50px',
-        [`@media (max-width: 600px)`]: {
+        [`@media (max-width: ${tablet})`]: {
             width: "90%",
         },
     },
-    
-    mainText: {
-        color: 'white',
-        width: '30vw',
-        marginBottom: '4vw',
-        [`@media (max-width: 600px)`]: {
-            width: "60vw",
-        },
+
+    headerBox: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        padding: "0px",
+        gap: "19px",
+        
+        width: "100%",
+        height: "auto",
+        
+        
+        /* Inside auto layout */
+        
+        flex: "none",
+        order: 0,
+        flexGrow: 0,
     },
 
-    navButton: {
-        boxShadow: 'none',
-        textTransform: 'none',
+    header: {
+        width: "100%",
+        height: "auto",
+        
         fontFamily: 'Roboto',
-        fontStyle: 'normal',
-        fontWeight: 70,
-        fontSize: '16px',
-        // marginLeft: '30px',
-        
-        borderRadius: '30px',
-        
-        width: '126px',
-        height: '60px',
-        
-        whiteSpace: 'nowrap',
-        textAlign: 'center',
-    },
-    
-    container: {
-        justifyContent: 'flex-start',
-        flexFlow: 'row',
+        fontStyle: "normal",
+        fontWeight: 700,
+        fontSize: "24px",
+        lineHeight: "17px",
+        /* identical to box height, or 71% */
 
         [`@media (max-width: ${mobile})`]: {
-            justifyContent: 'center',
-            paddingTop: '20vh',
-            paddingLeft: 0,
-            width: "auto",
-            alignItems: "center",
+            fontSize: "18px",
+            lineHeight: "71%",
         },
+        
+        letterSpacing: "0.3px",
+        
+        color: "#FFFFFF",
+        
+        
+        /* Inside auto layout */
+        
+        flex: "none",
+        order: 1,
+        flexGrow: 0,
     },
 
-    buttons: {
-        left: 0
+    content: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+        padding: "0px",
+        gap: "36px",
+        
+        width: "80%",
+        height: "auto",
+        
+        
+        /* Inside auto layout */
+        
+        flex: "none",
+        order: 1,
+        flexGrow: 0,
     },
-    
-    body: {
-        fontSize: '18px',
-        fontFamily: 'var(--font-family)',
+
+    text: {
+        width: "100%",
+        height: "auto",
+        
+        fontFamily: 'Roboto',
+        fontStyle: "normal",
+        fontWeight: 700,
+        fontSize: "16px",
+        lineHeight: "22px",
+        /* or 138% */
+
+        [`@media (max-width: ${mobile})`]: {
+            fontSize: "12px",
+            lineHeight: "138%",
+        },
+        
+        letterSpacing: "0.3px",
+        
+        color: "#FFFFFF",
+        
+        
+        /* Inside auto layout */
+        
+        flex: "none",
+        order: 0,
+        flexGrow: 0,
     },
-    
-    socialMediaIcons: {
-        display: 'flex',
-        justifyContent: 'flex-start',
-        width: '100%',
-    },
-    
-    // socialMediaIcons i: {
-    //     padding-right: '2em',
-    //     font-size: 2em,
-    //     color: #0cbabb,
-    // },
-    
-    // socialMediaIcons i:hover: {
-    //     color: #f9bfcb,
-    // }
+
+    button: {
+        boxShadow: "none",
+        textTransform: "none",
+        fontFamily: "Roboto",
+        fontStyle: "normal",
+        fontWeight: 70,
+        fontSize: "16px",
+
+        [`@media (max-width: ${mobile})`]: {
+            fontSize: "12px",
+            width: "100px",
+            height: "40px",
+        },
+
+        borderRadius: "30px",
+
+        width: "153px",
+        height: "60px",
+
+        whiteSpace: "nowrap",
+        textAlign: "center",
+    }
+
 }, {index: 1});
 
 export { useStyles };
