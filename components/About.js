@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Typography } from '@mui/material';
 import { useStyles } from './AboutStyles.js'
+import { StylesContext } from '@mui/styles';
 
 export default function About() {
   const classes = useStyles();
@@ -30,5 +31,6 @@ export default function About() {
         </div>
       </div>
     </>
+    // </Container>
   );
 }
