@@ -15,7 +15,7 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Schedule',
-            href: '/'
+            href: '/schedule'
         },
         {
             label: 'Speakers',
