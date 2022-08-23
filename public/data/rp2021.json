@@ -1,6 +1,44 @@
 {
   "speakerSection": {
-    "list": []
+    "list": [
+      {
+        "name": "Rashmi Kumar",
+        "tagline": "Senior Vice President and Chief Information Officer (CIO) for Hewlett Packard Enterprise",
+        "bio": "In this role, Rashmi is propelling HPE’s digital transformation forward to be the edge-to-cloud platform as-a-service company. Focused on building the necessary capabilities to position the Global IT organization for the future, Rashmi is reengineering the organization to deliver optimum performance aligned to the business operating model and executing a winning strategy that ensures best-in-class partnership and support for the business. In addition to building world-class IT capabilities, Rashmi is passionate about promoting diversity and equity in the workplace. Prior to her roles at HPE, Rashmi has more than 25 years of experience serving in CIO and CTO roles for many Fortune 50 companies like McKesson, Southern California Edison, Toyota, and Tata Steel. Rashmi's primary areas of expertise include Digital Transformation, Al/ML, Data & Analytics, Enterprise Architecture, strategic planning, and large scale business process Transformations.  Additionally, Rashmi was recently named 2021 Houston CIO of the Year - Super Global, and she is a 2021 HMG Global Leadership Institute Award recipient.",
+        "image": "/headshots/RashmiKumar.jpeg"
+      },
+      {
+        "name": "Gregg Vanderheiden",
+        "tagline": "Ph.D.",
+        "bio": "<p>Dr. Vanderheiden is the Director of the Trace R&D Center and Professor in the College of Information Studies at the University of Maryland. He has been a long-time leader in the area of web accessibility, creating the first set of Web Accessibility guidelines in 1995 and serving as co-editor and co-chairing the WCAG Working Group from its inception through 2013.</p>",
+        "image": "/headshots/GreggVanderheiden.jpeg"
+      }
+    ]
+  },
+  "projectSection": {
+    "list": [
+      {
+        "name": "Machine Learning",
+        "badge": "ML",
+        "tagline": "Project Example 1",
+        "bio": "<p>Example description</p>",
+        "image": "/static/img/projects/rp"
+      },
+      {
+        "name": "Data Science",
+        "tagline": "Project Example 2",
+        "badge": "ML",
+        "bio": "<p>Description</p>",
+        "image": "/static/img/projects/rp"
+      },
+      {
+        "name": "Other Project",
+        "tagline": "Project",
+        "badge": "Mobile app",
+        "bio": "<p>Aaaaaaa</p>",
+        "image": "/static/img/projects/rp"
+      }
+    ]
   },
   "faqSection": {
     "sections": [
