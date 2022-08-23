@@ -5,13 +5,43 @@
         "name": "Rashmi Kumar",
         "tagline": "Senior Vice President and Chief Information Officer (CIO) for Hewlett Packard Enterprise",
         "bio": "In this role, Rashmi is propelling HPE’s digital transformation forward to be the edge-to-cloud platform as-a-service company. Focused on building the necessary capabilities to position the Global IT organization for the future, Rashmi is reengineering the organization to deliver optimum performance aligned to the business operating model and executing a winning strategy that ensures best-in-class partnership and support for the business. In addition to building world-class IT capabilities, Rashmi is passionate about promoting diversity and equity in the workplace. Prior to her roles at HPE, Rashmi has more than 25 years of experience serving in CIO and CTO roles for many Fortune 50 companies like McKesson, Southern California Edison, Toyota, and Tata Steel. Rashmi's primary areas of expertise include Digital Transformation, Al/ML, Data & Analytics, Enterprise Architecture, strategic planning, and large scale business process Transformations.  Additionally, Rashmi was recently named 2021 Houston CIO of the Year - Super Global, and she is a 2021 HMG Global Leadership Institute Award recipient.",
-        "image": "/headshots/RashmiKumar.jpeg"
+        "image": "/headshots/RashmiKumar.jpg"
       },
       {
-        "name": "Gregg Vanderheiden",
-        "tagline": "Ph.D.",
-        "bio": "<p>Dr. Vanderheiden is the Director of the Trace R&D Center and Professor in the College of Information Studies at the University of Maryland. He has been a long-time leader in the area of web accessibility, creating the first set of Web Accessibility guidelines in 1995 and serving as co-editor and co-chairing the WCAG Working Group from its inception through 2013.</p>",
-        "image": "/headshots/GreggVanderheiden.jpeg"
+        "name": "Keith Garner",
+        "tagline": "Director of Engineering at Instructure",
+        "bio": "Keith Garner is a Director of Engineering at Instructure, the makers of Canvas. He has over 25 years of varied industry experience including consulting, software engineering, system administration, and leadership. For the past 7 years, he has worked on and with Canvas software engineering teams helping to improve the educational experience for teachers and students. During his time as a student at the University of Illinois, he was a member of ACM@UIUC and chairperson of the Linux Users' Group SIG. When he's not in meetings or working on personal code projects, you can find him biking, camping with his Scouts BSA Troop, enjoying craft beer, and being a proud husband and father/Illinois Dad.",
+        "image": "/headshots/KeithGarner.jpg"
+      },
+      {
+        "name": "Aishwarya Srinivasan",
+        "tagline": "Data Scientist in the Google Cloud AI Services",
+        "bio": "Aishwarya is the founder of Illuminate AI, first of its kind non-profit organization for providing resources and mentorship for people who want to build their career in the field of AI. She is an advocate for open-source technologies, presently an open source Developer Advocate for Deepchecks; previously a developer advocate for PyTorch Lightning and a contributor to Scikit Learn. She holds a post-graduate in Data Science from Columbia University. She is an ambassador for the Women in Data Science community, originating from Stanford University. She has over 350,000 followers on LinkedIn and actively organizes events and conferences to inspire budding data scientists. She has been spotlighted as a LinkedIn Top Voice 2020 for Data Science and AI, which features Top 10 Machine Learning influencers across the world.",
+        "image": "/headshots/AIshwaryaSrinivasan.jpg"
+      },
+      {
+        "name": "Jeetu Patel",
+        "tagline": "Cisco’s Executive Vice President and General Manager of Security and Collaboration",
+        "bio": "Jeetu Patel leverages a diverse set of capabilities to lead the strategy and development for these businesses and also owns P&L responsibility for this multibillion-dollar portfolio. Jeetu combines a bold vision, steeped in product design and development expertise, operational rigor and innate market understanding to create high growth Software as a Service (SaaS) businesses. A member of the Executive Leadership Team, Jeetu is helping to redefine Cisco's SaaS business and strategy to further accelerate the company's transformation and growth. His mission is to build world class, subscription-based products that solve Cisco customers’ biggest problems. His team is creating and designing meaningfully differentiated products that diverge in the way they’re conceived, built, priced, packaged and sold. Prior to joining Cisco, Jeetu was Chief Product Officer and Chief Strategy Officer at Box, GM and Chief Executive of EMC’s Syncplicity business unit, and President of Doculabs. He graduated from the University of Illinois, Chicago and lives in the San Francisco Bay Area with his family.",
+        "image": "/headshots/JeetuPatel.jpg"
+      },
+      {
+        "name": "Ken Turkowski",
+        "tagline": "Master’s at U.Cal. Berkeley and currently at NVIDIA",
+        "bio": "After earning a BS in electrical engineering at U. Ill. @ Urbana-Champaign, Ken Turkowski has been involved in visual computing starting with his master’s thesis at U.Cal. Berkeley, where he designed and constructed a processor organized for interactive graphics collaboration over telephone landlines. He continued to design graphics processors at Ampex and CADLINC, but also started writing image processing, computer vision, robotic simulation and geometric modeling software. At Apple, he was the technical director for Pencil Test, the first SIGGRAPH movie modeled, animated and rendered on a distributed network of Macintoshes. Also at Apple, he contributed to scalable fonts, 2D and 3D rendering, video processing and compression, panoramic software and computer vision. At Adobe, he developed GPU-accelerated image processing, and at Google, he made significant contributions to Streetview panoramas and satellite imagery stitching. At Kinoma and Marvell, he developed CPU & GPU software for interactive graphics and video on mobile devices. He also worked several years as a contractor, with VR headsets, panoramas, semiconductor manufacturing inspection, robotic surgery, MPORPGs, and printers. Currently at NVIDIA, he has written software for stereo panorama video, robotic vision, visualization for automobiles, neural network pre- and post-processing, broadcast effects, augmented reality, animation and avatar control.",
+        "image": "/headshots/KenTurkowski.jpeg"
+      },
+      {
+        "name": "Todd Little",
+        "tagline": "Chief Architect for Oracle Tuxedo",
+        "bio": "Todd is the Chief Architect for Oracle Tuxedo, the leading distributed transaction processing monitor. He is responsible for defining the technical strategy and direction for the Tuxedo product family. Todd is also an Architect for the Oracle Blockchain Platform that was released in July of 2018. He is responsible for overall architecture and security for the service. He has participated in the Hyperledger Privacy and Confidentiality Working Group and the Hyperledger Performance and Scale Working Group. Most recently Todd is the Chief Architect for the upcoming Oracle Transaction Manager for Microservices, a microservices based distributed transaction monitor supporting a variety of transaction models and languages. During his more than 40 years of software architecture and development experience, Todd has received 39 patents and has another 8 in process.",
+        "image": "/headshots/ToddLittle.jpg"
+      },
+      {
+        "name": "Shravan Goli",
+        "tagline": "Coursera's Chief Product Officer and Head of Consumer Revenue",
+        "bio": "Shravan Goli is Coursera's Chief Product Officer and Head of Consumer Revenue. Before joining Coursera, Shravan was at DHI Group Inc. where he initially served as President of Dice, a tech job marketplace, and successfully led the growth strategy and operations for Dice, Dice International, ClearanceJobs, and Slashdot Media. Before that, Shravan served as President and Chief Executive Officer of Dictionary.com where he sparked impressive growth through product innovation. Previously, Shravan was GM for Social Media Business at Slide, Inc. and at Yahoo!, he served as GM for Yahoo! Video and as Head of Products for Yahoo! Finance. Earlier in his career, Shravan was at Microsoft where he started out as an early member of the MSN.com team and led the launch of several MSN services and subsequently held roles in the home and entertainment division. In addition, he was a co-founder of Corners.in, a content-centric social networking service. Shravan holds an M.B.A. from the University of Washington and an M.S. in Computer Science from the University of Maryland.",
+        "image": "/headshots/ShravanGoli.jpg"
       }
     ]
   },
