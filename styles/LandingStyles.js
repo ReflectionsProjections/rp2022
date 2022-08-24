@@ -308,8 +308,8 @@ const useStyles = makeStyles({
         "display": "flex",
         "flexDirection": "column",
         "alignItems": "flex-start",
-        "padding": "10px",
-        "marginTop": "25%",
+        "padding": "20px",
+        "marginTop": "15%",
         "gap": "48px",
         "width": "100%",
         "height": "auto",
@@ -386,4 +386,5 @@ const useStyles = makeStyles({
 
 }, { index: 1 });
 
-export { useStyles }
+export { useStyles };
+
