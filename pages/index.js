@@ -2,21 +2,22 @@ import Head from 'next/head';
 import About from '../components/About';
 
 import styles from '../styles/Landing.module.scss';
+import { useStyles } from '../styles/LandingStyles.js'
 import useGetStaticData from '../services/useGetStaticData';
 import SponsorSection from '../components/SponsorSection.js';
 import { Button, Typography } from '@mui/material';
 import Header from '../components/ui/Header';
 import Footer from '../components/ui/Footer'
-
+import Description from '../components/Description';
 
 export default function Index() {
+  const classes = useStyles();
   const { rpData } = useGetStaticData();
-  console.log(rpData)
   const { sponsors } = rpData;
 
   return (
     <>
-      <div className={styles.backgroundRed} >
+      <div className={styles.backgroundRed}>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
@@ -33,17 +34,17 @@ export default function Index() {
         <Header isHero={true} />
 
         <div className={styles.landingContainer}>
-          {/* <About name="about" /> */}
+          <Description name="description" />
 
 
 
-          <div className={styles.aboutContainer}>
-            <Typography className={styles.aboutHeader}>
+          <div className={classes.aboutContainer}>
+            <Typography className={classes.aboutHeader}>
               What is Reflections | Projections?
             </Typography>
 
-            <div className={styles.aboutContent}>
-              <Typography className={styles.aboutText}>
+            <div className={classes.aboutContent}>
+              <Typography className={classes.aboutText}>
                 Reflections | Projections is a tech conference organized and run by students at the University of Illinois at Urbana-Champaign.
                 <br></br>
                 <br></br>
@@ -54,7 +55,7 @@ export default function Index() {
               </Typography>
 
               <Button variant='contained'
-                className={styles.navButton}
+                className={classes.navButton}
                 href=''
                 style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
                 Learn More
@@ -64,22 +65,22 @@ export default function Index() {
 
 
 
-          <div className={styles.scheduleContainer}>
-            <div className={styles.scheduleContent}>
-              <div className={styles.scheduleLeft}>
-                <Typography className={styles.scheduleHeader}>
+          <div className={styles.scheduleContainer} >
+            <div className={classes.scheduleContent}>
+              <div className={classes.scheduleLeft}>
+                <Typography className={classes.scheduleHeader}>
                   Prepare for 5 days full of events and tech!
                 </Typography>
                 <Button variant='contained'
-                  className={styles.navButton}
+                  className={classes.navButton}
                   href='/schedule'
                   style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
                   View Schedule
                 </Button>
               </div>
-              <img className={styles.scheduleLine} src={"/resources/vertical_line.svg"} alt="line" />
-              <div className={styles.scheduleRight}>
-                <Typography className={styles.scheduleText}>
+              <img className={classes.scheduleLine} src={"/resources/vertical_line.svg"} alt="line" />
+              <div className={classes.scheduleRight}>
+                <Typography className={classes.scheduleText}>
                   We bring industry and academia into one conference to incite the spread of novel ideas, connect students with professional opportunities, and host a one of a kind AI hackathon. This year’s conference marks the 28th edition of Reflections | Projections, and will be held from September 26-30.
                 </Typography>
               </div>
@@ -88,15 +89,15 @@ export default function Index() {
 
 
 
-          <div className={styles.speakersContainer}>
-            <div className={styles.speakersSection}>
-              <Typography className={styles.speakersTitle}>Speakers</Typography>
-              <div className={styles.speakersContent}>
-                <Typography className={styles.speakersText}>
+          <div className={classes.speakersContainer}>
+            <div className={classes.speakersSection}>
+              <Typography className={classes.speakersTitle}>Speakers</Typography>
+              <div className={classes.speakersContent}>
+                <Typography className={classes.speakersText}>
                   Each year, we host a variety of speakers from leading roles in tech and innovations and cutting-edge minds in research. We also host tech talks from companies at the forefront of emerging technologies. Check out our speaker schedule to find out more.
                 </Typography>
                 <Button variant='contained'
-                  className={styles.navButton}
+                  className={classes.navButton}
                   href='/speakers'
                   style={{ fontSize: '16px', backgroundColor: '#41798C', disabled: true }}>
                   View Speakers
@@ -104,7 +105,7 @@ export default function Index() {
               </div>
             </div>
 
-            <img className={styles.speakersImg} src={"/resources/speaker.png"} alt="Speaker" />
+            <img className={classes.speakersImg} src={"/resources/speaker.png"} alt="Speaker" />
           </div>
         </div>
 
@@ -114,7 +115,7 @@ export default function Index() {
 
         <Footer />
       </div>
-      <div className={styles.bgFixed}>
+      <div className={classes.bgFixed}>
         <img className="bg-img" src="/resources/Blue Curve.svg" alt="Blue Wavy Background" />
       </div>
 

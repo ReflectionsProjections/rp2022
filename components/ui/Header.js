@@ -8,6 +8,8 @@ export default function Header({ isHero }) {
     const classes = useStyles();
     const small_logo = '/rp_logo_2022_sm.png';
     const small_logo_no_bg = '/rp_logo_2022_no_bg.png';
+    const red_curve = '/resources/red_curve.svg'
+
     const pagesData = [
         {
             label: 'About',
@@ -15,7 +17,7 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Schedule',
-            href: '/'
+            href: '/schedule'
         },
         {
             label: 'Speakers',
@@ -41,6 +43,7 @@ export default function Header({ isHero }) {
     return (
         <>
             <AppBar className={isHero ? classes.hero : classes.header}>
+                {!isHero && (<img src={red_curve} className={classes.curve} />)}
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <Box>
@@ -53,7 +56,7 @@ export default function Header({ isHero }) {
 
                         <Box className={classes.pages}>
                             {pagesData.map(({ label, href }) => (
-                                <Link href={href} passHref>
+                                <Link key={label} href={href} passHref>
                                     <a rel="noreferrer" className={classes.page}>
                                         <Typography>
                                             {label}
@@ -115,7 +118,7 @@ export default function Header({ isHero }) {
                                 >
                                     {pagesData.map(({ label, href }) => (
                                         <MenuItem>
-                                            <Link href={href} passHref>
+                                            <Link key={label} href={href} passHref>
                                                 <a rel="noreferrer" style={{
                                                     textDecoration: 'none',
                                                     color: '#000'
@@ -127,9 +130,9 @@ export default function Header({ isHero }) {
                                             </Link>
                                         </MenuItem>
                                     ))}
-                                    {/*  
-                                    <MenuItem>Hello</MenuItem>
-                                    <MenuItem>Contact Us</MenuItem> */}
+
+                                    <MenuItem>Register</MenuItem>
+                                    <MenuItem>Contact Us</MenuItem>
                                 </Menu>
                             </Box>
                         </ClickAwayListener>

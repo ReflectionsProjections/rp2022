@@ -1,21 +1,7 @@
 import React from 'react';
-
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
-import Section from './Section';
-import { Button } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import { useStyles } from './DescriptionStyles.js'
-
-/* Description Section Styling */
-// const AboutSection = ({ children }) => <div className="pb-4">{children}</div>;
-
-// AboutSection.Title = ({ children }) => (
-//   <h3 className={classes.title}>{children}</h3>
-// );
-
-// AboutSection.Body = ({ children }) => <p className={classes.body}>{children}</p>;
+import { StylesContext } from '@mui/styles';
 
 export default function Description() {
   const classes = useStyles();
@@ -45,5 +31,6 @@ export default function Description() {
         </div>
       </div>
     </>
+    // </Container>
   );
 }
