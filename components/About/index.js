@@ -14,9 +14,25 @@ import FAQAccordion from './components/FAQAccordion'
 // import SpeakerCard from './components/SpeakerCard';
 import styles from './about.module.scss';
 import { pink } from '@mui/material/colors';
+import { useStyles } from '../../styles/AboutPageStyles';
+import Link from 'next/link';
+import Head from 'next/head';
 
 const AboutPage = () => {
-
+  
+  <Head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/favicon.png" />
+  </Head>
+    const classes = useStyles();
     const ml = "6.3%";
     const textWidth = "57.4%";
     const pink = createTheme({
@@ -66,7 +82,7 @@ const AboutPage = () => {
         <Header isHero={true}/>
         {/* Section 1 */}
         
-        <Box ml={ml} mt={5} width={textWidth}>
+        <Box ml={ml} mt={15} width={textWidth}>
             <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>What is Reflections | Projections?</Typography>
         </Box>
         <Box ml={ml} mt={5} width={textWidth}>
@@ -102,7 +118,7 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://loremflickr.com/370/370"}
+                    img={""}
                     title={"Career Fair"}
                     description={"Meet some of the best companies in the country"}
                   />
@@ -111,16 +127,16 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://loremflickr.com/380/380"}
+                    img={""}
                     title={"Startup Fair"}
-                    description={"Interact with hot new startups"}
+                    description={"Interact with the hottest new startups in the field"}
                   />
                 </Paper>
               </Grid>
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://loremflickr.com/390/390"}
+                    img={""}
                     title={"Speakers"}
                     description={"Come listen to some of the industry's best minds"}
                   />
@@ -130,7 +146,7 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://loremflickr.com/400/400"}
+                    img={""}
                     title={"Mech Mania"}
                     description={"Mechmania is our 24 hour AI hackathon that runs from Friday (9/21) - Saturday (9/22). Build your own AI bot to compete. The best part? No prior experience needed. This year’s Mechmania is sponsored by DeepScale!"}
                   />
@@ -139,7 +155,7 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://loremflickr.com/410/410"}
+                    img={""}
                     title={"PuzzleBang"}
                     description={"Compete in a week-long puzzle contest hosted by two UIUC Alums to win exciting prizes. This year’s PuzzleBang is sponsored by IMO! Be sure to checkout our 2 pop-up escape rooms in Siebel on Saturday, 9/22!"}
                   />
@@ -148,7 +164,7 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://loremflickr.com/430/430"}
+                    img={""}
                     title={"ACM Symposium"}
                     description={"R|P 2018 is proud to introduce the first-ever installment of the ACM Symposium - a way for ACM chapters across the Midwest to network and interact by showcasing their project and research work."}
                   />
@@ -158,7 +174,7 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://loremflickr.com/440/440"}
+                    img={""}
                     title={"Alumni Social"}
                     description={"Head over to Murphy's after the ACM Symposium after the closing ceremony to interact and network with alumni, speakers and current students! It’s the perfect social to culminate the conference."}
                   />
@@ -167,7 +183,7 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://loremflickr.com/550/550"}
+                    img={""}
                     title={"Experiences"}
                     description={"Experiences are hybrid talks/workshops that not only help students learn the state of the art in fields ranging from distributed computing to machine learning but also make them approachable."}
                   />
@@ -176,7 +192,7 @@ const AboutPage = () => {
               <Grid item md={8}>
                 <Paper>
                   <AvatarCard
-                    img={"https://loremflickr.com/480/480"}
+                    img={""}
                     title={"R|P Giveaway Contest"}
                     description={"Engage with R|P on our various social media platforms for a chance to win a Nintendo Switch, a Google Home Mini or an Amazon Echo Dot! Follow us on social media to learn more!"}
                   />
@@ -194,8 +210,8 @@ const AboutPage = () => {
 
           {/* Four buttons in a row */}
           <Box ml={'20vw'} mt={'10px'}>
-            <Grid container>
-                <Grid item xs={1.55}>
+            <Grid container wrap='wrap'>
+                <Grid item xs={1.55} wrap='wrap'>
                   <Button
                     variant="outlined"
                     sx={{
@@ -203,9 +219,8 @@ const AboutPage = () => {
                     }}
                     onClick={() => {setFaqSection("General")}}
                     >General</Button>
-                    {/* <a href="#" className={styles.myButton}>General</a> */}
                 </Grid>
-                <Grid item xs={2.5}>
+                <Grid item xs={2.5} wrap='wrap'>
                   <Button
                     variant="outlined"
                     sx={{
@@ -214,7 +229,7 @@ const AboutPage = () => {
                     onClick={() => {setFaqSection("Conference Format")}}
                     >Conference Format</Button>
                 </Grid>
-                <Grid item xs={1.7}>
+                <Grid item xs={1.7} wrap='wrap'>
                   <Button 
                     variant="outlined"
                     sx={{
@@ -223,7 +238,7 @@ const AboutPage = () => {
                     onClick={() => {setFaqSection("Mechmania")}}
                     >MechMania</Button>
                 </Grid>
-                <Grid item xs={1.8}>
+                <Grid item xs={1.8} wrap='wrap'>
                   <Button variant="outlined"
                     sx={{
                       borderRadius: "50px",

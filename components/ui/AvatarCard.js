@@ -9,11 +9,17 @@ export default function AvatarCard({ img, title, description }) {
     return(
         <>
             <Box className={classes.card}>
-                <Avatar
+                {/* <Avatar
                     alt="image"
                     src={img}
                     className={classes.avatar}
-                />
+                /> */}
+                {img.length !== 0 && 
+                <Avatar
+                alt="image"
+                src={img}
+                className={classes.avatar}
+                />}
 
                 <Box className={classes.textContainer}>
                     <Typography className={classes.title}>
