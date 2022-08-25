@@ -33,7 +33,7 @@ export default function Index() {
         <Header isHero={true} />
 
         <div className={styles.landingContainer}>
-          <About name="about" />
+          {/* <About name="about" /> */}
 
 
 
