@@ -227,20 +227,28 @@
                     "location": "Siebel 1131"
                 },
                 {
+                    "eventID": "d1e3",
+                    "title": "Shravan Goli",
+                    "description": "Speaker Talk",
+                    "startDate": "09-26-2022 17:00",
+                    "endDate": "09-26-2022 18:00",
+                    "location": "Siebel 1304"
+                },
+                {
+                    "eventID": "d1e4",
+                    "title": "Visa",
+                    "description": "Tech Talk",
+                    "startDate": "09-26-2022 18:00",
+                    "endDate": "09-26-2022 19:00",
+                    "location": "Siebel 1131"
+                },
+                {
                     "eventID": "d1e5",
                     "title": "Dinner",
                     "description": "",
-                    "startDate": "09-26-2022 11:00",
-                    "endDate": "09-26-2022 13:00",
-                    "location": ""
-                },
-                {
-                    "eventID": "d1e6",
-                    "title": "Shravan Goli",
-                    "description": "Speaker Talk",
                     "startDate": "09-26-2022 20:00",
                     "endDate": "09-26-2022 21:00",
-                    "location": "Siebel 2407"
+                    "location": ""
                 }
             ]
         },
@@ -260,9 +268,17 @@
                     "eventID": "d2e2",
                     "title": "Jeetu Patel",
                     "description": "Speaker Talk",
-                    "startDate": "09-27-2022 14:00",
-                    "endDate": "09-27-2022 15:00",
+                    "startDate": "09-27-2022 15:00",
+                    "endDate": "09-27-2022 16:00",
                     "location": "Siebel 2405"
+                },
+                {
+                    "eventID": "d2e3",
+                    "title": "State Farm",
+                    "description": "Tech Talk",
+                    "startDate": "09-27-2022 16:00",
+                    "endDate": "09-27-2022 17:00",
+                    "location": "Siebel 1131"
                 },
                 {
                     "eventID": "d2e4",
@@ -319,28 +335,20 @@
                     "location": ""
                 },
                 {
-                    "eventID": "d3e3",
-                    "title": "Speaker Event",
-                    "description": "Speaker Event",
-                    "startDate": "09-28-2022 15:00",
-                    "endDate": "09-28-2022 16:00",
-                    "location": "Siebel 1131"
-                },
-                {
-                    "eventID": "d3e4",
-                    "title": "Speaker Event",
-                    "description": "Speaker Event",
-                    "startDate": "09-28-2022 16:00",
-                    "endDate": "09-28-2022 17:00",
-                    "location": "Siebel 2405"
-                },
-                {
                     "eventID": "d3e5",
                     "title": "Rashmi Kumar",
                     "description": "Siebel 1304",
                     "startDate": "09-28-2022 17:00",
                     "endDate": "09-28-2022 18:00",
-                    "location": ""
+                    "location": "Siebel 1304"
+                },
+                {
+                    "eventID": "d3e6",
+                    "title": "Visa",
+                    "description": "Social Event",
+                    "startDate": "09-28-2022 19:00",
+                    "endDate": "09-28-2022 20:00",
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d3e7",
@@ -366,15 +374,15 @@
                 },
                 {
                     "eventID": "d4e2",
-                    "title": "Speaker Event",
-                    "description": "Speaker Event",
+                    "title": "Caterpillar",
+                    "description": "Tech Talk",
                     "startDate": "09-28-2022 15:00",
                     "endDate": "09-28-2022 16:00",
                     "location": "Siebel 1304"
                 },
                 {
                     "eventID": "d4e3",
-                    "title": "Speaker Event",
+                    "title": "Aishwarya Srinivasan",
                     "description": "Speaker Event",
                     "startDate": "09-28-2022 16:00",
                     "endDate": "09-28-2022 17:00",
@@ -382,7 +390,7 @@
                 },
                 {
                     "eventID": "d4e4",
-                    "title": "Speaker Event",
+                    "title": "Qualcomm Panel",
                     "description": "Speaker Event",
                     "startDate": "09-28-2022 17:00",
                     "endDate": "09-28-2022 18:00",
@@ -390,7 +398,7 @@
                 },
                 {
                     "eventID": "d4e5",
-                    "title": "Speaker Event",
+                    "title": "Keith Garner",
                     "description": "Speaker Event",
                     "startDate": "09-28-2022 18:00",
                     "endDate": "09-28-2022 19:00",
@@ -428,18 +436,10 @@
                 },
                 {
                     "eventID": "d5e2",
-                    "title": "John Arends",
+                    "title": "Uber Resume Workshop",
                     "description": "Speaker Talk",
                     "startDate": "09-30-2022 15:00",
                     "endDate": "09-30-2022 16:00",
-                    "location": "Siebel 2405"
-                },
-                {
-                    "eventID": "d5e3",
-                    "title": "Speaker Event",
-                    "description": "Speaker Event",
-                    "startDate": "09-30-2022 16:00",
-                    "endDate": "09-30-2022 17:00",
                     "location": "Siebel 2405"
                 },
                 {
@@ -464,7 +464,7 @@
                     "description": "Friday, 7:00pm - Saturday, 9:00pm",
                     "startDate": "09-30-2022 19:00",
                     "endDate": "09-30-2022 00:00",
-                    "location": "1404 Siebel "
+                    "location": "1404 Siebel"
                 }
             ]
         },
@@ -499,10 +499,10 @@
             "website": "https://www.qualcomm.com/"
         },
         {
-            "key": 2,
-            "name": "Databricks",
-            "img": "/resources/DAT_Small_Scale_Lock_up_Full_Color@2x - Katie Tenboer.png",
-            "website": "https://www.databricks.com/"
+            "key": 1,
+            "name": "Caterpillar",
+            "img": "/resources/Caterpillar Logo - Angela Middleton.png",
+            "website": "https://www.caterpillar.com/"
         },
         {
             "key": 2,
@@ -524,9 +524,9 @@
         },
         {   
             "key": 5,
-            "name": "Caterpillar",
-            "img": "/resources/Caterpillar Logo - Angela Middleton.png",
-            "website": "https://www.caterpillar.com/"
+            "name": "Databricks",
+            "img": "/resources/DAT_Small_Scale_Lock_up_Full_Color@2x - Katie Tenboer.png",
+            "website": "https://www.databricks.com/"
         }
     ]
 }

@@ -291,7 +291,7 @@ const useStyles = makeStyles({
         "fontSize": "24px",
         "lineHeight": "36px",
         "letterSpacing": "0.3px",
-        "paddingRight": "30px",
+        "paddingRight": "90px",
         "color": "#000000",
 
         [`@media screen and (max-width: ${mobile})`]: {

@@ -188,7 +188,7 @@ const useStyles = makeStyles({
 
     anchor: {
         position: "absolute",
-        transform: "translateY(-50vh)",
+        transform: "translateY(-3vh)",
     },
 
     page: {
