@@ -11,7 +11,7 @@ export default function About() {
       <div className={classes.container}>
         <div className={classes.headerBox}>
           <img src="/rp22-logo.png" alt="Reflections Projections Logo" className={classes.logo} />
-          <Typography className={classes.header}>September 20 - 25, 2022</Typography>
+          <Typography className={classes.header}>September 26 - 30, 2022</Typography>
         </div>
         <div className={classes.content}>
           <Typography className={classes.text}>
@@ -31,6 +31,5 @@ export default function About() {
         </div>
       </div>
     </>
-    // </Container>
   );
 }

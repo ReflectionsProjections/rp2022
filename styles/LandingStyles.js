@@ -47,7 +47,7 @@ const useStyles = makeStyles({
     "bgimg": {
         "margin": "-1px"
     },
-    
+   
     "backgroundRed": {
         "height": "100vh",
         "backgroundImage": "url('../public/resources/Grain.png')"
@@ -193,7 +193,7 @@ const useStyles = makeStyles({
         "height": "651.6px",
         "overflow": "visible",
         "backgroundImage": "url('../public/resources/Blue CurvePink_curve.svg')",
-        
+       
         "position": "relative"
     },
     "scheduleContent": {
@@ -291,6 +291,7 @@ const useStyles = makeStyles({
         "fontSize": "24px",
         "lineHeight": "36px",
         "letterSpacing": "0.3px",
+        "paddingRight": "90px",
         "color": "#000000",
 
         [`@media screen and (max-width: ${mobile})`]: {
@@ -308,8 +309,8 @@ const useStyles = makeStyles({
         "display": "flex",
         "flexDirection": "column",
         "alignItems": "flex-start",
-        "padding": "10px",
-        "marginTop": "25%",
+        "padding": "20px",
+        "marginTop": "15%",
         "gap": "48px",
         "width": "100%",
         "height": "auto",
@@ -386,4 +387,5 @@ const useStyles = makeStyles({
 
 }, { index: 1 });
 
-export { useStyles }
+export { useStyles };
+

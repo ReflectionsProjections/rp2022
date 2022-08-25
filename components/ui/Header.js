@@ -7,11 +7,12 @@ import { useStyles } from './HeaderStyles.js'
 export default function Header({ isHero }) {
     const classes = useStyles();
     const small_logo = '/rp_logo_2022_sm.png';
-    const small_logo_no_bg = '/rp_logo_2022_no_bg.png';
+    const red_curve = '/resources/red_curve.svg'
+
     const pagesData = [
         {
             label: 'About',
-            href: '/'
+            href: '/about'
         },
         {
             label: 'Schedule',
@@ -19,11 +20,11 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Speakers',
-            href: '/'
+            href: '/speakers'
         },
         {
             label: 'Sponsors',
-            href: '/sponsor.pdf'
+            href: '/sponsors'
         },
     ];
 
@@ -40,10 +41,11 @@ export default function Header({ isHero }) {
     return (
         <>
             <AppBar className={isHero ? classes.hero : classes.header}>
+                {!isHero && (<img src={red_curve} className={classes.curve} />)}
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
                         <Box>
-                            <Link href="#" passHref>
+                            <Link href="/" passHref>
                                 <a rel="noreferrer">
                                     <img src={small_logo} alt='2022 R|P Logo' className={classes.logo} />
                                 </a>
@@ -52,7 +54,7 @@ export default function Header({ isHero }) {
 
                         <Box className={classes.pages}>
                             {pagesData.map(({ label, href }) => (
-                                <Link href={href} passHref>
+                                <Link key={label} href={href} passHref>
                                     <a rel="noreferrer" className={classes.page}>
                                         <Typography>
                                             {label}
@@ -72,7 +74,7 @@ export default function Header({ isHero }) {
                                 className={classes.navButton}
                                 style={{ backgroundColor: '#41798C' }}
                                 disableElevation>
-                                Login
+                                Register
                             </Button>
 
                             <Button
@@ -80,7 +82,16 @@ export default function Header({ isHero }) {
                                 className={classes.navButton}
                                 style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', marginLeft: '10px' }}
                                 disableElevation>
-                                Contact Us
+                                <Link key="contact_us" href={"mailto:reflectionsprojections@gmail.com"} passHref>
+                                    <a rel="noreferrer" style={{
+                                        textDecoration: 'none',
+                                        color: '#fff'
+                                    }}>
+                                        <Typography>
+                                            Contact Us
+                                        </Typography>
+                                    </a>
+                                </Link>
                             </Button>
                         </Box>
 
@@ -114,7 +125,7 @@ export default function Header({ isHero }) {
                                 >
                                     {pagesData.map(({ label, href }) => (
                                         <MenuItem>
-                                            <Link href={href} passHref>
+                                            <Link key={label} href={href} passHref>
                                                 <a rel="noreferrer" style={{
                                                     textDecoration: 'none',
                                                     color: '#000'
@@ -126,9 +137,18 @@ export default function Header({ isHero }) {
                                             </Link>
                                         </MenuItem>
                                     ))}
-                                    {/*  
-                                    <MenuItem>Hello</MenuItem>
-                                    <MenuItem>Contact Us</MenuItem> */}
+
+                                    <MenuItem>Register</MenuItem>
+                                    <MenuItem>
+                                        <Link key="contact_us" href={"mailto:reflectionsprojections@gmail.com"} passHref>
+                                            <a rel="noreferrer" style={{
+                                                textDecoration: 'none',
+                                                color: '#000'
+                                            }}>
+                                                <Typography>Contact Us</Typography>
+                                            </a>
+                                        </Link>
+                                    </MenuItem>
                                 </Menu>
                             </Box>
                         </ClickAwayListener>
