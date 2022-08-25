@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import About from '../components/About';
 
-import styles from '../styles/Landing.module.scss';
-import { useStyles } from '../styles/LandingStyles.js'
-import useGetStaticData from '../services/useGetStaticData';
-import SponsorSection from '../components/SponsorSection.js';
 import { Button, Typography } from '@mui/material';
+import SponsorSection from '../components/SponsorSection.js';
+import Footer from '../components/ui/Footer';
 import Header from '../components/ui/Header';
-import Footer from '../components/ui/Footer'
-import Description from '../components/Description';
+import useGetStaticData from '../services/useGetStaticData';
+import styles from '../styles/Landing.module.scss';
+import { useStyles } from '../styles/LandingStyles.js';
+import Description from '../components/Description.js';
 
 export default function Index() {
   const classes = useStyles();
@@ -48,7 +48,7 @@ export default function Index() {
                 Reflections | Projections is a tech conference organized and run by students at the University of Illinois at Urbana-Champaign.
                 <br></br>
                 <br></br>
-                We draw students, speakers, and companies from around the world. Join us to listen to tech talks from across the industry, to participate in an Artificial Intelligence programming competition in Mechmania, to solve puzzles throughout the conference during PuzzleBang!, and to attend our job and startup fairs.
+                We draw students, speakers, and companies from around the world. Join us to listen to tech talks from across the industry, to participate in an Artificial Intelligence programming competition in Mechmania, to solve puzzles throughout the conference during PuzzleBang, and to attend our job and startup fairs.
                 <br></br>
                 <br></br>
                 The conference is free and open to anyone regardless of age, major, job, or affiliation with the University of Illinois. So come join a discussion led by some of the brightest minds in the business about the bleeding edge of the tech industry!

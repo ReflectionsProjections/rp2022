@@ -6,11 +6,12 @@ const mobile = '420px';
 
 const useStyles = makeStyles({
     curve: {
-        position: "fixed",
+        position: "absolute",
         width: "100%",
         height: 'auto',
         top: 0,
         left: 0,
+        zIndex: 0,
 
         [`@media (max-width: ${tablet})`]: {
             transform: "scale(1.25)"
@@ -22,9 +23,9 @@ const useStyles = makeStyles({
     },
 
     header: {
-        position: 'fixed',
+        position: 'absolute',
         width: '100%',
-        zIndex: 999,
+        zIndex: 5,
 
         display: 'flex',
         padding: '2rem',
