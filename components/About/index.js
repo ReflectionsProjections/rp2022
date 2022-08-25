@@ -204,14 +204,14 @@ const AboutPage = () => {
         <div className={styles.layer1}></div>
         <div className={styles.faqSection}>
           {/* Section 4 */}
-          <Box ml={'42.5vw'} mb={'86px'}>
+          <Box ml={'42.5vw'} mb={'66px'}>
             <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>FAQ</Typography>
           </Box>
 
           {/* Four buttons in a row */}
-          <Box ml={'20vw'} mt={'10px'}>
-            <Grid container wrap='wrap'>
-                <Grid item xs={1.55} wrap='wrap'>
+          <Box justifyContent='center' ml={'16vw'} mr={'27vw'}>
+            <Grid container justify="space-around" justifyContent="center" spacing={2}>
+                <Grid item>
                   <Button
                     variant="outlined"
                     sx={{
@@ -220,7 +220,7 @@ const AboutPage = () => {
                     onClick={() => {setFaqSection("General")}}
                     >General</Button>
                 </Grid>
-                <Grid item xs={2.5} wrap='wrap'>
+                <Grid item>
                   <Button
                     variant="outlined"
                     sx={{
@@ -229,7 +229,7 @@ const AboutPage = () => {
                     onClick={() => {setFaqSection("Conference Format")}}
                     >Conference Format</Button>
                 </Grid>
-                <Grid item xs={1.7} wrap='wrap'>
+                <Grid item>
                   <Button 
                     variant="outlined"
                     sx={{
@@ -238,7 +238,7 @@ const AboutPage = () => {
                     onClick={() => {setFaqSection("Mechmania")}}
                     >MechMania</Button>
                 </Grid>
-                <Grid item xs={1.8} wrap='wrap'>
+                <Grid item>
                   <Button variant="outlined"
                     sx={{
                       borderRadius: "50px",
