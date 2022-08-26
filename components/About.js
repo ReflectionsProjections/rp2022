@@ -23,6 +23,7 @@ export default function About() {
 
 
           <Button variant='contained'
+            href="https://forms.gle/58NF85zHMjhj3nGR6" target="_blank"
             className={classes.button}
             style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', disabled: true }}>
             Register
