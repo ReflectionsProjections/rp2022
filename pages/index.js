@@ -109,7 +109,7 @@ export default function Index() {
           </div>
         </div>
 
-
+        <span className={classes.anchor} id="sponsors"></span>
         <SponsorSection sponsors={sponsors} />
 
 

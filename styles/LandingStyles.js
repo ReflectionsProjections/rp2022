@@ -383,7 +383,12 @@ const useStyles = makeStyles({
             "line-height": "150%",
             "text-align": "center",
         }
-    }
+    },
+
+    anchor: {
+        position: "absolute",
+        transform: "translateY(-3vh)",
+    },
 
 }, { index: 1 });
 
