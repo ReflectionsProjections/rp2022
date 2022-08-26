@@ -21,18 +21,19 @@ export default function About() {
             Register for the event!
           </Typography>
 
-          <Link key="register_description" href={"https://docs.google.com/forms/d/e/1FAIpQLScwJ8LUYJEkTLZSNS7uGVm63E-hrQH2Snqocp2zUcWuS8dF2w/viewform"} passHref>
+          {/* <Link key="register_description" href={"https://docs.google.com/forms/d/e/1FAIpQLScwJ8LUYJEkTLZSNS7uGVm63E-hrQH2Snqocp2zUcWuS8dF2w/viewform"} passHref>
             <a rel="noreferrer" style={{
                 textDecoration: 'none',
                 color: '#fff'
-            }}>
+            }}> */}
               <Button variant='contained'
+                href="https://forms.gle/58NF85zHMjhj3nGR6" target="_blank"
                 className={classes.button}
                 style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', disabled: true }}>
                 Register
               </Button>
-            </a>
-          </Link>
+            {/* </a> */}
+          {/* </Link> */}
         </div>
       </div>
     </>
