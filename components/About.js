@@ -1,7 +1,6 @@
+import { Button, Link, Typography } from '@mui/material';
 import React from 'react';
-import { Button, Typography } from '@mui/material';
-import { useStyles } from './AboutStyles.js'
-import { StylesContext } from '@mui/styles';
+import { useStyles } from './AboutStyles.js';
 
 export default function About() {
   const classes = useStyles();
@@ -22,12 +21,18 @@ export default function About() {
             Register for the event!
           </Typography>
 
-
-          <Button variant='contained'
-            className={classes.button}
-            style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', disabled: true }}>
-            Register
-          </Button>
+          <Link key="register_description" href={"https://docs.google.com/forms/d/e/1FAIpQLScwJ8LUYJEkTLZSNS7uGVm63E-hrQH2Snqocp2zUcWuS8dF2w/viewform"} passHref>
+            <a rel="noreferrer" style={{
+                textDecoration: 'none',
+                color: '#fff'
+            }}>
+              <Button variant='contained'
+                className={classes.button}
+                style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', disabled: true }}>
+                Register
+              </Button>
+            </a>
+          </Link>
         </div>
       </div>
     </>
