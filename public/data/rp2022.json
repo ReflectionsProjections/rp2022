@@ -495,38 +495,72 @@
         {
             "key": 0,
             "name": "Qualcomm",
+            "bio": "Qualcomm enables a world where everyone and everything can be intelligently connected.\nAs the world's leading wireless tech innovator, we push the boundaries of what's possible to enable next-gen experiences and drive digital transformation to help create a smarter, connected future for all. Our roadmap of breakthrough technologies expands our mobile innovations and solutions to support virtually every connected device. With our leadership in wireless connectivity, high-performance, low-power computing, and on-device AI, we’re powering the connected intelligent edge.\nQualcomm is an American multinational corporation headquartered in San Diego, California, and incorporated in Delaware. It creates semiconductors, software, and services related to wireless technology. It owns patents critical to the 5G, 4G, CDMA2000, TD-SCDMA and WCDMA mobile communications standards.",
             "img": "/resources/qc_logo_flt_rgb_blu_pos (2).png",
             "website": "https://www.qualcomm.com/"
         },
         {
             "key": 1,
             "name": "Caterpillar",
+            "bio": "At Caterpillar, you build what matters-whether it's the career you want, crucial work skills, strong relationships or new digital technologies. There are big jobs to be done worldwide-building critical infrastructure, bolstering local economies, meeting the demand for energy-and that work is powered by our people.\nSince 1925, we've been driving sustainable progress and helping customers build a better world through innovative products and services.\nWith 2021 sales and revenues of $51.0 billion, Caterpillar Inc. is the world’s leading manufacturer of construction and mining equipment, off-highway diesel and natural gas engines, industrial gas turbines and diesel-electric locomotives.",
             "img": "/resources/Caterpillar Logo - Angela Middleton.png",
             "website": "https://www.caterpillar.com/"
         },
         {
             "key": 2,
             "name": "Uber",
+            "bio": "Uber - We reimagine the way the world moves for the better.",
             "img": "/resources/Uber_Logo_Black_RGB - Ricardo Luna.png",
-            "website": "https://www.uber.com/"
+            "website": "https://www.uber.com/us/en/about/"
         },
         {
             "key": 3,
             "name": "Verkada",
+            "bio": "Verkada is the leader in cloud-managed enterprise building security, enabling over 12,000 organizations worldwide to protect their people, assets and privacy. Designed with simplicity in mind, Verkada’s five product lines - video security cameras, door-based access control, environmental sensors, alarms and visitor management - provide unparalleled visibility through a single secure cloud-based software platform.",
             "img": "/resources/Verkada-Logo-Horiz-Black-RGB (1) - Alex Huynh.png",
             "website": "https://www.verkada.com/"
         },
         {
             "key": 4,
             "name": "Visa",
+            "bio": "We’re on a mission to give everyone a chance at financial success. As a global team of passionate technologists and payment professionals, we are guided by one idea: to be a force of good that advances inclusive, sustainable and equitable growth for individuals, communities, and economies around the world.",
             "img": "/resources/Visa_Brandmark_Blue_RGB_72ppi (1) - Kai Armstrong.png",
             "website": "https://www.visa.com/"
         },
         {   
             "key": 5,
             "name": "Databricks",
+            "bio": "Databricks is the data and AI company. More than 5,000 organizations worldwide — including Comcast, Condé Nast, H&M, and over 40% of the Fortune 500 — rely on the Databricks Lakehouse Platform to unify their data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe. Founded by the original creators of Apache Spark™, Delta Lake and MLflow, Databricks is on a mission to help data teams solve the world’s toughest problems. To learn more, follow Databricks on Twitter, LinkedIn and Facebook.",
             "img": "/resources/DAT_Small_Scale_Lock_up_Full_Color@2x - Katie Tenboer.png",
             "website": "https://www.databricks.com/"
+        },
+        {   
+            "key": 6,
+            "name": "Aechelon Technology",
+            "bio": "Aechelon Technology is a leading developer of real-time interactive 3D graphics for flight simulation. Headquartered in San Francisco, with offices in Kansas City and Orlando, we model the Earth with ever-increasing detail and render the environment at rates as high as 240 fps. Aechelon provides opportunities for CS and CompE students to practice the art and science of realtime rendering and to develop high-performance GPU computing algorithms.",
+            "img": "/resources/AELOGO - David Morgan.jpg",
+            "website": "https://aechelon.com/"
+        },
+        {   
+            "key": 7,
+            "name": "Cloudflare",
+            "bio": "Cloudflare, Inc. (www.cloudflare.com / @cloudflare) is on a mission to help build a better Internet. Cloudflare’s suite of products protect and accelerate any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare have all web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures 2018 list and ranked among the World’s Most Innovative Companies by Fast Company in 2019. Headquartered in San Francisco, CA, Cloudflare has offices in Austin, TX, Champaign, IL, New York, NY, San Jose, CA, Seattle, WA, Washington, D.C., Toronto, Dubai, Lisbon, London, Munich, Paris, Beijing, Singapore, Sydney, and Tokyo.",
+            "img": "/resources/CF_logo_stacked_blktype - Judy Cheong.png",
+            "website": "https://www.cloudflare.com/"
+        },
+        {   
+            "key": 8,
+            "name": "Sandia National Laboratories",
+            "bio": "For over 60 years, Sandia has delivered essential science and technology to resolve the nation's most challenging security issues. A strong science, technology, and engineering foundation enables our mission through a capable research staff working at the forefront of innovation, collaborative research with universities & companies, and discretionary research projects with significant potential impact. In keeping with our vision to be the nation's premier science and engineering laboratory for national security and technology innovation, we recruit the best and the brightest, equip them with world-class research tools & facilities, and provide opportunities to collaborate with technical experts from many different scientific disciplines.",
+            "img": "/resources/SNL_Stacked_Black_Blue - Nicole Streu.jpg",
+            "website": "https://www.sandia.gov/"
+        },
+        {   
+            "key": 9,
+            "name": "Ocient",
+            "bio": "The Ocient Hyperscale Data Warehouse transforms and loads data in seconds, enables organizations to store and analyze more data, and executes queries on hyperscale datasets up to 50x faster.",
+            "img": "/resources/OCIENT LOGO full (1) - Jamie Beehn.png",
+            "website": "https://ocient.com/"
         }
     ]
 }
