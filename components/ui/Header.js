@@ -69,37 +69,37 @@ export default function Header({ isHero }) {
                             justifyContent="space-between"
                             alignItems="center"
                             className={classes.navButtons}>
-                            <Link key="register_header" href={"https://docs.google.com/forms/d/e/1FAIpQLScwJ8LUYJEkTLZSNS7uGVm63E-hrQH2Snqocp2zUcWuS8dF2w/viewform"} passHref>
+                            <Link key="register_header" href={"https://docs.google.com/forms/d/e/1FAIpQLScwJ8LUYJEkTLZSNS7uGVm63E-hrQH2Snqocp2zUcWuS8dF2w/viewform"} target="_blank" passHref>
                                 <a rel="noreferrer" style={{
                                     textDecoration: 'none',
                                     color: '#fff'
                                 }}>
-                                <Button
-                                    variant='contained'
-                                    className={classes.navButton}
-                                    style={{ backgroundColor: '#41798C' }}
-                                    disableElevation>
-                                            <Typography>
-                                                Register
-                                            </Typography>
-                                        
-                                </Button>
+                                    <Button
+                                        variant='contained'
+                                        className={classes.navButton}
+                                        style={{ backgroundColor: '#41798C' }}
+                                        disableElevation>
+                                        <Typography>
+                                            Register
+                                        </Typography>
+
+                                    </Button>
                                 </a>
                             </Link>
                             <Link key="contact_us" href={"mailto:reflectionsprojections@gmail.com"} passHref>
-                                    <a rel="noreferrer" style={{
-                                        textDecoration: 'none',
-                                        color: '#fff'
-                                    }}>
-                                <Button
-                                    variant='contained'
-                                    className={classes.navButton}
-                                    style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', marginLeft: '10px' }}
-                                    disableElevation>
-                                            <Typography>
-                                                Contact Us
-                                            </Typography>
-                                </Button>
+                                <a rel="noreferrer" style={{
+                                    textDecoration: 'none',
+                                    color: '#fff'
+                                }}>
+                                    <Button
+                                        variant='contained'
+                                        className={classes.navButton}
+                                        style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', marginLeft: '10px' }}
+                                        disableElevation>
+                                        <Typography>
+                                            Contact Us
+                                        </Typography>
+                                    </Button>
                                 </a>
                             </Link>
                         </Box>
@@ -147,7 +147,16 @@ export default function Header({ isHero }) {
                                         </MenuItem>
                                     ))}
 
-                                    <MenuItem>Register</MenuItem>
+                                    <MenuItem>
+                                        <Link key="register" href={"https://docs.google.com/forms/d/e/1FAIpQLScwJ8LUYJEkTLZSNS7uGVm63E-hrQH2Snqocp2zUcWuS8dF2w/viewform"} target="_blank" passHref>
+                                            <a rel="noreferrer" style={{
+                                                textDecoration: 'none',
+                                                color: '#000'
+                                            }}>
+                                                <Typography>Register</Typography>
+                                            </a>
+                                        </Link>
+                                    </MenuItem>
                                     <MenuItem>
                                         <Link key="contact_us" href={"mailto:reflectionsprojections@gmail.com"} passHref>
                                             <a rel="noreferrer" style={{
