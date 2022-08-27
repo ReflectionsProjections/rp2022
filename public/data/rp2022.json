@@ -1,96 +1,50 @@
 {
-    "speakerSection": [
-        {
-            "name": "Gregg Vanderheiden",
-            "tagline": "Ph.D.",
-            "description": "<p>Dr. Vanderheiden is the Director of the Trace R&D Center and Professor in the College of Information Studies at the University of Maryland. He has been a long-time leader in the area of web accessibility, creating the first set of Web Accessibility guidelines in 1995 and serving as co-editor and co-chairing the WCAG Working Group from its inception through 2013.</p>",
-            "image": "/headshots/GreggVanderheiden.jpeg"
-        },
-        {
-            "name": "Becca Blais",
-            "tagline": "CEO and Executive Director of Bluebonnet Data",
-            "description": "<p>Becca Blais got her start in policy through Notre Dame (Political Science and Peace Studies) student advocacy, where she served as Student Body Vice President and later Student Body President. She is a 2017 Truman Scholar and the Co-Founder and Executive Director of Bluebonnet Data, a nonprofit that is recruiting and training the next generation of data-savvy leaders in the progressive movement.</p>",
-            "image": "/headshots/BeccaBlais.jpg"
-        },
-        {
-            "name": "Aedan Lombardo",
-            "tagline": "Data Director of Bluebonnet Data",
-            "description": "<p>Aedan Lombardo is Data Director of Bluebonnet Data, a nonprofit focused on recruiting and training the next generation of data-savvy leaders in the progressive movement. As Data Director, Aedan leads Bluebonnet's internal research initiatives and provides guidance to fellows on how to best leverage data for their campaign or cause. He graduated from Yale University in 2020 with a BA in Statistics & Data Science and prior to joining Bluebonnet as Data Director he volunteered as a Data Fellow on campaigns for municipal, state legislative, and statewide offices. He now resides in New York's Hudson Valley.</p>",
-            "image": "/headshots/AedanLombardo.jpg"
-        },
-        {
-            "name": "Yong Dich (Emily)",
-            "tagline": "Board Member and Previous Technology/Infrastructure Intern at Bluebonnet Data",
-            "description": "<p>Yong Dich is a 2020 graduate of Harvard University, where she studied Computer Science and Folklore and Mythology. She is currently on the board of Bluebonnet Data and a software engineer with the US Census in the Economics directorate via Reveal Global. After software engineering experiences in private sector, she found her entry into civic technology through the Civic Digital Fellowship by Coding it Forward and was placed with the US Census. Her interest in the intersection of technology and social impact started through her time with undergraduate computer science & education research, Shelter Hacks, WiCS, and Tech for Social Good at Harvard as well as through external opportunities such as Impact Fellowship and Bluebonnet Data. She loves reading, podcasts, traveling, learning fun facts, tea, and corny jokes.</p>",
-            "image": "/logo.png"
-        },
-        {
-            "name": "Cindy Cohn",
-            "tagline": "Executive Director of the Electronic Frontier Foundation",
-            "description": "<p>From 2000-2015 she served as EFF’s Legal Director as well as its General Counsel where she served as lead attorney in Bernstein v. Dept. of Justice, the successful First Amendment challenge to the U.S. export restrictions on cryptography. Among other honors, Ms. Cohn was named to TheNonProfitTimes 2020 Power & Influence TOP 50 list, and in 2018, Forbes included Ms. Cohn as one of America's Top 50 Women in Tech.</p>",
-            "image": "/headshots/CindyCohn.jpg"
-        },
-        {
-            "name": "David Gadsden",
-            "tagline": "Director of Conservation Solutions at Esri",
-            "description": "<p>David Gadsden, Esri’s Director of Conservation Solutions, is an applied geographer with more than two decades of experience applying geospatial technology to address complex humanitarian and conservation challenges. Gadsden earned a geography degree from the University of Washington in 1995 and later served as a US Peace Corps volunteer in rural Tanzania, working on community-based natural resource management. In his early career he architected and implemented GIS solutions to address environmental, social, public safety, emergency response and construction engineering challenges while working for both commercial and nonprofit organizations. In 2002, Gadsden joined Esri, where he initially served as a technical advisor to the United Nations, US Department of State, and USAID. He has helped a diverse community leverage the “Science of Where” to address complex challenges ranging from global health, disaster response, wildlife protection, green infrastructure, tribal governance, historic preservation and community development.</p",
-            "image": "/headshots/DavidGadsden.jpg"
-        },
-        {
-            "name": "Kalika Bali",
-            "tagline": "Principal Researcher at Microsoft Research",
-            "description": "<p>Kalika Bali is a Principal Researcher at Microsoft Research India working broadly in the area of Speech and Language Technology especially in the use of linguistic models for building technology that offers a more natural Human-Computer as well as Computer-Mediated interactions, and technology for Low Resource Languages. She has been working in the field of Speech and Natural Language Processing for over two decades and believes that local language technology, especially with speech interfaces, can help millions of people gain entry into a world that is till now almost inaccessible to them. </p>",
-            "image": "/headshots/KalikaBali.jpg"
-        },
-        {
-            "name": "Lili Gangas",
-            "tagline": "Chief Technology Community Officer",
-            "description": "<p>Lili Gangas is the Chief Technology Community Officer at the Kapor Center working to create new and more inclusive tech innovation ecosystems regionally & nationally. Her work is centered at the intersection of racial justice,  technology, and action driven partnerships to tackle pressing social and economic inequities of underrepresented communities.  Her areas of focus and interest include tech advocacy themes such as closing the Digital Divide, Future of Work(ers), Responsible Technology, and Ecosystem Building as they relate to new models with cross sector partners. Lili believes that it is critical that we help prepare and upskill communities of color for the future and encourage going beyond being consumers to also being creators and owners. She was a New America CA fellow focused on Tech for Good, was recognized as SF Business Times Most Influential Women in Business and SF Business Times 40 Under 40, and is an MBA lecturer at Mills College.  Lili was recently a featured Salesforce Dreamforce and TEDxOakland speaker.   <br> Before coming to the Kapor Center, Lili was an Associate Principal at Accenture Technology Lab’s Open Innovation team, based out of Silicon Valley,focused on partnerships and programming to connect startups to Fortune 500 clients. She was also a founding member of the Innovation Services team at Booz Allen specializing in crowdsourcing, prize challenges, and open data solutions at the federal level. Before that, Lili could be found in the lab working on software and hardware solutions for the aerospace industry as a Senior Multi-Disciplined Software Engineer at Raytheon Space and Airborne Systems. She is an advisor to tech focused nonprofits such as AI-4-All.org as well as community investing organizations such as The Unity Council and Pacific Community Ventures.  Lili holds an MBA from New York University Stern School of Business, a B.S. in Electrical Engineering from the University of Southern California.  </p>",
-            "image": "headshots/LiliGangas.jpeg"
-        },
-        {
-            "name": "MJ Chun",
-            "tagline": "Head of Product at Serve Robotics, Co-founder",
-            "description": "<p>MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. MJ Chun is Cofounder and Head of Product at Serve Robotics, a maker of sidewalk delivery robots recently spun off from Uber. Serve is on a mission to shape the future of self-driving delivery and their fleet has completed tens of thousands of contactless deliveries in major U.S. cities.<br>MJ has spent the past 17 years developing tech products that delight users, ranging from connected devices and family robots (Anki), ecommerce marketplaces (BigCommerce), to best-selling video games and streaming services (EA). <br>MJ was an English Major and Public Policy Minor at Swarthmore College who originally thought she would work in health policy after graduation. It is still not clear to her parents what she does for work. She lives in San Francisco with her husband and two-year-old, and enjoys thinking about, cooking, and eating food. ",
-            "image": "/headshots/MJChun.png"
-        },
-        {
-            "name": "Dr. Safiya Noble",
-            "tagline": "Associate Professor, UCLA",
-            "description": "<p>Dr. Safiya U. Noble is an Associate Professor of Gender Studies and African American Studies at the University of California, Los Angeles (UCLA) where she serves as the Co-Founder and Director of the UCLA Center for Critical Internet Inquiry (C2i2). She holds affiliations in the School of Education & Information Studies, and is a Research Associate at the Oxford Internet Institute at the University of Oxford where she is a Commissioner on the Oxford Commission on AI & Good Governance (OxCAIGG). Dr. Noble is a board member of the Cyber Civil Rights Initiative, serving those vulnerable to online harassment. She is the author of a best-selling book on racist and sexist algorithmic bias in commercial search engines, entitled Algorithms of Oppression: How Search Engines Reinforce Racism (NYU Press), which has been widely-reviewed in scholarly and popular publications.</p>",
-            "image": "headshots/SafiyaNoble.jpg"
-        },
-        {
-            "name": "Sam Liang",
-            "tagline": "Founder and CEO, Otter.ai",
-            "description": "<p>Sam Liang is the Founder and CEO of <a href='https://otter.ai'>Otter.ai</a>, based in Silicon Valley. Otter.ai builds products to improve team collaboration, engagement, and productivity. Sam got his Ph.D in EE from Stanford University, specializing in large scale distributed Internet systems.</p>",
-            "image": "/headshots/SamHigh.jpg"
-        },
-        {
-            "name": "Chris Brust",
-            "tagline": "Staff Engineer at Duolingo",
-            "description": "<p>Chris Brust is a staff machine learning engineer at Duolingo, the world's largest language-learning platform. Over the past four years, he has been a principal architect of the 'Birdbrain' ML system, which learns from half a billion exercises completed by Duolingo learners every day and is used in nearly every lesson and practice session to tailor content to the learner; he has also worked on our proprietary analytics and A/B testing systems, and has co-organized two shared tasks. He is currently a co-lead of the Learning AI Lab, a team that develops AI technology to improve the way we teach. Prior to Duolingo, Chris was a postdoc at the Perimeter Institute for Theoretical Physics and earned a Ph.D. in Physics from Johns Hopkins University.</p>",
-            "image": "/headshots/ChrisBrust.png"
-        },
-        {
-            "name": "Tyler Menezes",
-            "tagline": "Executive Director at CodeDay",
-            "description": "<p>Tyler Menezes is the Executive Director at CodeDay, where he works to provide welcoming and diverse opportunities for under-served students to explore a future in tech and beyond. He briefly studied at University of Washington, combined with stints working in machine learning at Microsoft Research and as a programmer at several Seattle startups, led to his work finding data-driven solutions to increasing CS diversity and enrollment since 2014.<p>",
-            "image": "/headshots/TylerMenezes.jpg"
-        },
-        {
-            "name": "Dr. D. Sivakumar",
-            "tagline": "Co-founder & CEO, Tonita, Inc.",
-            "description": "<p>D. Sivakumar is a computer scientist whose work has included solving deep theoretical problems in computing to building cutting-edge applications of CS and AI.  His career -- as an academic, a researcher, an engineer, and in research leadership -- spans 25 years, the bulk of which was spent at IBM Almaden Research Center and Google, where he was most recently a Research Director.  His recent adventure is in starting a company that aims to reimagine Search by innovative advances in natural language understanding.</p>",
-            "image": "/headshots/DandapaniSivakumar.jpeg"
-        },
-        {
-            "name": "Jim Fruchterman",
-            "tagline": "CEO, Tech Matters",
-            "description": "<p>Jim Fruchterman is a leading social entrepreneur, a MacArthur Fellow, a recipient of the Skoll Award for Social Entrepreneurship, and a Distinguished Alumnus of Caltech. His life’s work is applying technology to benefit the 95% of humanity typically neglected by for-profit tech companies. </p>",
-            "image": "/headshots/JimFruchterman.jpg"
-        }
-    ],
+    "speakerSection": {
+        "list": [
+            {
+                "name": "Rashmi Kumar",
+                "tagline": "Senior Vice President and Chief Information Officer (CIO) for Hewlett Packard Enterprise",
+                "bio": "In this role, Rashmi is propelling HPE’s digital transformation forward to be the edge-to-cloud platform as-a-service company. Focused on building the necessary capabilities to position the Global IT organization for the future, Rashmi is reengineering the organization to deliver optimum performance aligned to the business operating model and executing a winning strategy that ensures best-in-class partnership and support for the business. In addition to building world-class IT capabilities, Rashmi is passionate about promoting diversity and equity in the workplace. Prior to her roles at HPE, Rashmi has more than 25 years of experience serving in CIO and CTO roles for many Fortune 50 companies like McKesson, Southern California Edison, Toyota, and Tata Steel. Rashmi's primary areas of expertise include Digital Transformation, Al/ML, Data & Analytics, Enterprise Architecture, strategic planning, and large scale business process Transformations.  Additionally, Rashmi was recently named 2021 Houston CIO of the Year - Super Global, and she is a 2021 HMG Global Leadership Institute Award recipient.",
+                "image": "/headshots/RashmiKumar.jpg"
+            },
+            {
+                "name": "Keith Garner",
+                "tagline": "Director of Engineering at Instructure",
+                "bio": "Keith Garner is a Director of Engineering at Instructure, the makers of Canvas. He has over 25 years of varied industry experience including consulting, software engineering, system administration, and leadership. For the past 7 years, he has worked on and with Canvas software engineering teams helping to improve the educational experience for teachers and students. During his time as a student at the University of Illinois, he was a member of ACM@UIUC and chairperson of the Linux Users' Group SIG. When he's not in meetings or working on personal code projects, you can find him biking, camping with his Scouts BSA Troop, enjoying craft beer, and being a proud husband and father/Illinois Dad.",
+                "image": "/headshots/KeithGarner.jpg"
+            },
+            {
+                "name": "Aishwarya Srinivasan",
+                "tagline": "Data Scientist in the Google Cloud AI Services",
+                "bio": "Aishwarya is the founder of Illuminate AI, first of its kind non-profit organization for providing resources and mentorship for people who want to build their career in the field of AI. She is an advocate for open-source technologies, presently an open source Developer Advocate for Deepchecks; previously a developer advocate for PyTorch Lightning and a contributor to Scikit Learn. She holds a post-graduate in Data Science from Columbia University. She is an ambassador for the Women in Data Science community, originating from Stanford University. She has over 350,000 followers on LinkedIn and actively organizes events and conferences to inspire budding data scientists. She has been spotlighted as a LinkedIn Top Voice 2020 for Data Science and AI, which features Top 10 Machine Learning influencers across the world.",
+                "image": "/headshots/AIshwaryaSrinivasan.jpg"
+            },
+            {
+                "name": "Jeetu Patel",
+                "tagline": "Cisco’s Executive Vice President and General Manager of Security and Collaboration",
+                "bio": "Jeetu Patel leverages a diverse set of capabilities to lead the strategy and development for these businesses and also owns P&L responsibility for this multibillion-dollar portfolio. Jeetu combines a bold vision, steeped in product design and development expertise, operational rigor and innate market understanding to create high growth Software as a Service (SaaS) businesses. A member of the Executive Leadership Team, Jeetu is helping to redefine Cisco's SaaS business and strategy to further accelerate the company's transformation and growth. His mission is to build world class, subscription-based products that solve Cisco customers’ biggest problems. His team is creating and designing meaningfully differentiated products that diverge in the way they’re conceived, built, priced, packaged and sold. Prior to joining Cisco, Jeetu was Chief Product Officer and Chief Strategy Officer at Box, GM and Chief Executive of EMC’s Syncplicity business unit, and President of Doculabs. He graduated from the University of Illinois, Chicago and lives in the San Francisco Bay Area with his family.",
+                "image": "/headshots/JeetuPatel.jpg"
+            },
+            {
+                "name": "Ken Turkowski",
+                "tagline": "Master’s at U.Cal. Berkeley and currently at NVIDIA",
+                "bio": "After earning a BS in electrical engineering at U. Ill. @ Urbana-Champaign, Ken Turkowski has been involved in visual computing starting with his master’s thesis at U.Cal. Berkeley, where he designed and constructed a processor organized for interactive graphics collaboration over telephone landlines. He continued to design graphics processors at Ampex and CADLINC, but also started writing image processing, computer vision, robotic simulation and geometric modeling software. At Apple, he was the technical director for Pencil Test, the first SIGGRAPH movie modeled, animated and rendered on a distributed network of Macintoshes. Also at Apple, he contributed to scalable fonts, 2D and 3D rendering, video processing and compression, panoramic software and computer vision. At Adobe, he developed GPU-accelerated image processing, and at Google, he made significant contributions to Streetview panoramas and satellite imagery stitching. At Kinoma and Marvell, he developed CPU & GPU software for interactive graphics and video on mobile devices. He also worked several years as a contractor, with VR headsets, panoramas, semiconductor manufacturing inspection, robotic surgery, MPORPGs, and printers. Currently at NVIDIA, he has written software for stereo panorama video, robotic vision, visualization for automobiles, neural network pre- and post-processing, broadcast effects, augmented reality, animation and avatar control.",
+                "image": "/headshots/KenTurkowski.jpeg"
+            },
+            {
+                "name": "Todd Little",
+                "tagline": "Chief Architect for Oracle Tuxedo",
+                "bio": "Todd is the Chief Architect for Oracle Tuxedo, the leading distributed transaction processing monitor. He is responsible for defining the technical strategy and direction for the Tuxedo product family. Todd is also an Architect for the Oracle Blockchain Platform that was released in July of 2018. He is responsible for overall architecture and security for the service. He has participated in the Hyperledger Privacy and Confidentiality Working Group and the Hyperledger Performance and Scale Working Group. Most recently Todd is the Chief Architect for the upcoming Oracle Transaction Manager for Microservices, a microservices based distributed transaction monitor supporting a variety of transaction models and languages. During his more than 40 years of software architecture and development experience, Todd has received 39 patents and has another 8 in process.",
+                "image": "/headshots/ToddLittle.jpg"
+            },
+            {
+                "name": "Shravan Goli",
+                "tagline": "Coursera's Chief Product Officer and Head of Consumer Revenue",
+                "bio": "Shravan Goli is Coursera's Chief Product Officer and Head of Consumer Revenue. Before joining Coursera, Shravan was at DHI Group Inc. where he initially served as President of Dice, a tech job marketplace, and successfully led the growth strategy and operations for Dice, Dice International, ClearanceJobs, and Slashdot Media. Before that, Shravan served as President and Chief Executive Officer of Dictionary.com where he sparked impressive growth through product innovation. Previously, Shravan was GM for Social Media Business at Slide, Inc. and at Yahoo!, he served as GM for Yahoo! Video and as Head of Products for Yahoo! Finance. Earlier in his career, Shravan was at Microsoft where he started out as an early member of the MSN.com team and led the launch of several MSN services and subsequently held roles in the home and entertainment division. In addition, he was a co-founder of Corners.in, a content-centric social networking service. Shravan holds an M.B.A. from the University of Washington and an M.S. in Computer Science from the University of Maryland.",
+                "image": "/headshots/ShravanGoli.jpg"
+            }
+        ]
+    },
     "projectSection": [
         {
             "name": "Machine Learning",
@@ -522,7 +476,7 @@
             "img": "/resources/Visa_Brandmark_Blue_RGB_72ppi (1) - Kai Armstrong.png",
             "website": "https://www.visa.com/"
         },
-        {   
+        {
             "key": 5,
             "name": "Databricks",
             "img": "/resources/DAT_Small_Scale_Lock_up_Full_Color@2x - Katie Tenboer.png",

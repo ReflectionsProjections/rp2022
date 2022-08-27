@@ -1,6 +1,7 @@
 import Speaker from '../components/Speaker';
 import { Element } from 'react-scroll';
 // import Nav from '../components/ui/Nav';
+import Header from '../components/ui/Header';
 import useGetStaticData from '../services/useGetStaticData';
 import Head from 'next/head';
 
@@ -27,7 +28,13 @@ export default function Speakers() {
           rel="stylesheet"
         />
       </Head>
-      {/*<Nav />*/}
+      <Header isHero={false}/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       {isLoaded && (
         <Element name="speakers">
           {<Speaker speakers={speakerSection.list} />}
