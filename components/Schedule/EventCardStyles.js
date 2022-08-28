@@ -16,7 +16,7 @@ const useStyles = makeStyles({
 
         [`@media (max-width: ${mobile})`]: {
             width: "100%",
-            height: "185px",
+            height: "140px",
             gap: "20px",
         },
 
@@ -40,6 +40,10 @@ const useStyles = makeStyles({
         gap: '22px',
         top: '30px',
         left: '22px',
+
+        [`@media (max-width: ${mobile})`]: {
+            top: "15px"
+        },
     },
 
     time: {
@@ -95,7 +99,8 @@ const useStyles = makeStyles({
         top: "99px",
 
         [`@media (max-width: ${mobile})`]: {
-            top: "80px"
+            top: "50px",
+            left: "70px",
         },
 
         zIndex: 2

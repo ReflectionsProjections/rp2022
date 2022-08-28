@@ -14,6 +14,7 @@ export default function Index() {
   const classes = useStyles();
   const { rpData } = useGetStaticData();
   const { sponsors } = rpData;
+  const grain = "/resources/Grain.png";
 
   return (
     <>
@@ -109,7 +110,7 @@ export default function Index() {
           </div>
         </div>
 
-
+        <span className={classes.anchor} id="sponsors"></span>
         <SponsorSection sponsors={sponsors} />
 
 

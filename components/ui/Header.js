@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { AppBar, Toolbar, Typography, Button, Grid, Box, Container, Menu, MenuItem, IconButton, ClickAwayListener } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { useStyles } from './HeaderStyles.js'
+import { AppBar, Box, Button, ClickAwayListener, Container, IconButton, Menu, MenuItem, Toolbar, Typography } from '@mui/material';
+import Link from 'next/link';
+import React, { useState } from 'react';
+import { useStyles } from './HeaderStyles.js';
 
 export default function Header({ isHero }) {
     const classes = useStyles();
@@ -24,7 +24,7 @@ export default function Header({ isHero }) {
         },
         {
             label: 'Sponsors',
-            href: '/sponsors'
+            href: '/#sponsors'
         },
     ];
 
@@ -69,30 +69,39 @@ export default function Header({ isHero }) {
                             justifyContent="space-between"
                             alignItems="center"
                             className={classes.navButtons}>
-                            <Button
-                                variant='contained'
-                                className={classes.navButton}
-                                style={{ backgroundColor: '#41798C' }}
-                                disableElevation>
-                                Register
-                            </Button>
+                            <Link key="register_header" href={"https://docs.google.com/forms/d/e/1FAIpQLScwJ8LUYJEkTLZSNS7uGVm63E-hrQH2Snqocp2zUcWuS8dF2w/viewform"} target="_blank" passHref>
+                                <a rel="noreferrer" style={{
+                                    textDecoration: 'none',
+                                    color: '#fff'
+                                }}>
+                                    <Button
+                                        variant='contained'
+                                        className={classes.navButton}
+                                        style={{ backgroundColor: '#41798C' }}
+                                        disableElevation>
+                                        <Typography>
+                                            Register
+                                        </Typography>
 
-                            <Button
-                                variant='contained'
-                                className={classes.navButton}
-                                style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', marginLeft: '10px' }}
-                                disableElevation>
-                                <Link key="contact_us" href={"mailto:reflectionsprojections@gmail.com"} passHref>
-                                    <a rel="noreferrer" style={{
-                                        textDecoration: 'none',
-                                        color: '#fff'
-                                    }}>
+                                    </Button>
+                                </a>
+                            </Link>
+                            <Link key="contact_us" href={"mailto:reflectionsprojections@gmail.com"} passHref>
+                                <a rel="noreferrer" style={{
+                                    textDecoration: 'none',
+                                    color: '#fff'
+                                }}>
+                                    <Button
+                                        variant='contained'
+                                        className={classes.navButton}
+                                        style={{ backgroundColor: 'transparent', border: '2px solid #FFFFFF', marginLeft: '10px' }}
+                                        disableElevation>
                                         <Typography>
                                             Contact Us
                                         </Typography>
-                                    </a>
-                                </Link>
-                            </Button>
+                                    </Button>
+                                </a>
+                            </Link>
                         </Box>
 
                         <ClickAwayListener onClickAway={handleCloseMenu}>
@@ -138,7 +147,16 @@ export default function Header({ isHero }) {
                                         </MenuItem>
                                     ))}
 
-                                    <MenuItem>Register</MenuItem>
+                                    <MenuItem>
+                                        <Link key="register" href={"https://docs.google.com/forms/d/e/1FAIpQLScwJ8LUYJEkTLZSNS7uGVm63E-hrQH2Snqocp2zUcWuS8dF2w/viewform"} target="_blank" passHref>
+                                            <a rel="noreferrer" style={{
+                                                textDecoration: 'none',
+                                                color: '#000'
+                                            }}>
+                                                <Typography>Register</Typography>
+                                            </a>
+                                        </Link>
+                                    </MenuItem>
                                     <MenuItem>
                                         <Link key="contact_us" href={"mailto:reflectionsprojections@gmail.com"} passHref>
                                             <a rel="noreferrer" style={{

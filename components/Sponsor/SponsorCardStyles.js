@@ -5,7 +5,7 @@ const mobile = '420px';
 
 const useStyles = makeStyles({
     card: {
-        position: 'relative',
+        "position": 'relative',
 
         display: "flex",
         flexDirection: "column",
@@ -30,7 +30,7 @@ const useStyles = makeStyles({
 
         borderStyle: 'solid',
         borderWidth: '8px 0px 0px 0px',
-        borderColor: '#F7A399',
+        "borderColor": '#F7A399',
         borderRadius: "4px 4px 0px 0px",
 
         flex: "none",

@@ -291,12 +291,12 @@ const useStyles = makeStyles({
         "fontSize": "24px",
         "lineHeight": "36px",
         "letterSpacing": "0.3px",
-        "paddingRight": "90px",
+        "paddingRight": "10%",
         "color": "#000000",
 
         [`@media screen and (max-width: ${mobile})`]: {
             "font-weight": "400",
-            "font-size": "20px",
+            "font-size": "17px",
             "line-height": "150%",
             "padding": "0 10px",
         }
@@ -383,7 +383,12 @@ const useStyles = makeStyles({
             "line-height": "150%",
             "text-align": "center",
         }
-    }
+    },
+
+    anchor: {
+        position: "absolute",
+        transform: "translateY(-3vh)",
+    },
 
 }, { index: 1 });
 

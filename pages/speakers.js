@@ -35,7 +35,13 @@ export default function Speakers() {
           rel="stylesheet"
         />
       </Head>
-      {/*<Nav />*/}
+      <Header isHero={false}/>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       {isLoaded && (
         <Box className={classes.container}>
           <Typography className={classes.title}>Speakers</Typography>
