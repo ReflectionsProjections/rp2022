@@ -1,0 +1,29 @@
+.root {
+  width: 80%;
+}
+.accordion {
+  background-color: #FEEBE9;
+}
+.question {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.5px;
+  /* or 150% */
+
+  letter-spacing: 0.3px;
+
+  color: #EE6350;
+}
+.answer{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+  letter-spacing: 0.3px;
+
+  color: #000000;
+}
