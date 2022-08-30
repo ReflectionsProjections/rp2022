@@ -1,8 +1,8 @@
 import { Button, Link, Typography } from '@mui/material';
 import React from 'react';
-import { useStyles } from './AboutStyles.js';
+import { useStyles } from './DescriptionStyles.js';
 
-export default function About() {
+export default function Description() {
   const classes = useStyles();
 
   return (

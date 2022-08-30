@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import About from '../components/About';
+import Description from '../components/Description';
 
 import { Button, Typography } from '@mui/material';
 import SponsorSection from '../components/SponsorSection.js';
@@ -34,7 +34,7 @@ export default function Index() {
         <Header isHero={true} />
 
         <div className={classes.landingContainer}>
-          <About name="about" />
+          <Description name="description" />
 
 
 
