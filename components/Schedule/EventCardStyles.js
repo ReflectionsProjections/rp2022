@@ -113,7 +113,7 @@ const useStyles = makeStyles({
         fontFamily: 'Roboto',
         fontStyle: "normal",
         fontWeight: 700,
-        fontSize: "32px",
+        // fontSize: "32px",
         lineHeight: "32px",
         /* identical to box height, or 100% */
 

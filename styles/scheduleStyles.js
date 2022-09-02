@@ -6,7 +6,7 @@ const mobile = '420px';
 
 const useStyles = makeStyles({
     schedulePageContainer: {
-        paddingTop: "30vh",
+        paddingTop: "20%",
 
         [`@media (max-width: ${tablet})`]: {
             paddingTop: "15vh"
@@ -89,10 +89,22 @@ const useStyles = makeStyles({
         flexGrow: 0,
     },
 
+    buttons: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: "20px",
+
+        [`@media (max-width: ${tablet})`]: {
+            width: "50%"
+        },
+    },
+
     buttonContainer: {
         display: "flex",
         flexDirection: "row",
-        alignItems: "flex-start",
+        alignItems: "center",
+        justifyContent: "center",
         padding: "0px",
         gap: "48px",
 
@@ -110,22 +122,13 @@ const useStyles = makeStyles({
 
         [`@media (max-width: ${tablet})`]: {
             display: "flex",
-            flexDirection: "row",
-            alignItems: "flex-start",
-            padding: "0px",
-            gap: "5px",
-            fontSize: "30px",
-            textAlign: "center"
-        },
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "20px",
 
-        [`@media (max-width: ${mobile})`]: {
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "flex-start",
-            padding: "0px",
-            gap: "5px",
-            fontSize: "16px",
-            textAlign: "center"
+            [`@media (max-width: ${tablet})`]: {
+                width: "50%"
+            },
         },
     },
 
@@ -162,6 +165,38 @@ const useStyles = makeStyles({
         border: "2px solid #ED8A88",
         borderRadius: "30px",
         backgroundColor: 'transparent!important',
+        minWidth: "max-content",
+        whiteSpace: "nowrap",
+        color: "#ED8A88",
+
+        /* Inside auto layout */
+
+        flex: "none",
+        order: 0,
+        flexGrow: 0,
+    },
+
+    dayButtonFilled: {
+        boxSizing: "border-box",
+
+        /* Auto layout */
+
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+        padding: "20px 40px",
+        gap: "10px",
+
+        width: "165px",
+        height: "60px",
+
+        border: "2px solid #ED8A88",
+        borderRadius: "30px",
+        backgroundColor: '#ED8A88!important',
+        minWidth: "max-content",
+        whiteSpace: "nowrap",
+        color: "white",
 
         /* Inside auto layout */
 
@@ -183,7 +218,7 @@ const useStyles = makeStyles({
         letterSpacing: "0.2px",
         textTransform: "capitalize",
 
-        color: "#DF6C57",
+        color: "inherit",
     },
 
     anchor: {
@@ -204,7 +239,7 @@ const useStyles = makeStyles({
         ['@media (max-width: 1000px)']: {
             display: 'none',
         },
-        
+
         '&:hover, &:visited, &:focus, &:active': {
             textDecoration: 'none',
             borderBottom: "3px solid",
