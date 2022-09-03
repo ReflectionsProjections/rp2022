@@ -23,7 +23,7 @@ const useStyles = makeStyles({
     },
 
     header: {
-        position: 'absolute',
+        position: 'fixed',
         width: '100%',
         zIndex: 5,
 
@@ -33,7 +33,7 @@ const useStyles = makeStyles({
         [`@media (max-width: ${mobile})`]: {
             background: "radial-gradient(101.76% 724.4% at 51.92% 208.23%, #EE6350 0%, #F9E3E0 100%)",
         },
-        opacity: 0.9,
+        // opacity: 0.9,
         boxShadow: 'none',
         top: 0,
         left: 0,

@@ -166,6 +166,7 @@
             "events": [
                 {
                     "eventID": "d1e1",
+                    "type": "",
                     "title": "Opening Ceremony",
                     "description": "Welcome to Reflections Projections 2022!",
                     "startDate": "09-26-2022 15:00",
@@ -174,6 +175,7 @@
                 },
                 {
                     "eventID": "d1e2",
+                    "type": "conference",
                     "title": "Todd Little",
                     "description": "Speaker Talk",
                     "startDate": "09-26-2022 16:00",
@@ -182,7 +184,8 @@
                 },
                 {
                     "eventID": "d1e3",
-                    "title": "Shravan Goli",
+                    "type": "conference",
+                    "title": "Shravan Goli x Lawrence Angrave: CS Education in Industry and Academia",
                     "description": "Speaker Talk",
                     "startDate": "09-26-2022 17:00",
                     "endDate": "09-26-2022 18:00",
@@ -190,19 +193,30 @@
                 },
                 {
                     "eventID": "d1e4",
+                    "type": "corporate",
                     "title": "Visa",
                     "description": "Tech Talk",
                     "startDate": "09-26-2022 18:00",
                     "endDate": "09-26-2022 19:00",
-                    "location": "Siebel 1131"
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d1e5",
+                    "type": "",
                     "title": "Dinner",
                     "description": "",
+                    "startDate": "09-26-2022 19:00",
+                    "endDate": "09-26-2022 20:00",
+                    "location": ""
+                },
+                {
+                    "eventID": "d1e6",
+                    "type": "corporate",
+                    "title": "Caterpillar",
+                    "description": "Tech Talk",
                     "startDate": "09-26-2022 20:00",
                     "endDate": "09-26-2022 21:00",
-                    "location": ""
+                    "location": "Siebel 2407"
                 }
             ]
         },
@@ -212,6 +226,7 @@
             "events": [
                 {
                     "eventID": "d2e1",
+                    "type": "",
                     "title": "Snack",
                     "description": "",
                     "startDate": "09-27-2022 14:00",
@@ -220,14 +235,16 @@
                 },
                 {
                     "eventID": "d2e2",
+                    "type": "conference",
                     "title": "Jeetu Patel",
-                    "description": "Speaker Talk",
+                    "description": "Speaker Talk (virtual)",
                     "startDate": "09-27-2022 15:00",
                     "endDate": "09-27-2022 16:00",
                     "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d2e3",
+                    "type": "corporate",
                     "title": "State Farm",
                     "description": "Tech Talk",
                     "startDate": "09-27-2022 16:00",
@@ -236,6 +253,7 @@
                 },
                 {
                     "eventID": "d2e4",
+                    "type": "conference",
                     "title": "Ken Turkowski",
                     "description": "Speaker Talk",
                     "startDate": "09-27-2022 17:00",
@@ -244,6 +262,7 @@
                 },
                 {
                     "eventID": "d2e5",
+                    "type": "corporate",
                     "title": "Aechelon Technology",
                     "description": "Tech Talk",
                     "startDate": "09-27-2022 18:00",
@@ -252,6 +271,7 @@
                 },
                 {
                     "eventID": "d2e6",
+                    "type": "",
                     "title": "Dinner",
                     "description": "",
                     "startDate": "09-27-2022 19:00",
@@ -260,6 +280,7 @@
                 },
                 {
                     "eventID": "d2e7",
+                    "type": "corporate",
                     "title": "Ocient",
                     "description": "Tech Talk",
                     "startDate": "09-27-2022 20:00",
@@ -274,6 +295,7 @@
             "events": [
                 {
                     "eventID": "d3e1",
+                    "type": "",
                     "title": "Career Fair",
                     "description": "All Day Event",
                     "startDate": "09-28-2022 14:00",
@@ -282,6 +304,7 @@
                 },
                 {
                     "eventID": "d3e2",
+                    "type": "",
                     "title": "Snack",
                     "description": "",
                     "startDate": "09-28-2022 14:00",
@@ -289,7 +312,26 @@
                     "location": ""
                 },
                 {
+                    "eventID": "d3e3",
+                    "type": "conference",
+                    "title": "Ewa Maslowska and Hari Sundaram",
+                    "description": "Speaker Talk",
+                    "startDate": "09-28-2022 15:00",
+                    "endDate": "09-28-2022 16:00",
+                    "location": "Siebel 1131"
+                },
+                {
+                    "eventID": "d3e4",
+                    "type": "conference",
+                    "title": "Colleen Lewis",
+                    "description": "Speaker Talk",
+                    "startDate": "09-28-2022 16:00",
+                    "endDate": "09-28-2022 17:00",
+                    "location": "Siebel 2405"
+                },
+                {
                     "eventID": "d3e5",
+                    "type": "conference",
                     "title": "Rashmi Kumar",
                     "description": "Siebel 1304",
                     "startDate": "09-28-2022 17:00",
@@ -298,6 +340,7 @@
                 },
                 {
                     "eventID": "d3e6",
+                    "type": "corporate",
                     "title": "Visa",
                     "description": "Social Event",
                     "startDate": "09-28-2022 19:00",
@@ -306,6 +349,7 @@
                 },
                 {
                     "eventID": "d3e7",
+                    "type": "",
                     "title": "Dinner",
                     "description": "",
                     "startDate": "09-28-2022 19:00",
@@ -320,6 +364,7 @@
             "events": [
                 {
                     "eventID": "d4e1",
+                    "type": "",
                     "title": "Snack",
                     "description": "",
                     "startDate": "09-28-2022 14:00",
@@ -328,6 +373,7 @@
                 },
                 {
                     "eventID": "d4e2",
+                    "type": "corporate",
                     "title": "Caterpillar",
                     "description": "Tech Talk",
                     "startDate": "09-28-2022 15:00",
@@ -336,6 +382,7 @@
                 },
                 {
                     "eventID": "d4e3",
+                    "type": "conference",
                     "title": "Aishwarya Srinivasan",
                     "description": "Speaker Event",
                     "startDate": "09-28-2022 16:00",
@@ -344,6 +391,7 @@
                 },
                 {
                     "eventID": "d4e4",
+                    "type": "corporate",
                     "title": "Qualcomm Panel",
                     "description": "Speaker Event",
                     "startDate": "09-28-2022 17:00",
@@ -352,6 +400,7 @@
                 },
                 {
                     "eventID": "d4e5",
+                    "type": "conference",
                     "title": "Keith Garner",
                     "description": "Speaker Event",
                     "startDate": "09-28-2022 18:00",
@@ -360,6 +409,7 @@
                 },
                 {
                     "eventID": "d4e6",
+                    "type": "",
                     "title": "Dinner",
                     "description": "",
                     "startDate": "09-28-2022 19:00",
@@ -374,6 +424,7 @@
             "events": [
                 {
                     "eventID": "d5e0",
+                    "type": "conference",
                     "title": "PuzzleBang",
                     "description": "All Day Event",
                     "startDate": "09-30-2022 00:00",
@@ -382,6 +433,7 @@
                 },
                 {
                     "eventID": "d5e1",
+                    "type": "",
                     "title": "Snack",
                     "description": "",
                     "startDate": "09-30-2022 14:00",
@@ -389,15 +441,8 @@
                     "location": ""
                 },
                 {
-                    "eventID": "d5e2",
-                    "title": "Uber Resume Workshop",
-                    "description": "Speaker Talk",
-                    "startDate": "09-30-2022 15:00",
-                    "endDate": "09-30-2022 16:00",
-                    "location": "Siebel 2405"
-                },
-                {
                     "eventID": "d5e4",
+                    "type": "",
                     "title": "Closing Ceremony",
                     "description": "Event",
                     "startDate": "09-30-2022 17:00",
@@ -406,6 +451,7 @@
                 },
                 {
                     "eventID": "d5e5",
+                    "type": "",
                     "title": "Dinner",
                     "description": "",
                     "startDate": "09-30-2022 18:30",
@@ -414,6 +460,7 @@
                 },
                 {
                     "eventID": "d5e6",
+                    "type": "conference",
                     "title": "MechMania",
                     "description": "Friday, 7:00pm - Saturday, 9:00pm",
                     "startDate": "09-30-2022 19:00",
@@ -427,7 +474,8 @@
             "date": "10-1-2022",
             "events": [
                 {
-                    "eventID": "d6e0",
+                    "eventID": "d5-6e0",
+                    "type": "conference",
                     "title": "PuzzleBang",
                     "description": "All Day Event",
                     "startDate": "09-30-2022 00:00",
@@ -435,7 +483,8 @@
                     "location": ""
                 },
                 {
-                    "eventID": "d6e1",
+                    "eventID": "d5-6e1",
+                    "type": "conference",
                     "title": "MechMania",
                     "description": "Friday, 7:00pm - Saturday, 9:00pm",
                     "startDate": "09-30-2022 00:00",
