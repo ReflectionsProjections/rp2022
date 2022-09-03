@@ -25,7 +25,10 @@ const SponsorSection = ({ sponsors }) => {
           </div>
           <div className={classes.content}>
             <div className={classes.sponsors}>
-              {sponsors.map(({ key, name, img, website }) =>
+              {/* {sponsors.map(({ key, name, img, website }) =>
+                <SponsorCard key={key} name={name} img={img} website={website} />
+              )} */}
+              {sponsors.filter(e => e.key < 6).map(({ key, name, img, website }) =>
                 <SponsorCard key={key} name={name} img={img} website={website} />
               )}
             </div>
