@@ -91,7 +91,7 @@ const useStyles = makeStyles({
         justifyContent: "center",
         alignItems: "flex-start",
         padding: "0px",
-        gap: "6px",
+        gap: "15px",
 
         width: "auto",
         height: "70px",

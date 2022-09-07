@@ -13,7 +13,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 function getDayOfWeek(calendarDate) {
-  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
   var dt = new Date(calendarDate);
   return days[dt.getDay()];
 }
@@ -138,6 +138,7 @@ export default function Schedule() {
                   <MenuItem value={'Wednesday'}>Wednesday</MenuItem>
                   <MenuItem value={'Thursday'}>Thursday</MenuItem>
                   <MenuItem value={'Friday'}>Friday</MenuItem>
+                  <MenuItem value={'Saturday'}>Saturday</MenuItem>
                 </Select>
               </FormControl>
 

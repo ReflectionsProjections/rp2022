@@ -16,9 +16,9 @@ export default function ScheduleCard({ data }) {
     const key = data.key;
 
     var d = new Date(data.date);
-    const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+    const days = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
     const date = days[d.getDay()];
-    const day = data.date.split("-")[1]
+    const day = data.date.split("-")[2]
 
     const events = data.events;
 

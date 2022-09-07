@@ -6,10 +6,10 @@ import { useStyles } from './EventCardStyles.js';
 const getFontSize = (textLength) => {
     var w = window.innerWidth;
     const baseSize = 32
-    if (textLength >= 30) {
-        baseSize = 24
-    } else if (textLength >= 40) {
+    if (textLength >= 40) {
         baseSize = w > 900 ? 24 : 16
+    } else if (textLength >= 30) {
+        baseSize = 22
     }
     const fontSize = baseSize
     return `${fontSize}px`
@@ -34,7 +34,7 @@ export default function EventCard({ startTime, endTime, title, description, loca
                 </Box>
 
                 <Box className={classes.textBox}>
-                    <Typography className={classes.title} sx={{fontSize: (getFontSize(title.length))}}>{title}</Typography>
+                    <Typography className={classes.title} sx={{ fontSize: (getFontSize(title.length)) }}>{title}</Typography>
                     <Typography className={classes.description}>{description}</Typography>
                 </Box>
             </Box>
