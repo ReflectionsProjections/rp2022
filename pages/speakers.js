@@ -35,6 +35,7 @@ export default function Speakers() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
       {isLoaded && (
         <Element name="speakers">
           {<Speaker speakers={speakerSection.list} />}
