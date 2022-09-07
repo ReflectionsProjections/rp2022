@@ -38,7 +38,6 @@ const useStyles = makeStyles({
         flex: "none",
         order: 0,
         flexGrow: 0,
-        zIndex: 5,
     },
 
     imgContainer: {
