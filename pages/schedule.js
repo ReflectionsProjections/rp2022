@@ -108,13 +108,16 @@ export default function Schedule() {
                 <Button className={selectedDay === 'Friday' ? classes.dayButtonFilled : classes.dayButton} disableRipple onClick={() => handleSelectDay('Friday')}>
                   <Typography className={classes.dayFont}>Friday</Typography>
                 </Button>
+                <Button className={selectedDay === 'Saturday' ? classes.dayButtonFilled : classes.dayButton} disableRipple onClick={() => handleSelectDay('Saturday')}>
+                  <Typography className={classes.dayFont}>Saturday</Typography>
+                </Button>
               </div>
 
               <div className={classes.buttonContainer}>
                 <Button className={selectedType === 'conference' ? classes.dayButtonFilled : classes.dayButton} disableRipple onClick={() => handleSelectType('conference')}>
                   <Typography className={classes.dayFont}>Conference</Typography>
                 </Button>
-                <Button className={selectedType === 'all' ? classes.dayButtonFilled : classes.dayButton} disableRipple onClick={() => handleSelectType('')}>
+                <Button className={selectedType === 'all' ? classes.dayButtonFilled : classes.dayButton} disableRipple onClick={() => handleSelectType('all')}>
                   <Typography className={classes.dayFont}>All Events</Typography>
                 </Button>
                 <Button className={selectedType === 'corporate' ? classes.dayButtonFilled : classes.dayButton} disableRipple onClick={() => handleSelectType('corporate')}>
