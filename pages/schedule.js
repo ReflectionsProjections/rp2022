@@ -87,6 +87,7 @@ export default function Schedule() {
 
         <Header isHero={false} />
 
+        {isLoaded && (
         <div className={classes.schedulePageContainer}>
           <div className={classes.headerBox}>
             <Typography className={classes.scheduleTitle}>Schedule</Typography>
@@ -172,6 +173,7 @@ export default function Schedule() {
               ))}
           </div>
         </div>
+        )}
       </div>
     </>
   )
