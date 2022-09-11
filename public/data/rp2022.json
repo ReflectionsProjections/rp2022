@@ -203,7 +203,7 @@
                 {
                     "eventID": "d1e5",
                     "type": "",
-                    "title": "Dinner",
+                    "title": "Jimmy John's",
                     "description": "",
                     "startDate": "09-26-2022 19:00",
                     "endDate": "09-26-2022 20:00",
@@ -227,7 +227,7 @@
                 {
                     "eventID": "d2e1",
                     "type": "",
-                    "title": "Snack",
+                    "title": "Insomnia Cookies",
                     "description": "",
                     "startDate": "09-27-2022 14:00",
                     "endDate": "09-27-2022 15:00",
@@ -305,7 +305,7 @@
                 {
                     "eventID": "d3e2",
                     "type": "",
-                    "title": "Snack",
+                    "title": "Einstein Bro Bagels",
                     "description": "",
                     "startDate": "09-28-2022 14:00",
                     "endDate": "09-28-2022 15:00",
@@ -350,7 +350,7 @@
                 {
                     "eventID": "d3e7",
                     "type": "",
-                    "title": "Dinner",
+                    "title": "La Paloma",
                     "description": "",
                     "startDate": "09-28-2022 19:00",
                     "endDate": "09-28-2022 20:00",
@@ -365,7 +365,7 @@
                 {
                     "eventID": "d4e1",
                     "type": "",
-                    "title": "Snack",
+                    "title": "Pandamonium Doughnuts",
                     "description": "",
                     "startDate": "09-28-2022 14:00",
                     "endDate": "09-28-2022 15:00",
@@ -410,7 +410,7 @@
                 {
                     "eventID": "d4e6",
                     "type": "",
-                    "title": "Dinner",
+                    "title": "Subway",
                     "description": "",
                     "startDate": "09-28-2022 19:00",
                     "endDate": "09-28-2022 20:00",
@@ -434,10 +434,19 @@
                 {
                     "eventID": "d5e1",
                     "type": "",
-                    "title": "Snack",
+                    "title": "Einstein Bro Bagels",
                     "description": "",
                     "startDate": "09-30-2022 14:00",
                     "endDate": "09-30-2022 15:00",
+                    "location": ""
+                },
+                {
+                    "eventID": "d5e3",
+                    "type": "",
+                    "title": "The Robots are Coming to Your Farm",
+                    "description": "",
+                    "startDate": "09-30-2022 16:00",
+                    "endDate": "09-30-2022 17:00",
                     "location": ""
                 },
                 {
@@ -452,7 +461,7 @@
                 {
                     "eventID": "d5e5",
                     "type": "",
-                    "title": "Dinner",
+                    "title": "MechMania Snacks",
                     "description": "",
                     "startDate": "09-30-2022 18:30",
                     "endDate": "09-30-2022 20:00",
