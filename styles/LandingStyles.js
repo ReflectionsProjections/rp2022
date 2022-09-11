@@ -50,7 +50,7 @@ const useStyles = makeStyles({
    
     "backgroundRed": {
         "height": "100vh",
-        "backgroundImage": "url('../public/resources/Grain.png')"
+        "backgroundImage": "url('/resources/Grain.png')"
     },
 
     "navButton": {
@@ -192,7 +192,7 @@ const useStyles = makeStyles({
         "width": "100%",
         "height": "651.6px",
         "overflow": "visible",
-        "backgroundImage": "url('../public/resources/Blue CurvePink_curve.svg')",
+        "backgroundImage": "url('/resources/Blue CurvePink_curve.svg')",
        
         "position": "relative"
     },
