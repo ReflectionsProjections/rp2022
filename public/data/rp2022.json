@@ -604,19 +604,19 @@
             "img": "/resources/SNL_Stacked_Black_Blue - Nicole Streu.jpg",
             "website": "https://www.sandia.gov/"
         },
-        {   
-            "key": 13,
-            "name": "Sav",
-            "bio": "Creating one of the world's first true AI Website Builders",
-            "img": "/resources/sav-logo.png",
-            "website": "https://www.sav.com/"
-        },
         {
-            "key": 14,
+            "key": 13,
             "name": "TastyTrade",
             "bio": "The tastytrade family of companies empowers individual traders differently. Founded in 2011 as an online financial media network, tastytrade, Inc. expanded to include other companies like a brokerage firm (tastyworks in 2017), a research lab (quiet foundation in 2018), and a magazine (luckbox in 2019). In 2021, London-based IG Group acquired tastytrade, Inc. and assigned it to lead business in North America, including two of their own established brands – IG US (RFED) and DailyFX. This combined team has years of experience like institutional brokers but also a passion for disrupting the entire trading industry.\nOur dream is simple: we want more people to find more success with a better trading experience. That’s why we’re investing heavily in the right people, technology, and media to make that happen in the US and across the globe.\nThe diversity of our offerings and the technology that powers them provide our engineers with exposure to a broad set of tools and the opportunity to dig deep into specific problems.\nWe are an ideal environment for those who are self-motivated, engineering-focused, pragmatic, and who truly enjoy creating and operating large, highly available, and performant systems. Our team is lean at roughly 45 members and we follow a management philosophy that values the autonomy of our engineers.",
             "img": "/resources/Logo - Annie Rix.png",
             "website": "https://www.tastytrade.com/"
+        },
+        {   
+            "key": 14,
+            "name": "Sav",
+            "bio": "Creating one of the world's first true AI Website Builders",
+            "img": "/resources/sav-logo.png",
+            "website": "https://www.sav.com/"
         }
     ]
 }
