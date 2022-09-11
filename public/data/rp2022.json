@@ -558,7 +558,7 @@
         {
             "key": 6,
             "name": "Uber",
-            "bio": "Uber - We reimagine the way the world moves for the better. ",
+            "bio": "Uber - We reimagine the way the world moves for the better. Movement is what we power. It’s our lifeblood. It runs through our veins. It’s what gets us out of bed each morning. It pushes us to constantly reimagine how we can move better. For you. For all the places you want to go. For all the things you want to get. For all the ways you want to earn. Across the entire world. In real time. At the incredible speed of now.",
             "img": "/resources/Uber_Logo_Black_RGB - Ricardo Luna.png",
             "website": "https://www.uber.com/us/en/about/"
         },
@@ -573,53 +573,46 @@
             "key": 8,
             "name": "StateFarm",
             "bio": "The State Farm Research and Development Center is a place where interns complete innovative, meaningful research in a collaborative environment focused on developing technical and business skills - a perfect complement to the classroom.   Interns provide analysis and solutions through:\n• Assessment of risk and financial needs for insurance products\n• Development of innovative methods and applications to enhance insurance product pricing\n• Data mining and predictive modeling such as regression, forecasting, and machine learning\n• Research on emerging industry trends and hot topics\nThe internship program provides opportunities for year-round positions for all student levels, freshman - graduate students. We offer development through extensive training programs, leadership, as well as competitive compensation/benefits.",
-            "img": "/resources/CF_logo_stacked_blktype - Judy Cheong.png",
+            "img": "/resources/SF_Logo_Red_Standard_Horz_RGB_Microsoft.png",
             "website": "https://www.statefarm.com/"
         },
         {   
             "key": 9,
-            "name": "Bloomberg",
-            "bio": "As a Bloomberg engineer, you will impact the real world by solving complex problems in an ever-evolving market. Our engineers sit at the center of finance and tech where people and machines will challenge your ideas and push your engineering skills to the next level. We work in a fast-paced, solutions-oriented environment that rolls new software out daily. Our code is used every day by leading business and finance clients across the globe that help shape the financial markets.",
-            "img": "/resources/CF_logo_stacked_blktype - Judy Cheong.png",
-            "website": "https://www.bloomberg.com/"
-        },
-        {   
-            "key": 10,
             "name": "Cloudflare",
             "bio": "Cloudflare, Inc. (www.cloudflare.com / @cloudflare) is on a mission to help build a better Internet. Cloudflare’s suite of products protect and accelerate any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare have all web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures 2018 list and ranked among the World’s Most Innovative Companies by Fast Company in 2019. Headquartered in San Francisco, CA, Cloudflare has offices in Austin, TX, Champaign, IL, New York, NY, San Jose, CA, Seattle, WA, Washington, D.C., Toronto, Dubai, Lisbon, London, Munich, Paris, Beijing, Singapore, Sydney, and Tokyo.",
             "img": "/resources/CF_logo_stacked_blktype - Judy Cheong.png",
             "website": "https://www.cloudflare.com/"
         },
         {
-            "key": 11,
+            "key": 10,
             "name": "Databricks",
             "bio": "Databricks is the data and AI company. More than 5,000 organizations worldwide — including Comcast, Condé Nast, H&M, and over 40% of the Fortune 500 — rely on the Databricks Lakehouse Platform to unify their data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe. Founded by the original creators of Apache Spark™, Delta Lake and MLflow, Databricks is on a mission to help data teams solve the world’s toughest problems. To learn more, follow Databricks on Twitter, LinkedIn and Facebook.",
             "img": "/resources/DAT_Small_Scale_Lock_up_Full_Color@2x - Katie Tenboer.png",
             "website": "https://www.databricks.com/"
         },
         {
-            "key": 12,
+            "key": 11,
             "name": "Lilly",
             "bio": "Lilly unites caring with discovery to create medicines that make life better for people around the world.",
             "img": "/resources/LillyLogo_RGB_Red - Kai Zhao.png",
             "website": "https://www.lilly.com/"
         },
         {   
-            "key": 13,
+            "key": 12,
             "name": "Sandia National Laboratories",
             "bio": "For over 60 years, Sandia has delivered essential science and technology to resolve the nation's most challenging security issues. A strong science, technology, and engineering foundation enables our mission through a capable research staff working at the forefront of innovation, collaborative research with universities & companies, and discretionary research projects with significant potential impact. In keeping with our vision to be the nation's premier science and engineering laboratory for national security and technology innovation, we recruit the best and the brightest, equip them with world-class research tools & facilities, and provide opportunities to collaborate with technical experts from many different scientific disciplines.",
             "img": "/resources/SNL_Stacked_Black_Blue - Nicole Streu.jpg",
             "website": "https://www.sandia.gov/"
         },
         {   
-            "key": 14,
+            "key": 13,
             "name": "Sav",
             "bio": "Creating one of the world's first true AI Website Builders",
             "img": "/resources/sav-logo.png",
             "website": "https://www.sav.com/"
         },
         {
-            "key": 15,
+            "key": 14,
             "name": "TastyTrade",
             "bio": "The tastytrade family of companies empowers individual traders differently. Founded in 2011 as an online financial media network, tastytrade, Inc. expanded to include other companies like a brokerage firm (tastyworks in 2017), a research lab (quiet foundation in 2018), and a magazine (luckbox in 2019). In 2021, London-based IG Group acquired tastytrade, Inc. and assigned it to lead business in North America, including two of their own established brands – IG US (RFED) and DailyFX. This combined team has years of experience like institutional brokers but also a passion for disrupting the entire trading industry.\nOur dream is simple: we want more people to find more success with a better trading experience. That’s why we’re investing heavily in the right people, technology, and media to make that happen in the US and across the globe.\nThe diversity of our offerings and the technology that powers them provide our engineers with exposure to a broad set of tools and the opportunity to dig deep into specific problems.\nWe are an ideal environment for those who are self-motivated, engineering-focused, pragmatic, and who truly enjoy creating and operating large, highly available, and performant systems. Our team is lean at roughly 45 members and we follow a management philosophy that values the autonomy of our engineers.",
             "img": "/resources/Logo - Annie Rix.png",
