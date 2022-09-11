@@ -27,7 +27,7 @@
             },
             {
                 "name": "Ken Turkowski",
-                "tagline": "Master’s at U.Cal. Berkeley and currently at NVIDIA",
+                "tagline": "Senior Software Architect at NVIDIA",
                 "bio": "After earning a BS in electrical engineering at U. Ill. @ Urbana-Champaign, Ken Turkowski has been involved in visual computing starting with his master’s thesis at U.Cal. Berkeley, where he designed and constructed a processor organized for interactive graphics collaboration over telephone landlines. He continued to design graphics processors at Ampex and CADLINC, but also started writing image processing, computer vision, robotic simulation and geometric modeling software. At Apple, he was the technical director for Pencil Test, the first SIGGRAPH movie modeled, animated and rendered on a distributed network of Macintoshes. Also at Apple, he contributed to scalable fonts, 2D and 3D rendering, video processing and compression, panoramic software and computer vision. At Adobe, he developed GPU-accelerated image processing, and at Google, he made significant contributions to Streetview panoramas and satellite imagery stitching. At Kinoma and Marvell, he developed CPU & GPU software for interactive graphics and video on mobile devices. He also worked several years as a contractor, with VR headsets, panoramas, semiconductor manufacturing inspection, robotic surgery, MPORPGs, and printers. Currently at NVIDIA, he has written software for stereo panorama video, robotic vision, visualization for automobiles, neural network pre- and post-processing, broadcast effects, augmented reality, animation and avatar control.",
                 "image": "/headshots/KenTurkowski.jpeg"
             },
@@ -516,7 +516,7 @@
             "img": "/resources/Visa_Brandmark_Blue_RGB_72ppi (1) - Kai Armstrong.png",
             "website": "https://www.visa.com/"
         },
-        {   
+        {
             "key": 3,
             "name": "Aechelon Technology",
             "bio": "Aechelon Technology is a leading developer of real-time interactive 3D graphics for flight simulation. Headquartered in San Francisco, with offices in Kansas City and Orlando, we model the Earth with ever-increasing detail and render the environment at rates as high as 240 fps. Aechelon provides opportunities for CS and CompE students to practice the art and science of realtime rendering and to develop high-performance GPU computing algorithms.",
