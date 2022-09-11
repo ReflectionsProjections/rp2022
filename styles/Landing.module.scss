@@ -356,6 +356,7 @@ $mobile: '420px';
   flex-direction: column;
   align-items: flex-start;
   padding: 10px;
+  padding-left: 5%;
   margin-top: 25%;
 
   @media screen and (max-width: $tablet) {
@@ -366,6 +367,7 @@ $mobile: '420px';
 
   width: 100%;
   height: auto;
+  
 
   position: relative;
 }
