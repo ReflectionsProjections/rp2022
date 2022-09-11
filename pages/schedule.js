@@ -3,7 +3,6 @@ import Header from '../components/ui/Header';
 import ScheduleCard from '../components/Schedule/ScheduleCard';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import Link from 'next/link';
 import Head from 'next/head';
 import useGetStaticData from '../services/useGetStaticData';
 import InputLabel from '@mui/material/InputLabel';
@@ -12,6 +11,8 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 import { useStyles } from '../styles/scheduleStyles';
+
+
 
 function getDayOfWeek(calendarDate) {
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
@@ -68,7 +69,6 @@ export default function Schedule() {
     setSelectedType('all');
   }
 
-
   const classes = useStyles();
   return (
     <>
@@ -85,7 +85,7 @@ export default function Schedule() {
             />
             <link rel="icon" href="/favicon.png" />
           </Head>
-
+          
           <Header isHero={false} />
 
           <div className={classes.schedulePageContainer}>
