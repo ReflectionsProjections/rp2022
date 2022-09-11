@@ -526,7 +526,7 @@
         {   
             "key": 4,
             "name": "Intuit",
-            "bio": "Intuit Inc. is an American business software company that specializes in financial software.",
+            "bio": "The global technology platform that helps you achieve financial confidence. Intuit powers your prosperity with TurboTax, Credit Karma, Mint, QuickBooks and Mailchimp.",
             "img": "/resources/intuit-cornerstone-brand-lockup-2-line-white-bluebg - Manny Duenas (He_Him).png",
             "website": "https://www.intuit.com/"
         },
@@ -540,7 +540,7 @@
         {
             "key": 6,
             "name": "Uber",
-            "bio": "Uber - We reimagine the way the world moves for the better.",
+            "bio": "Uber - We reimagine the way the world moves for the better. ",
             "img": "/resources/Uber_Logo_Black_RGB - Ricardo Luna.png",
             "website": "https://www.uber.com/us/en/about/"
         },
@@ -554,14 +554,14 @@
         {   
             "key": 8,
             "name": "StateFarm",
-            "bio": "State Farm Insurance is a large group of mutual insurance companies throughout the United States with corporate headquarters in Bloomington, Illinois.",
+            "bio": "The State Farm Research and Development Center is a place where interns complete innovative, meaningful research in a collaborative environment focused on developing technical and business skills - a perfect complement to the classroom.   Interns provide analysis and solutions through:\n• Assessment of risk and financial needs for insurance products\n• Development of innovative methods and applications to enhance insurance product pricing\n• Data mining and predictive modeling such as regression, forecasting, and machine learning\n• Research on emerging industry trends and hot topics\nThe internship program provides opportunities for year-round positions for all student levels, freshman - graduate students. We offer development through extensive training programs, leadership, as well as competitive compensation/benefits.",
             "img": "/resources/CF_logo_stacked_blktype - Judy Cheong.png",
             "website": "https://www.statefarm.com/"
         },
         {   
             "key": 9,
             "name": "Bloomberg",
-            "bio": "Bloomberg Television is an American-based pay television network focussing on business and capital market programming, owned by Bloomberg L.P. It is distributed globally, reaching over 310 million homes worldwide.",
+            "bio": "As a Bloomberg engineer, you will impact the real world by solving complex problems in an ever-evolving market. Our engineers sit at the center of finance and tech where people and machines will challenge your ideas and push your engineering skills to the next level. We work in a fast-paced, solutions-oriented environment that rolls new software out daily. Our code is used every day by leading business and finance clients across the globe that help shape the financial markets.",
             "img": "/resources/CF_logo_stacked_blktype - Judy Cheong.png",
             "website": "https://www.bloomberg.com/"
         },
@@ -582,7 +582,7 @@
         {
             "key": 12,
             "name": "Lilly",
-            "bio": "Eli Lilly and Company is an American pharmaceutical company headquartered in Indianapolis, Indiana, with offices in 18 countries. Its products are sold in approximately 125 countries.",
+            "bio": "Lilly unites caring with discovery to create medicines that make life better for people around the world.",
             "img": "/resources/LillyLogo_RGB_Red - Kai Zhao.png",
             "website": "https://www.lilly.com/"
         },
@@ -595,8 +595,15 @@
         },
         {   
             "key": 14,
+            "name": "Sav",
+            "bio": "Creating one of the world's first true AI Website Builders",
+            "img": "/resources/sav-logo.png",
+            "website": "https://www.sav.com/"
+        },
+        {
+            "key": 15,
             "name": "TastyTrade",
-            "bio": "tastytrade is one of the fastest growing online financial networks in the world.",
+            "bio": "The tastytrade family of companies empowers individual traders differently. Founded in 2011 as an online financial media network, tastytrade, Inc. expanded to include other companies like a brokerage firm (tastyworks in 2017), a research lab (quiet foundation in 2018), and a magazine (luckbox in 2019). In 2021, London-based IG Group acquired tastytrade, Inc. and assigned it to lead business in North America, including two of their own established brands – IG US (RFED) and DailyFX. This combined team has years of experience like institutional brokers but also a passion for disrupting the entire trading industry.\nOur dream is simple: we want more people to find more success with a better trading experience. That’s why we’re investing heavily in the right people, technology, and media to make that happen in the US and across the globe.\nThe diversity of our offerings and the technology that powers them provide our engineers with exposure to a broad set of tools and the opportunity to dig deep into specific problems.\nWe are an ideal environment for those who are self-motivated, engineering-focused, pragmatic, and who truly enjoy creating and operating large, highly available, and performant systems. Our team is lean at roughly 45 members and we follow a management philosophy that values the autonomy of our engineers.",
             "img": "/resources/Logo - Annie Rix.png",
             "website": "https://www.tastytrade.com/"
         }
