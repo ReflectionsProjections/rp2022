@@ -1,5 +1,6 @@
 import { React, useState, useEffect } from 'react';
 import Header from '../components/ui/Header';
+import Footer from '../components/ui/Footer';
 import ScheduleCard from '../components/Schedule/ScheduleCard';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -175,6 +176,7 @@ export default function Schedule() {
             </div>
           </div>
       </div>
+      <Footer />
     </>
   )
 }

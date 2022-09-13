@@ -177,7 +177,7 @@
                     "eventID": "d1e2",
                     "type": "conference",
                     "title": "Todd Little",
-                    "description": "Speaker Talk",
+                    "description": "From Transactions to Blockchain and Back",
                     "startDate": "09-26-2022 16:00",
                     "endDate": "09-26-2022 17:00",
                     "location": "Siebel 1131"
@@ -185,8 +185,8 @@
                 {
                     "eventID": "d1e3",
                     "type": "conference",
-                    "title": "Shravan Goli x Lawrence Angrave: CS Education in Industry and Academia",
-                    "description": "Speaker Talk",
+                    "title": "Shravan Goli and Lawrence Angrave",
+                    "description": "CS Education: Industry vs Academia",
                     "startDate": "09-26-2022 17:00",
                     "endDate": "09-26-2022 18:00",
                     "location": "Siebel 1304"
@@ -236,8 +236,8 @@
                 {
                     "eventID": "d2e2",
                     "type": "conference",
-                    "title": "Jeetu Patel",
-                    "description": "Speaker Talk (virtual)",
+                    "title": "Jeetu Patel (Cisco)",
+                    "description": "Hybrid Work and its Possibilities",
                     "startDate": "09-27-2022 15:00",
                     "endDate": "09-27-2022 16:00",
                     "location": "Siebel 2405"
@@ -255,7 +255,7 @@
                     "eventID": "d2e4",
                     "type": "conference",
                     "title": "Ken Turkowski",
-                    "description": "Speaker Talk",
+                    "description": "Inside the Rise of Visual Computing",
                     "startDate": "09-27-2022 17:00",
                     "endDate": "09-27-2022 18:00",
                     "location": "Siebel 1304"
@@ -315,7 +315,7 @@
                     "eventID": "d3e3",
                     "type": "conference",
                     "title": "Ewa Maslowska and Hari Sundaram",
-                    "description": "Speaker Talk",
+                    "description": "Computational Advertising and its Societal Implications",
                     "startDate": "09-28-2022 15:00",
                     "endDate": "09-28-2022 16:00",
                     "location": "Siebel 1131"
@@ -333,7 +333,7 @@
                     "eventID": "d3e5",
                     "type": "conference",
                     "title": "Rashmi Kumar",
-                    "description": "Siebel 1304",
+                    "description": "Keynote Talk",
                     "startDate": "09-28-2022 17:00",
                     "endDate": "09-28-2022 18:00",
                     "location": "Siebel 1304"
@@ -384,7 +384,7 @@
                     "eventID": "d4e3",
                     "type": "conference",
                     "title": "Aishwarya Srinivasan",
-                    "description": "Speaker Event",
+                    "description": "Data Centric AI",
                     "startDate": "09-28-2022 16:00",
                     "endDate": "09-28-2022 17:00",
                     "location": "Siebel 1131"
@@ -439,6 +439,15 @@
                     "startDate": "09-30-2022 14:00",
                     "endDate": "09-30-2022 15:00",
                     "location": ""
+                },
+                {
+                    "eventID": "d5e3",
+                    "type": "corporate",
+                    "title": "Girish Choudhary",
+                    "description": "The Robots are Coming to Your Farm",
+                    "startDate": "09-30-2022 16:00",
+                    "endDate": "09-30-2022 17:00",
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d5e4",

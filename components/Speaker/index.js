@@ -8,6 +8,7 @@ import SpeakerCard from './components/SpeakerCard';
 
 import Grid from "@mui/material/Grid";
 import styles from './Speaker.module.scss';
+import Footer from '../ui/Footer';
 
 const Speaker = ({ speakers }) => {
   return (
@@ -41,6 +42,7 @@ const Speaker = ({ speakers }) => {
             )}
         </Section.Body>
       </Section>
+      <Footer />
     </div>
   );
 };
