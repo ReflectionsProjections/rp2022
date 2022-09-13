@@ -367,8 +367,8 @@
                     "type": "",
                     "title": "Snack: Pandamonium Doughnuts",
                     "description": "",
-                    "startDate": "09-28-2022 14:00",
-                    "endDate": "09-28-2022 15:00",
+                    "startDate": "09-29-2022 14:00",
+                    "endDate": "09-29-2022 15:00",
                     "location": ""
                 },
                 {
@@ -376,8 +376,8 @@
                     "type": "corporate",
                     "title": "Visa Corporate Day",
                     "description": "",
-                    "startDate": "09-28-2022 14:00",
-                    "endDate": "09-28-2022 21:00",
+                    "startDate": "09-29-2022 14:00",
+                    "endDate": "09-29-2022 21:00",
                     "location": ""
                 },
                 {
@@ -385,8 +385,8 @@
                     "type": "corporate",
                     "title": "Caterpillar",
                     "description": "Tech Talk",
-                    "startDate": "09-28-2022 15:00",
-                    "endDate": "09-28-2022 16:00",
+                    "startDate": "09-29-2022 15:00",
+                    "endDate": "09-29-2022 16:00",
                     "location": "Siebel 1304"
                 },
                 {
@@ -394,8 +394,8 @@
                     "type": "conference",
                     "title": "Aishwarya Srinivasan",
                     "description": "Data Centric AI",
-                    "startDate": "09-28-2022 16:00",
-                    "endDate": "09-28-2022 17:00",
+                    "startDate": "09-29-2022 16:00",
+                    "endDate": "09-29-2022 17:00",
                     "location": "Siebel 1131"
                 },
                 {
@@ -403,8 +403,8 @@
                     "type": "corporate",
                     "title": "Qualcomm Panel",
                     "description": "Speaker Event",
-                    "startDate": "09-28-2022 17:00",
-                    "endDate": "09-28-2022 18:00",
+                    "startDate": "09-29-2022 17:00",
+                    "endDate": "09-29-2022 18:00",
                     "location": "Siebel 1105"
                 },
                 {
@@ -412,8 +412,8 @@
                     "type": "conference",
                     "title": "Keith Garner",
                     "description": "Speaker Event",
-                    "startDate": "09-28-2022 18:00",
-                    "endDate": "09-28-2022 19:00",
+                    "startDate": "09-29-2022 18:00",
+                    "endDate": "09-29-2022 19:00",
                     "location": "Siebel 2405"
                 },
                 {
@@ -421,8 +421,8 @@
                     "type": "",
                     "title": "Dinner: Subway",
                     "description": "Sponsored by Qualcomm",
-                    "startDate": "09-28-2022 19:00",
-                    "endDate": "09-28-2022 20:00",
+                    "startDate": "09-29-2022 19:00",
+                    "endDate": "09-29-2022 20:00",
                     "location": ""
                 }
             ]
