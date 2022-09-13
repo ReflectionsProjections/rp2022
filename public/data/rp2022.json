@@ -203,7 +203,7 @@
                 {
                     "eventID": "d1e5",
                     "type": "",
-                    "title": "Dinner",
+                    "title": "Dinner: Jimmy John's",
                     "description": "",
                     "startDate": "09-26-2022 19:00",
                     "endDate": "09-26-2022 20:00",
@@ -227,7 +227,7 @@
                 {
                     "eventID": "d2e1",
                     "type": "",
-                    "title": "Snack",
+                    "title": "Snack: Insomnia Cookies",
                     "description": "",
                     "startDate": "09-27-2022 14:00",
                     "endDate": "09-27-2022 15:00",
@@ -305,7 +305,7 @@
                 {
                     "eventID": "d3e2",
                     "type": "",
-                    "title": "Snack",
+                    "title": "Snack: Einstein Bro Bagels",
                     "description": "",
                     "startDate": "09-28-2022 14:00",
                     "endDate": "09-28-2022 15:00",
@@ -350,7 +350,7 @@
                 {
                     "eventID": "d3e7",
                     "type": "",
-                    "title": "Dinner",
+                    "title": "Dinner: La Paloma",
                     "description": "",
                     "startDate": "09-28-2022 19:00",
                     "endDate": "09-28-2022 20:00",
@@ -365,7 +365,7 @@
                 {
                     "eventID": "d4e1",
                     "type": "",
-                    "title": "Snack",
+                    "title": "Snack: Pandamonium Doughnuts",
                     "description": "",
                     "startDate": "09-28-2022 14:00",
                     "endDate": "09-28-2022 15:00",
@@ -410,8 +410,8 @@
                 {
                     "eventID": "d4e6",
                     "type": "",
-                    "title": "Dinner",
-                    "description": "",
+                    "title": "Dinner: Subway",
+                    "description": "Sponsored by Qualcomm",
                     "startDate": "09-28-2022 19:00",
                     "endDate": "09-28-2022 20:00",
                     "location": ""
@@ -434,7 +434,7 @@
                 {
                     "eventID": "d5e1",
                     "type": "",
-                    "title": "Snack",
+                    "title": "Snack: Einstein Bro Bagels",
                     "description": "",
                     "startDate": "09-30-2022 14:00",
                     "endDate": "09-30-2022 15:00",
@@ -461,7 +461,7 @@
                 {
                     "eventID": "d5e5",
                     "type": "",
-                    "title": "Dinner",
+                    "title": "MechMania Snacks",
                     "description": "",
                     "startDate": "09-30-2022 18:30",
                     "endDate": "09-30-2022 20:00",
