@@ -372,6 +372,15 @@
                     "location": ""
                 },
                 {
+                    "eventID": "d4e1.5",
+                    "type": "corporate",
+                    "title": "Visa Corporate Day",
+                    "description": "",
+                    "startDate": "09-28-2022 14:00",
+                    "endDate": "09-28-2022 21:00",
+                    "location": ""
+                },
+                {
                     "eventID": "d4e2",
                     "type": "corporate",
                     "title": "Caterpillar",
