@@ -15,10 +15,9 @@ const useStyles = makeStyles({
 
         position: "static",
         width: "100%",
-        height: "25.72px",
+        height: "auto",
         left: "50%",
         bottom: "0px",
-        // transform: "translate(-50%, -50%)",
         marginTop: "30px",
 
         [`@media (max-width: ${laptop})`]: {
@@ -35,7 +34,7 @@ const useStyles = makeStyles({
     },
 
     organizer: {
-        width: "188px",
+        width: "auto",
         height: "19px",
 
         fontFamily: 'Roboto',

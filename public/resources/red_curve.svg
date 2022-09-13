@@ -1,5 +1,5 @@
 <svg width="1512" height="249" viewBox="0 0 1512 249" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.9" d="M1512 0H0V186.442C0 186.442 148.3 230.5 404.5 230.5C660.7 230.5 978.6 186.442 1176 186.442C1373.4 186.442 1512 249 1512 249V0Z" fill="url(#paint0_radial_508_1398)"/>
+<path d="M1512 0H0V186.442C0 186.442 148.3 230.5 404.5 230.5C660.7 230.5 978.6 186.442 1176 186.442C1373.4 186.442 1512 249 1512 249V0Z" fill="url(#paint0_radial_508_1398)"/>
 <defs>
 <radialGradient id="paint0_radial_508_1398" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(785 518.497) rotate(-137.943) scale(1473.45 2369.92)">
 <stop stop-color="#EE6350"/>

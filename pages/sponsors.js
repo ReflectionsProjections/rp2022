@@ -4,9 +4,11 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Link from 'next/link';
 import Head from 'next/head';
-import { useStyles } from '../styles/sponsorsStyles';
 import useGetStaticData from '../services/useGetStaticData';
 import SponsorsCard from '../components/Sponsors/SponsorsCard';
+import Footer from '../components/ui/Footer';
+import { useStyles } from '../styles/sponsorsStyles';
+
 export default function Sponsors() {
     const { isLoaded, rpData } = useGetStaticData();
     const { sponsors } = rpData;
@@ -43,6 +45,7 @@ export default function Sponsors() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
