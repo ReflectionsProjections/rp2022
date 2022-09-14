@@ -186,7 +186,7 @@
     "events": [
         {
             "key": 1,
-            "date": "09-26-2022",
+            "date": "2022-09-26",
             "events": [
                 {
                     "eventID": "d1e1",
@@ -246,7 +246,7 @@
         },
         {
             "key": 2,
-            "date": "09-27-2022",
+            "date": "2022-09-27",
             "events": [
                 {
                     "eventID": "d2e1",
@@ -315,7 +315,7 @@
         },
         {
             "key": 3,
-            "date": "09-28-2022",
+            "date": "2022-09-28",
             "events": [
                 {
                     "eventID": "d3e1",
@@ -384,7 +384,7 @@
         },
         {
             "key": 4,
-            "date": "09-29-2022",
+            "date": "2022-09-29",
             "events": [
                 {
                     "eventID": "d4e1",
@@ -444,7 +444,7 @@
         },
         {
             "key": 5,
-            "date": "09-30-2022",
+            "date": "2022-09-30",
             "events": [
                 {
                     "eventID": "d5e0",
@@ -495,7 +495,7 @@
         },
         {
             "key": 6,
-            "date": "10-1-2022",
+            "date": "2022-10-01",
             "events": [
                 {
                     "eventID": "d5-6e0",
@@ -535,40 +535,40 @@
         },
         {
             "key": 2,
-            "name": "Uber",
-            "bio": "Uber - We reimagine the way the world moves for the better.",
-            "img": "/resources/Uber_Logo_Black_RGB - Ricardo Luna.png",
-            "website": "https://www.uber.com/us/en/about/"
-        },
-        {
-            "key": 3,
-            "name": "Verkada",
-            "bio": "Verkada is the leader in cloud-managed enterprise building security, enabling over 12,000 organizations worldwide to protect their people, assets and privacy. Designed with simplicity in mind, Verkada’s five product lines - video security cameras, door-based access control, environmental sensors, alarms and visitor management - provide unparalleled visibility through a single secure cloud-based software platform.",
-            "img": "/resources/Verkada-Logo-Horiz-Black-RGB (1) - Alex Huynh.png",
-            "website": "https://www.verkada.com/"
-        },
-        {
-            "key": 4,
             "name": "Visa",
             "bio": "We’re on a mission to give everyone a chance at financial success. As a global team of passionate technologists and payment professionals, we are guided by one idea: to be a force of good that advances inclusive, sustainable and equitable growth for individuals, communities, and economies around the world.",
             "img": "/resources/Visa_Brandmark_Blue_RGB_72ppi (1) - Kai Armstrong.png",
             "website": "https://www.visa.com/"
         },
         {
-            "key": 5,
-            "name": "Databricks",
-            "bio": "Databricks is the data and AI company. More than 5,000 organizations worldwide — including Comcast, Condé Nast, H&M, and over 40% of the Fortune 500 — rely on the Databricks Lakehouse Platform to unify their data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe. Founded by the original creators of Apache Spark™, Delta Lake and MLflow, Databricks is on a mission to help data teams solve the world’s toughest problems. To learn more, follow Databricks on Twitter, LinkedIn and Facebook.",
-            "img": "/resources/DAT_Small_Scale_Lock_up_Full_Color@2x - Katie Tenboer.png",
-            "website": "https://www.databricks.com/"
-        },
-        {
-            "key": 6,
+            "key": 3,
             "name": "Aechelon Technology",
             "bio": "Aechelon Technology is a leading developer of real-time interactive 3D graphics for flight simulation. Headquartered in San Francisco, with offices in Kansas City and Orlando, we model the Earth with ever-increasing detail and render the environment at rates as high as 240 fps. Aechelon provides opportunities for CS and CompE students to practice the art and science of realtime rendering and to develop high-performance GPU computing algorithms.",
             "img": "/resources/AELOGO - David Morgan.jpg",
             "website": "https://aechelon.com/"
         },
+        {   
+            "key": 4,
+            "name": "Ocient",
+            "bio": "The Ocient Hyperscale Data Warehouse transforms and loads data in seconds, enables organizations to store and analyze more data, and executes queries on hyperscale datasets up to 50x faster.",
+            "img": "/resources/OCIENT LOGO full (1) - Jamie Beehn.png",
+            "website": "https://ocient.com/"
+        },
         {
+            "key": 5,
+            "name": "Uber",
+            "bio": "Uber - We reimagine the way the world moves for the better.",
+            "img": "/resources/Uber_Logo_Black_RGB - Ricardo Luna.png",
+            "website": "https://www.uber.com/us/en/about/"
+        },
+        {
+            "key": 6,
+            "name": "Verkada",
+            "bio": "Verkada is the leader in cloud-managed enterprise building security, enabling over 12,000 organizations worldwide to protect their people, assets and privacy. Designed with simplicity in mind, Verkada’s five product lines - video security cameras, door-based access control, environmental sensors, alarms and visitor management - provide unparalleled visibility through a single secure cloud-based software platform.",
+            "img": "/resources/Verkada-Logo-Horiz-Black-RGB (1) - Alex Huynh.png",
+            "website": "https://www.verkada.com/"
+        },
+        {   
             "key": 7,
             "name": "Cloudflare",
             "bio": "Cloudflare, Inc. (www.cloudflare.com / @cloudflare) is on a mission to help build a better Internet. Cloudflare’s suite of products protect and accelerate any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare have all web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures 2018 list and ranked among the World’s Most Innovative Companies by Fast Company in 2019. Headquartered in San Francisco, CA, Cloudflare has offices in Austin, TX, Champaign, IL, New York, NY, San Jose, CA, Seattle, WA, Washington, D.C., Toronto, Dubai, Lisbon, London, Munich, Paris, Beijing, Singapore, Sydney, and Tokyo.",
@@ -577,17 +577,17 @@
         },
         {
             "key": 8,
+            "name": "Databricks",
+            "bio": "Databricks is the data and AI company. More than 5,000 organizations worldwide — including Comcast, Condé Nast, H&M, and over 40% of the Fortune 500 — rely on the Databricks Lakehouse Platform to unify their data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe. Founded by the original creators of Apache Spark™, Delta Lake and MLflow, Databricks is on a mission to help data teams solve the world’s toughest problems. To learn more, follow Databricks on Twitter, LinkedIn and Facebook.",
+            "img": "/resources/DAT_Small_Scale_Lock_up_Full_Color@2x - Katie Tenboer.png",
+            "website": "https://www.databricks.com/"
+        },
+        {   
+            "key": 9,
             "name": "Sandia National Laboratories",
             "bio": "For over 60 years, Sandia has delivered essential science and technology to resolve the nation's most challenging security issues. A strong science, technology, and engineering foundation enables our mission through a capable research staff working at the forefront of innovation, collaborative research with universities & companies, and discretionary research projects with significant potential impact. In keeping with our vision to be the nation's premier science and engineering laboratory for national security and technology innovation, we recruit the best and the brightest, equip them with world-class research tools & facilities, and provide opportunities to collaborate with technical experts from many different scientific disciplines.",
             "img": "/resources/SNL_Stacked_Black_Blue - Nicole Streu.jpg",
             "website": "https://www.sandia.gov/"
-        },
-        {
-            "key": 9,
-            "name": "Ocient",
-            "bio": "The Ocient Hyperscale Data Warehouse transforms and loads data in seconds, enables organizations to store and analyze more data, and executes queries on hyperscale datasets up to 50x faster.",
-            "img": "/resources/OCIENT LOGO full (1) - Jamie Beehn.png",
-            "website": "https://ocient.com/"
         }
     ]
 }

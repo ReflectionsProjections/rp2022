@@ -6,7 +6,7 @@ const mobile = '420px';
 
 const useStyles = makeStyles({
     pageContainer: {
-        paddingTop: "30vh",
+        paddingTop: "40vh",
 
         [`@media (max-width: ${tablet})`]: {
             paddingTop: "15vh"

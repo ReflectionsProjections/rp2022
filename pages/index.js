@@ -6,18 +6,16 @@ import SponsorSection from '../components/SponsorSection.js';
 import Footer from '../components/ui/Footer';
 import Header from '../components/ui/Header';
 import useGetStaticData from '../services/useGetStaticData';
-import styles from '../styles/Landing.module.scss';
 import { useStyles } from '../styles/LandingStyles.js';
 
 export default function Index() {
   const classes = useStyles();
   const { rpData } = useGetStaticData();
   const { sponsors } = rpData;
-  const grain = "/resources/Grain.png";
 
   return (
     <>
-      <div className={styles.backgroundRed}>
+      <div className={classes.backgroundRed}>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
@@ -65,7 +63,7 @@ export default function Index() {
 
 
 
-          <div className={styles.scheduleContainer} >
+          <div className={classes.scheduleContainer} >
             <div className={classes.scheduleContent}>
               <div className={classes.scheduleLeft}>
                 <Typography className={classes.scheduleHeader}>
