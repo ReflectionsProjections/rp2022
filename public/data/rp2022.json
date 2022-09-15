@@ -42,6 +42,30 @@
                 "tagline": "Coursera's Chief Product Officer and Head of Consumer Revenue",
                 "bio": "Shravan Goli is Coursera's Chief Product Officer and Head of Consumer Revenue. Before joining Coursera, Shravan was at DHI Group Inc. where he initially served as President of Dice, a tech job marketplace, and successfully led the growth strategy and operations for Dice, Dice International, ClearanceJobs, and Slashdot Media. Before that, Shravan served as President and Chief Executive Officer of Dictionary.com where he sparked impressive growth through product innovation. Previously, Shravan was GM for Social Media Business at Slide, Inc. and at Yahoo!, he served as GM for Yahoo! Video and as Head of Products for Yahoo! Finance. Earlier in his career, Shravan was at Microsoft where he started out as an early member of the MSN.com team and led the launch of several MSN services and subsequently held roles in the home and entertainment division. In addition, he was a co-founder of Corners.in, a content-centric social networking service. Shravan holds an M.B.A. from the University of Washington and an M.S. in Computer Science from the University of Maryland.",
                 "image": "/headshots/ShravanGoli.jpg"
+            }, 
+            {
+                "name": "Ewa Masłowska",
+                "tagline": "Assistant Professor in the Charles H. Sandage Department of Advertising",
+                "bio": "Ewa Masłowska is an Assistant Professor in the Charles H. Sandage Department of Advertising. Ewa’s research centers around marketing communication and consumer engagement. Specifically, she investigates the effectiveness and mechanisms behind personalization. Ewa also conducts research into the role of online reviews in consumer decision making, including sponsored and fake reviews. In her research, she often takes a data-driven approach, but she also uses experimental and psychophysiological methods. Ewa earned her Ph.D. in Communication Science from the University of Amsterdam. She completed a postdoc with the Medill IMC Spiegel Digital & Database Research Center at Northwestern University and worked as an Assistant Professor in the Amsterdam School of Communication Research. Ewa has been published in International Journal of Advertising, Journal of Marketing Management, Decision Support Systems, and others.",
+                "image": "/headshots/EwaMasłowska.jpg"
+            },
+            {
+                "name": "Colleen Lewis",
+                "tagline": "Associate Professor of computer science (CS) at the University of Illinois Urbana-Champaign",
+                "bio": "Colleen Lewis is an Associate Professor of computer science (CS) at the University of Illinois Urbana-Champaign. Lewis was previously the McGregor-Girand Associate Professor of CS at  Harvey Mudd College. At the University of California, Berkeley, Lewis completed a PhD in science and mathematics education, an MS in computer science, and a BS in electrical engineering and computer science. Her research seeks to identify and remove barriers to CS learning and understand and optimize CS learning. Lewis curates CSTeachingTips.org, a NSF-sponsored project for disseminating effective CS teaching practices. Lewis has received the NSF CAREER Award, the NCWIT.org Undergraduate Mentoring Award and the AnitaB.org Emerging Leader Award for her efforts to broaden participation in computing.",
+                "image": "/headshots/ColleenLewis.jpg"
+            }, 
+            {
+                "name": "Girish Chowdhary",
+                "tagline": "Associate professor and Donald Biggar Willet Faculty Fellow at the University of Illinois at Urbana-Champaign",
+                "bio": "Girish Chowdhary is the director of the Field Robotics Engineering and Science Hub (FRESH) at UIUC and the Chief Scientist on the Illinois Autonomous Farm. Girish holds a joint appointment with Agricultural and Biological Engineering and Computer Science, he is a member of the UIUC Coordinated Science Lab, and holds affiliate appointments in Aerospace Engineering and Electrical Engineering. He holds a PhD (2010) from Georgia Institute of Technology in Aerospace Engineering. He was a postdoc at the Laboratory for Information and Decision Systems (LIDS) of the Massachusetts Institute of Technology (2011-2013), and an assistant professor at Oklahoma State University (2013-2016). He also worked with the German Aerospace Center's (DLR's) Institute of Flight Systems for around three years (2003-2006). He is the winner of the Air Force Young Investigator Award, and several best paper awards, including a best systems paper award at RSS 2018 for his recent work on the agricultural robot TerraSentia. He is the co-founder of EarthSense Inc., a company that has deployed over 150 agricultural robots for phenotyping, cover-cropping, and other agricultural management.",
+                "image": "/headshots/GirishChowdhary.jpg"
+            }, 
+            {
+                "name": "Hari Sundaram",
+                "tagline": "Professor in the Computer Science Department at the University of Illinois at Urbana-Champaign",
+                "bio": "Hari Sundaram develops algorithms and builds systems to help individuals make better decisions. He is interested in individual and collective decision-making, and in understanding how the decision-making context including rules and social norms, can induce strategic behavior. His research group, Crowd Dynamics Lab, through its innovative algorithms and systems, contributes to research in Applied Machine Learning, Network Science, and Human-Computer Interaction. His research has won awards from the ACM and IEEE societies and the American Academy of Advertising.",
+                "image": "/headshots/HariSundaram.jpeg"
             }
         ]
     },
