@@ -2,28 +2,28 @@
   width: 80%;
 }
 .accordion {
-  background-color: #FEEBE9;
+  background-color: #FEEBE9 !important;
 }
 .question {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 37.5px;
+  font-family: 'Roboto' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  line-height: 37.5px !important;
   /* or 150% */
 
-  letter-spacing: 0.3px;
+  letter-spacing: 0.3px !important;
 
-  color: #EE6350;
+  color: #EE6350  !important;
 }
 .answer{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
+  font-family: 'Roboto' !important;
+  font-style: normal  !important;
+  font-weight: 400  !important;
+  font-size: 24px !important;
+  line-height: 36px !important;
   /* or 150% */
-  letter-spacing: 0.3px;
+  letter-spacing: 0.3px !important;
 
-  color: #000000;
+  color: #000000  !important;
 }
