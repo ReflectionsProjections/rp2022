@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import { React, useState } from 'react';
 import Header from '../components/ui/Header';
 import Footer from '../components/ui/Footer';
 import ScheduleCard from '../components/Schedule/ScheduleCard';
@@ -33,7 +33,7 @@ const filterEvents = (events, day, type) => {
     .filter((eventDay) => (day !== '' ? getDayOfWeek(eventDay.date) === day : true))[0];
 
   var eventTypes = daysOfWeek.events
-    .filter((event) => (type !== '' ? event.type === type : true))
+    // .filter((event) => (type !== '' ? event.type === type : true))
 
   var filteredEvents = [{
     key: daysOfWeek.key,
@@ -50,14 +50,14 @@ export default function Schedule() {
   const { isLoaded, rpData } = useGetStaticData();
   const { events } = rpData;
 
-  const [selectedType, setSelectedType] = useState('all');
-  const handleSelectType = value => {
-    typeof (value) != "string" ? setSelectedType(value.target.value) : setSelectedType(value);
-  };
+  // const [selectedType, setSelectedType] = useState('all');
+  // const handleSelectType = value => {
+  //   typeof (value) != "string" ? setSelectedType(value.target.value) : setSelectedType(value);
+  // };
 
   const [selectedDay, setSelectedDay] = useState('');
   const handleSelectDay = value => {
-    if (typeof (value) != "string") {
+    if (typeof (value) !== "string") {
       var day = value.target.value;
       value === selectedDay ? setSelectedDay('') : setSelectedDay(day);
     } else {
@@ -67,7 +67,7 @@ export default function Schedule() {
 
   function clearFilters() {
     setSelectedDay('');
-    setSelectedType('all');
+    // setSelectedType('all');
   }
 
   const classes = useStyles();
@@ -116,7 +116,7 @@ export default function Schedule() {
                   </Button>
                 </div>
 
-                <div className={classes.buttonContainer}>
+                {/* <div className={classes.buttonContainer}>
                   <Button className={selectedType === 'conference' ? classes.dayButtonFilled : classes.dayButton} disableRipple onClick={() => handleSelectType('conference')}>
                     <Typography className={classes.dayFont}>Conference</Typography>
                   </Button>
@@ -126,7 +126,7 @@ export default function Schedule() {
                   <Button className={selectedType === 'corporate' ? classes.dayButtonFilled : classes.dayButton} disableRipple onClick={() => handleSelectType('corporate')}>
                     <Typography className={classes.dayFont}>Corporate</Typography>
                   </Button>
-                </div>
+                </div> */}
               </div>
 
               <div className={classes.mobileButtonContainer} sx={{ width: "100%" }}>
@@ -148,7 +148,7 @@ export default function Schedule() {
                   </Select>
                 </FormControl>
 
-                <FormControl fullWidth>
+                {/* <FormControl fullWidth>
                   <InputLabel id="select-type">Event Type</InputLabel>
                   <Select
                     labelId="select-type"
@@ -161,14 +161,14 @@ export default function Schedule() {
                     <MenuItem key={7} value={'conference'}>Conference Events</MenuItem>
                     <MenuItem key={8} value={'corporate'}>Corporate Events</MenuItem>
                   </Select>
-                </FormControl>
-                <Button onClick={clearFilters} className={classes.dayButton}>Clear Filters</Button>
+                </FormControl>*/}
+                <Button onClick={clearFilters} className={classes.dayButton}>Clear Filter</Button> 
               </div>
             </div>
 
             <div className={classes.eventsContainer}>
               {isLoaded && (
-                filterEvents(events, selectedDay, selectedType).map((eventDay) =>
+                filterEvents(events, selectedDay, 'all').map((eventDay) =>
                   <div className={classes.ev}>
                     <ScheduleCard key={eventDay.eventID} data={eventDay} />
                   </div>
