@@ -30,10 +30,11 @@ export default function Index() {
         </Head>
 
         <Header isHero={true} />
-
+        
         <div className={classes.landingContainer}>
-          <Description name="description" />
 
+          <Description name="description" />
+        {/* </div> */}
 
 
           <div className={classes.aboutContainer}>
@@ -46,7 +47,7 @@ export default function Index() {
                 Reflections | Projections is a tech conference organized and run by students at the University of Illinois at Urbana-Champaign.
                 <br></br>
                 <br></br>
-                We draw students, speakers, and companies from around the world. Join us to listen to tech talks from across the industry, to participate in an Artificial Intelligence programming competition in Mechmania, to solve puzzles throughout the conference during PuzzleBang, and to attend our job and startup fairs.
+                We draw students, speakers, and companies from around the world. Join us to listen to tech talks from across the industry, to participate in an Artificial Intelligence programming competition in Mechmania, to solve puzzles throughout the conference during PuzzleBang, and to attend our career fair.
                 <br></br>
                 <br></br>
                 The conference is free and open to anyone regardless of age, major, job, or affiliation with the University of Illinois. So come join a discussion led by some of the brightest minds in the business about the bleeding edge of the tech industry!
@@ -113,9 +114,9 @@ export default function Index() {
 
         <Footer />
       </div>
-      <div className={classes.bgFixed}>
+      {/* <div className={classes.bgFixed}>
         <img className="bg-img" src="/resources/Blue Curve.svg" alt="Blue Wavy Background" />
-      </div>
+      </div> */}
 
     </>
   );

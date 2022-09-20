@@ -6,6 +6,7 @@ const laptop = '1000px';
 
 const useStyles = makeStyles({
     landingContainer: {
+        
         "minHeight": "100vh",
         "padding": "0 0.5rem",
         "display": "flex",
@@ -49,8 +50,12 @@ const useStyles = makeStyles({
     },
    
     "backgroundRed": {
-        "height": "100vh",
-        "backgroundImage": "url('/resources/Grain.png')"
+        "height": "100%",
+        "backgroundImage": "url('/resources/Pink-Background-Updated.svg')",
+        "backgroundRepeat": 'no-repeat',
+        "backgroundPosition": 'top',
+        "verticalAlign": 'top',
+
     },
 
     "navButton": {
@@ -310,7 +315,7 @@ const useStyles = makeStyles({
         "flexDirection": "column",
         "alignItems": "flex-start",
         "padding": "20px",
-        "marginTop": "15%",
+        "marginTop": "25%",
         "gap": "48px",
         "width": "100%",
         "height": "auto",
