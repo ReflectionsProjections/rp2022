@@ -124,7 +124,7 @@ $mobile: '420px';
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 44px;
   line-height: 56px;
   letter-spacing: 0.3px;
 
@@ -168,7 +168,7 @@ $mobile: '420px';
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 36px;
   /* or 150% */
 
@@ -291,7 +291,7 @@ $mobile: '420px';
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 30px;
 }
 
 .scheduleHeader {
@@ -301,7 +301,7 @@ $mobile: '420px';
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 44px;
   line-height: 64px;
   /* or 133% */
 
@@ -330,13 +330,13 @@ $mobile: '420px';
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 36px;
   /* or 150% */
 
   @media screen and (max-width: $mobile) {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 150%;
     padding: 0 10px;
   }
@@ -379,7 +379,7 @@ $mobile: '420px';
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 44px;
   line-height: 56px;
   letter-spacing: 0.3px;
 
@@ -431,12 +431,12 @@ $mobile: '420px';
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 36px;
   /* or 150% */
 
   @media screen and (max-width: $mobile) {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
     text-align: center;
   }
