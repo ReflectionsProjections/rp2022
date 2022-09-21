@@ -66,6 +66,18 @@
                 "tagline": "Professor in the Computer Science Department at the University of Illinois at Urbana-Champaign",
                 "bio": "Hari Sundaram develops algorithms and builds systems to help individuals make better decisions. He is interested in individual and collective decision-making, and in understanding how the decision-making context including rules and social norms, can induce strategic behavior. His research group, Crowd Dynamics Lab, through its innovative algorithms and systems, contributes to research in Applied Machine Learning, Network Science, and Human-Computer Interaction. His research has won awards from the ACM and IEEE societies and the American Academy of Advertising.",
                 "image": "/headshots/HariSundaram.jpeg"
+            },
+            {
+                "name": "Lawrence Angrave",
+                "tagline": "Award Winning Computer Science Professor at the University of Illinois Urbana-Champaign",
+                "bio": "Lawrence Angrave is an award winning computer science teaching professor at the University of Illinois Urbana-Champaign who playfully creates and researches the use of new software and learning practices often with the goals of improving equity, accessibility, and learning.",
+                "image": "/headshots/LawerenceAngrave.png"
+            }, 
+            {
+                "name": "Motahhare Eslami",
+                "tagline": "Assistant Professor at the School of Computer Science at Carnegie Mellon University",
+                "bio": "Motahhare Eslami is an assistant professor at the School of Computer Science, Human-Computer Interaction Institute (HCII), and Institute for Software Research (ISR), at Carnegie Mellon University.  She earned her Ph.D. in Computer Science at the University of Illinois at Urbana-Champaign. Motahhare’s research goal is to investigate the existing accountability challenges in algorithmic systems and to empower the users of algorithmic systems, particularly those who belong to marginalized communities or those whose decisions impact marginalized communities, make transparent, fair, and informed decisions in interaction with algorithmic systems. Motahhare’s work has been recognized with a Google Ph.D. Fellowship, Best Paper Award at ACM CHI, and has been covered in mainstream media such as Time, The Washington Post, Huffington Post, the BBC, Fortune, and Quartz. Motahhare’s research is supported by NSF, Amazon, Google, Facebook, and Cisco.",
+                "image": "/headshots/MotahhareEslami.png"
             }
         ]
     },
