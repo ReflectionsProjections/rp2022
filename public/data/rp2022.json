@@ -425,15 +425,6 @@
                     "location": ""
                 },
                 {
-                    "eventID": "d4e2",
-                    "type": "corporate",
-                    "title": "Caterpillar",
-                    "description": "Tech Talk",
-                    "startDate": "09-29-2022 15:00",
-                    "endDate": "09-29-2022 16:00",
-                    "location": "Siebel 1304"
-                },
-                {
                     "eventID": "d4e3",
                     "type": "conference",
                     "title": "Aishwarya Srinivasan",
@@ -476,15 +467,6 @@
             "date": "2022-09-30",
             "events": [
                 {
-                    "eventID": "d5e0",
-                    "type": "conference",
-                    "title": "PuzzleBang",
-                    "description": "All Day Event",
-                    "startDate": "09-30-2022 00:00",
-                    "endDate": "09-30-2022 00:00",
-                    "location": ""
-                },
-                {
                     "eventID": "d5e1",
                     "type": "",
                     "title": "Snack: Einstein Bro Bagels",
@@ -492,6 +474,15 @@
                     "startDate": "09-30-2022 14:00",
                     "endDate": "09-30-2022 15:00",
                     "location": ""
+                },
+                {
+                    "eventID": "d5e2",
+                    "type": "corporate",
+                    "title": "Motahhare Eslami",
+                    "description": "Speaker Talk",
+                    "startDate": "09-30-2022 15:00",
+                    "endDate": "09-30-2022 16:00",
+                    "location": "Siebel 2405"
                 },
                 {
                     "eventID": "d5e3",
@@ -538,10 +529,10 @@
                 {
                     "eventID": "d5-6e0",
                     "type": "conference",
-                    "title": "PuzzleBang",
-                    "description": "All Day Event",
-                    "startDate": "09-30-2022 00:00",
-                    "endDate": "09-30-2022 00:00",
+                    "title": "Puzzle Bang Escape Room",
+                    "description": "",
+                    "startDate": "10-01-2022 14:00",
+                    "endDate": "10-01-2022 19:00",
                     "location": ""
                 },
                 {
