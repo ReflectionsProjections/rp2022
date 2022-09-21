@@ -23,19 +23,20 @@
 }
 
 .cardImage {
-  width: 250px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
 .imageContainer {
-  width: 100px;
+  width: 150px;
   margin-top: 20px;
   margin-left: 22px;
 }
 
 .gradientCircle {
-  width: 145px;
+  width: 150px;
+  height: 160px;
   display: grid;
   place-items: center;
   $border: 0.1em;
@@ -44,7 +45,6 @@
   border: solid $border transparent;
   border-radius: 50%;
   margin: -$border;
-  background: linear-gradient(to bottom right, #ffcf45, #f58023, #ffcf45);
 }
 
 .text {
