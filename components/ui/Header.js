@@ -42,7 +42,7 @@ export default function Header({ isHero }) {
 
     useEffect(() =>{
         var curPage = window.location.href.substring(window.location.href.lastIndexOf('/') + 1);
-        console.log(curPage);
+        // console.log(curPage);
         setCurrentPage(curPage);
     }, [])
 
