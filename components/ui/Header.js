@@ -1,7 +1,7 @@
 import MenuIcon from '@mui/icons-material/Menu';
 import { AppBar, Box, Button, ClickAwayListener, Container, IconButton, Menu, MenuItem, Toolbar, Typography } from '@mui/material';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useStyles } from './HeaderStyles.js';
 
 export default function Header({ isHero }) {
@@ -38,6 +38,14 @@ export default function Header({ isHero }) {
         setNeedsMenu(null);
     };
 
+    const [currentPage, setCurrentPage] = useState("")
+
+    useEffect(() =>{
+        var curPage = window.location.href.substring(window.location.href.lastIndexOf('/') + 1);
+        console.log(curPage);
+        setCurrentPage(curPage);
+    }, [])
+
     return (
         <>
             <AppBar className={isHero ? classes.hero : classes.header}>
@@ -55,7 +63,7 @@ export default function Header({ isHero }) {
                         <Box className={classes.pages}>
                             {pagesData.map(({ label, href }) => (
                                 <Link key={label} href={href} passHref>
-                                    <a rel="noreferrer" className={classes.page}>
+                                    <a rel="noreferrer" className={currentPage === label.toLowerCase() ? classes.activePage : classes.page}>
                                         <Typography>
                                             {label}
                                         </Typography>

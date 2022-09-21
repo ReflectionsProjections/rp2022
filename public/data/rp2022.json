@@ -308,7 +308,7 @@
                 {
                     "eventID": "d2e6",
                     "type": "",
-                    "title": "Dinner",
+                    "title": "Dinner: Chipotle",
                     "description": "",
                     "startDate": "09-27-2022 19:00",
                     "endDate": "09-27-2022 20:00",
@@ -379,8 +379,8 @@
                     "type": "corporate",
                     "title": "Visa",
                     "description": "Social Event",
-                    "startDate": "09-28-2022 19:00",
-                    "endDate": "09-28-2022 20:00",
+                    "startDate": "09-28-2022 18:00",
+                    "endDate": "09-28-2022 19:00",
                     "location": "Siebel 2405"
                 },
                 {
