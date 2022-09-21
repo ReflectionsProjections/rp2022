@@ -71,11 +71,13 @@ const AboutPage = () => {
     ];
     
     const FAQdataPuzzleBang = [
-      {question:'What is Puzzlebang?',answer:'PuzzleBang is a puzzle hunt that takes place over the course of the Reflections|Projections week. Puzzles are released online at puzzlebang.com with the first puzzle coming out on Monday, September 26. Expect one or two puzzles per day until Saturday when we release the final set of puzzles along with a metapuzzle.'},
-      {question:'Who’s eligible?',answer:"Anyone can play! We strongly recommend playing with friends, because the more the merrier. If you haven't met any friends who are interested in playing, sign up anyway! We'll have a discord server up this year and a #looking-for-group channel."},
-      {question:'What will you need to have?',answer:"Access to a functional human brain, an internet connection, a computer with a current web browser, and an open mind. We're also adding discord support this year, so a microphone + speakers will enhance the experience."},
-      {question:'What do you need to know?',answer:"Everything! No, just kidding. Wikipedia's classical cipher's page might be useful. A number of letters in the alphabet, number of cards in a deck, all the US state abbreviations, and silly other things that you've probably run across in your daily life. Some awareness of the recent memes and popular culture will probably be helpful. Knowledge of UIUC's campus layout will be really helpful."},
+      {question:'What is Puzzlebang?',answer:<>PuzzleBang is a puzzle hunt during Reflections|Projections week. Puzzles are released online at <a href='https://puzzlebang.com' target='_new'>PuzzleBang.com</a> with the first set of puzzle coming out on Monday, September 26.  Expect three puzzles Monday, Wednesday, and Friday and a final set of puzzles and a metapuzzle on Saturday There’s also an escape room this year on Friday and Saturday!</>},
+      {question:'Who’s eligible?',answer:<>Anyone can play!  While you can play solo, we strongly recommend finding friends (or strangers!) for PuzzleBang. We have a <a href="https://puzzlebang.com/discord" target='_new'>Discord server</a> this year and a #looking-for-teammate channel.</>},
+      {question:'What are the prizes?',answer:"That's a secret."},
+      {question:'What will I need to play PuzzleBang?',answer:"Access to a (functional) human brain (ideally yours), an internet connection, a computer with a current web browser, an open mind, and a Discord account. And friends to bounce ideas off of when you get stuck."},
+      {question:'What do you need to know?',answer:"Everything! No, just kidding. Wikipedia's classical cipher's page might be useful. A number of letters in the alphabet, number of cards in a deck, all the US state abbreviations, and silly other things that you've probably run across in your daily life. Some awareness of the recent memes and popular culture will probably be helpful. Knowledge of UIUC's campus layout has often been helpful. Puzzlebang.com has a tools page that includes more resources."},
       {question:'What do you not need to know?',answer:'How to write code. It might be useful to be able to write a script to print out all the ways you can rearrange a set of letters, or apply different ciphers to them, but in general, you should be able to do everything by hand or ask Google and find a tool online to do it for you.'},
+      {question:'I’m stuck on a puzzle How do I get help?',answer:<>Find a friend and show them the puzzle! Everyone looks at everything a little differently, so another way of viewing things will often help. If you’re still stuck, chat us up in the PuzzleBang Discord or send <a href="mailto:gamecontrol@puzzlebang.com">GameControl@Puzzlebang.com</a> an email and we’ll give you hints.</>},
     ];
 
   return (
@@ -150,7 +152,7 @@ const AboutPage = () => {
                   <AboutCard
                     img={""}
                     title={"Mech Mania"}
-                    description={"Mechmania is our 24 hour AI hackathon that runs from Friday (9/30) - Saturday (10/01). Build your own AI bot to compete. The best part? No prior experience needed. You can find more info at mechmania.io."}
+                    description={<>Mechmania is our 24 hour AI hackathon that runs from Friday (9/30) - Saturday (10/01). Build your own AI bot to compete. The best part? No prior experience needed. You can find more info at <a href='https://mechmania.io' target='_new'>mechmania.io</a>.</>}
                   />
                 </Paper>
               </Grid>
@@ -159,7 +161,7 @@ const AboutPage = () => {
                   <AboutCard
                     img={""}
                     title={"PuzzleBang"}
-                    description={"Grab your friends and compete in a week-long puzzle contest hosted by four UIUC Alums to win exciting prizes. Be sure to check out our pop-up escape room in Siebel on Friday and Saturday!  Go to PuzzleBang.com to get started."}
+                    description={<>Grab your friends and compete in a week-long puzzle contest hosted by four UIUC Alums to win exciting prizes. Be sure to check out our pop-up escape room in Siebel on Friday and Saturday!  Go to <a href='https://puzzlebang.com' target='_new'>PuzzleBang.com</a> to get started!</>}
                   />
                 </Paper>
               </Grid>
