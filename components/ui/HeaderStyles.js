@@ -51,7 +51,7 @@ const useStyles = makeStyles({
         top: 0,
         left: 0,
     },
-    
+
     logoBox: {
         display: 'flex',
         flexDirection: 'row',
@@ -67,7 +67,7 @@ const useStyles = makeStyles({
         flexGrow: 0,
         margin: '0px 0px',
     },
-    
+
     logo: {
         position: 'static',
         width: '77px',
@@ -85,7 +85,7 @@ const useStyles = makeStyles({
         flexGrow: 0,
         margin: '0px 10px',
     },
-    
+
     pages: {
         display: 'flex',
 
@@ -98,7 +98,7 @@ const useStyles = makeStyles({
             display: 'none',
         }
     },
-    
+
     page: {
         textDecoration: 'none',
         cursor: 'pointer',
@@ -112,6 +112,34 @@ const useStyles = makeStyles({
         ['@media (max-width: 1000px)']: {
             display: 'none',
         },
+
+        '&:hover, &:visited, &:focus, &:active': {
+            textDecoration: 'none',
+            borderBottom: "3px solid",
+            cursor: 'pointer',
+            color: 'white',
+            marginLeft: '38px',
+            fontFamily: 'Roboto',
+            fontStyle: 'normal',
+            fontWeight: 700,
+            fontSize: '16px',
+
+            ['@media (max-width: 1000px)']: {
+                display: 'none',
+            }
+        }
+    },
+
+    activePage: {
+        textDecoration: 'none',
+        borderBottom: "3px solid",
+        cursor: 'pointer',
+        color: 'white',
+        marginLeft: '38px',
+        fontFamily: 'Roboto',
+        fontStyle: 'normal',
+        fontWeight: 700,
+        fontSize: '16px',
         
         '&:hover, &:visited, &:focus, &:active': {
             textDecoration: 'none',
@@ -129,7 +157,7 @@ const useStyles = makeStyles({
             }
         }
     },
-    
+
     navButtons: {
         display: 'flex',
         alignItems: 'center',
@@ -139,7 +167,7 @@ const useStyles = makeStyles({
             display: 'none',
         }
     },
-    
+
     navButton: {
         textTransform: 'none',
         fontFamily: 'Roboto',
@@ -168,7 +196,7 @@ const useStyles = makeStyles({
             display: 'none',
         }
     },
-    
+
     menuBox: {
         display: 'none',
         ['@media (max-width: 1000px)']: {
@@ -178,7 +206,7 @@ const useStyles = makeStyles({
             right: 0,
         }
     },
-    
+
     menu: {
         display: 'none',
         ['@media (max-width: 1000px)']: {
