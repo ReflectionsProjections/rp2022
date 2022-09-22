@@ -78,7 +78,6 @@ const useStyles = makeStyles({
         alignItems: "flex-start",
         padding: "0px",
         gap: "36px",
-        
         width: "80%",
         height: "auto",
         
@@ -97,7 +96,7 @@ const useStyles = makeStyles({
         fontFamily: 'Roboto',
         fontStyle: "normal",
         fontWeight: 700,
-        fontSize: "16px",
+        fontSize: "18px",
         lineHeight: "22px",
         /* or 138% */
 
