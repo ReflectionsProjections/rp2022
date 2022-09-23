@@ -1,26 +1,107 @@
-import { Button, Grid, Box, Typography, Paper, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
-import { ThemeProvider } from '@mui/styles';
+import { Box, Button, Grid, Paper, Typography } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import React, { useState } from 'react';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import Container from 'react-bootstrap/Container';
-import Section from '../Section';
 import Header from '../ui/Header';
 
 import AboutCard from '../ui/AboutCard';
 import Footer from '../ui/Footer';
-import FAQAccordion from './components/FAQAccordion'
+import FAQAccordion from './components/FAQAccordion';
 
 // import SpeakerCard from './components/SpeakerCard';
-import styles from './about.module.scss';
-import { pink } from '@mui/material/colors';
-import { useStyles } from '../../styles/AboutPageStyles';
-import Link from 'next/link';
 import Head from 'next/head';
+import { useStyles } from '../../styles/AboutPageStyles';
+import styles from './about.module.scss';
 
 const AboutPage = () => {
+  const faqButtonFilledStyle = {
+    boxSizing: "border-box",
+
+    /* Auto layout */
+
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "20px 40px",
+    gap: "10px",
+
+    width: "165px",
+    height: "60px",
+
+    border: "2px solid #ED8A88",
+    borderRadius: "30px",
+    backgroundColor: '#ED8A88!important',
+    minWidth: "max-content",
+    whiteSpace: "nowrap",
+    color: "white",
+
+    /* Inside auto layout */
+
+    flex: "none",
+    order: 0,
+    flexGrow: 0,
+
+    /* Text */
+    fontFamily: 'Roboto',
+    fontStyle: "normal",
+    fontWeight: 700,
+    fontSize: "16px",
+    lineHeight: "32px",
+    /* identical to box height, or 200% */
+
+    display: "flex",
+    alignItems: "center",
+    letterSpacing: "0.2px",
+    textTransform: "capitalize"
+  };
+
+  const faqButtonStyle = {
+    boxSizing: "border-box",
+
+    /* Auto layout */
+
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "20px 40px",
+    gap: "10px",
+
+    width: "165px",
+    height: "60px",
+
+    border: "2px solid #ED8A88",
+    borderRadius: "30px",
+    backgroundColor: 'transparent!important',
+    minWidth: "max-content",
+    whiteSpace: "nowrap",
+    color: "#ED8A88",
+
+    /* Inside auto layout */
+
+    flex: "none",
+    order: 0,
+    flexGrow: 0,
+
+    /* Text */
+    fontFamily: 'Roboto',
+    fontStyle: "normal",
+    fontWeight: 700,
+    fontSize: "16px",
+    lineHeight: "32px",
+    /* identical to box height, or 200% */
+
+    display: "flex",
+    alignItems: "center",
+    letterSpacing: "0.2px",
+    textTransform: "capitalize",
+
+    // color: "inherit",
+  };
+
   
+
   <Head>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -33,27 +114,27 @@ const AboutPage = () => {
     />
     <link rel="icon" href="/favicon.png" />
   </Head>
-    const classes = useStyles();
-    const ml = "6.3%";
-    const textWidth = "57.4%";
-    const pink = createTheme({
-      palette: {
-        primary: {
-          main: "#DF6C57",
-          light: "#FFC0CB",
-          dark: "#B22222",
-          contrastText: "#fff",
-        },
+  const classes = useStyles();
+  const ml = "6.3%";
+  const textWidth = "57.4%";
+  const pink = createTheme({
+    palette: {
+      primary: {
+        main: "#DF6C57",
+        light: "#FFC0CB",
+        dark: "#B22222",
+        contrastText: "#fff",
       },
-    });
-    const [faqSection, setFaqSection] = useState("General");
+    },
+  });
+  const [faqSection, setFaqSection] = useState("General");
 
-    const FAQdataGeneral = [
-        {question:'What can you do at R|P?',answer:'Network, build, learn and more! Check out our schedule for more information!'},
-        {question:'Is registration open?',answer:'Yes! Reflections|Projections is completely free to attend! This includes MechMania and all other events. '},
-        {question:'Is the conference free to attend?',answer:'Yes! Reflections|Projections is completely free to attend! This includes MechMania and all other events. '},
-        {question:'Who can attend?', answer:'Reflections|Projections is free and open to anyone regardless of age, major, or affiliation with the University of Illinois. Come join a discussion led by some of the brightest minds in the business about the bleeding edge of the tech industry!'},
-    ];
+  const FAQdataGeneral = [
+    { question: 'What can you do at R|P?', answer: 'Network, build, learn and more! Check out our schedule for more information!' },
+    { question: 'Is registration open?', answer: 'Yes! Reflections|Projections is completely free to attend! This includes MechMania and all other events. ' },
+    { question: 'Is the conference free to attend?', answer: 'Yes! Reflections|Projections is completely free to attend! This includes MechMania and all other events. ' },
+    { question: 'Who can attend?', answer: 'Reflections|Projections is free and open to anyone regardless of age, major, or affiliation with the University of Illinois. Come join a discussion led by some of the brightest minds in the business about the bleeding edge of the tech industry!' },
+  ];
 
     const FAQdataConference = [
       {question:'Will I be able to attend the conference online?',answer:'We will be posting zoom links on our website so you can join our events wherever you are in the world! All events will be available online or in person. For speakers that choose to attend virtually, we will be playing the talk in a conference room to be viewed in addition to providing the zoom link.'},
@@ -83,52 +164,52 @@ const AboutPage = () => {
   return (
 
     <Box>
-        <Header isHero={true}/>
-        {/* Section 1 */}
-        
-        <Box ml={ml} mt={15} width={textWidth}>
-            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>What is Reflections | Projections?</Typography>
-        </Box>
-        <Box ml={ml} mt={5} width={textWidth}>
-            <p className={styles.bodyText}>
-                Reflections | Projections is a tech conference organized and run by students at the University of Illinois at Urbana-Champaign.
-                <br></br><br></br>
-                We draw students, speakers, and companies from around the world. Join us to listen to tech talks from across the industry, to participate in an Artificial Intelligence programming competition in Mechmania, to solve puzzles throughout the conference during PuzzleBang!, and to attend our job fairs.
-                <br></br><br></br>
-                The conference is free and open to anyone regardless of age, major, job, or affiliation with the University of Illinois. So come join a discussion led by some of the brightest minds in the business about the bleeding edge of the tech industry!
-            </p>
-        </Box>
+      <Header isHero={true} />
+      {/* Section 1 */}
 
-        {/* Section 2 */}
+      <Box ml={ml} mt={15} width={textWidth}>
+        <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>What is Reflections | Projections?</Typography>
+      </Box>
+      <Box ml={ml} mt={5} width={textWidth}>
+        <p className={styles.bodyText}>
+          Reflections | Projections is a tech conference organized and run by students at the University of Illinois at Urbana-Champaign.
+          <br></br><br></br>
+          We draw students, speakers, and companies from around the world. Join us to listen to tech talks from across the industry, to participate in an Artificial Intelligence programming competition in Mechmania, to solve puzzles throughout the conference during PuzzleBang!, and to attend our job fairs.
+          <br></br><br></br>
+          The conference is free and open to anyone regardless of age, major, job, or affiliation with the University of Illinois. So come join a discussion led by some of the brightest minds in the business about the bleeding edge of the tech industry!
+        </p>
+      </Box>
 
-        <Box ml={ml} mt={'100px'}>
-            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>Our Team</Typography>
+      {/* Section 2 */}
+
+      <Box ml={ml} mt={'100px'}>
+        <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>Our Team</Typography>
+      </Box>
+      <Box ml={ml} mt={5} width={textWidth}>
+        <p className={styles.bodyText}>
+          We are students passionate about technology who embody the diversity and excellence inherent at the University of Illinois at Urbana-Champaign. We bring industry and academia into one conference to incite the spread of novel ideas. We connect students with professional opportunities. We host a one of a kind AI hackathon. And, we can't wait for you to come to R|P 2022!
+        </p>
+      </Box>
+
+      {/* Section 3 */}
+
+
+      <Box ml={ml} mr={"18.9%"} mb={'100px'}>
+        <Box ml={'29.5vw'} mt={'100px'}>
+          <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>Special Events</Typography>
         </Box>
-        <Box ml={ml} mt={5} width={textWidth}>
-            <p className={styles.bodyText}>
-                We are students passionate about technology who embody the diversity and excellence inherent at the University of Illinois at Urbana-Champaign. We bring industry and academia into one conference to incite the spread of novel ideas. We connect students with professional opportunities. We host a one of a kind AI hackathon. And, we can't wait for you to come to R|P 2022!
-            </p>
-        </Box>
-
-        {/* Section 3 */}
-
-        
-        <Box ml={ml} mr={"18.9%"} mb={'100px'}>
-          <Box ml={'29.5vw'} mt={'100px'}>
-            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>Special Events</Typography>
-          </Box>
-          <Box mt="30px">
-            <Grid container spacing={1} columns={24}>
-              <Grid item md={12}>
-                <Paper>
-                  <AboutCard
-                    img={""}
-                    title={"Career Fair"}
-                    description={"Meet some of the best companies in the country"}
-                  />
-                </Paper>
-              </Grid>
-              {/* <Grid item md={8}>
+        <Box mt="30px">
+          <Grid container spacing={1} columns={24}>
+            <Grid item md={12}>
+              <Paper>
+                <AboutCard
+                  img={""}
+                  title={"Career Fair"}
+                  description={"Meet some of the best companies in the country"}
+                />
+              </Paper>
+            </Grid>
+            {/* <Grid item md={8}>
                 <Paper>
                   <AboutCard
                     img={""}
@@ -137,15 +218,15 @@ const AboutPage = () => {
                   />
                 </Paper>
               </Grid> */}
-              <Grid item md={12}>
-                <Paper>
-                  <AboutCard
-                    img={""}
-                    title={"Speakers"}
-                    description={"Come listen to some of the industry's best minds"}
-                  />
-                </Paper>
-              </Grid>
+            <Grid item md={12}>
+              <Paper>
+                <AboutCard
+                  img={""}
+                  title={"Speakers"}
+                  description={"Come listen to some of the industry's best minds"}
+                />
+              </Paper>
+            </Grid>
 
               <Grid item md={12}>
                 <Paper>
@@ -175,7 +256,7 @@ const AboutPage = () => {
                 </Paper>
               </Grid> */}
 
-              {/* <Grid item md={8}>
+            {/* <Grid item md={8}>
                 <Paper>
                   <AboutCard
                     img={""}
@@ -184,7 +265,7 @@ const AboutPage = () => {
                   />
                 </Paper>
               </Grid> */}
-              {/* <Grid item md={8}>
+            {/* <Grid item md={8}>
                 <Paper>
                   <AboutCard
                     img={""}
@@ -193,7 +274,7 @@ const AboutPage = () => {
                   />
                 </Paper>
               </Grid> */}
-              {/* <Grid item md={8}>
+            {/* <Grid item md={8}>
                 <Paper>
                   <AboutCard
                     img={""}
@@ -202,68 +283,60 @@ const AboutPage = () => {
                   />
                 </Paper>
               </Grid> */}
-            </Grid>
-          </Box>
+          </Grid>
         </Box>
-        <div className={styles.layer1}></div>
-        <div className={styles.faqSection}>
-          {/* Section 4 */}
-          <Box ml={'42.5vw'} mb={'66px'}>
-            <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>FAQ</Typography>
-          </Box>
+      </Box>
+      <div className={styles.layer1}></div>
+      <div className={styles.faqSection}>
+        {/* Section 4 */}
+        <Box ml={'42.5vw'} mb={'66px'}>
+          <Typography variant="h4" color={"#EE6350"} fontWeight={"700"}>FAQ</Typography>
+        </Box>
 
-          {/* Four buttons in a row */}
-          <Box justifyContent='center' ml={'16vw'} mr={'27vw'}>
-            <Grid container justify="space-around" justifyContent="center" spacing={2}>
-                <Grid item>
-                  <Button
-                    variant="outlined"
-                    sx={{
-                      borderRadius: "50px",
-                    }}
-                    onClick={() => {setFaqSection("General")}}
-                    >General</Button>
-                </Grid>
-                <Grid item>
-                  <Button
-                    variant="outlined"
-                    sx={{
-                      borderRadius: "50px",
-                    }}
-                    onClick={() => {setFaqSection("Conference Format")}}
-                    >Conference Format</Button>
-                </Grid>
-                <Grid item>
-                  <Button 
-                    variant="outlined"
-                    sx={{
-                      borderRadius: "50px",
-                    }}
-                    onClick={() => {setFaqSection("Mechmania")}}
-                    >MechMania</Button>
-                </Grid>
-                <Grid item>
-                  <Button variant="outlined"
-                    sx={{
-                      borderRadius: "50px",
-                    }}
-                    onClick={() => {setFaqSection("PuzzleBang")}}
-                    >PuzzleBang</Button>
-                </Grid>
+        {/* Four buttons in a row */}
+        <Box justifyContent='center' ml={'16vw'} mr={'27vw'}>
+          <Grid container justify="space-around" justifyContent="center" spacing={2}>
+            <Grid item>
+              <Button disableRipple
+                variant="outlined"
+                sx={faqSection === 'General' ? faqButtonFilledStyle : faqButtonStyle}
+                onClick={() => { setFaqSection("General") }}
+              >General</Button>
             </Grid>
-          </Box>
-          {/* Section 5 - Four FAQ Sections */}
-          {/* TODO pass FAQ props in accordion */}
-          <Box ml={ml} mt={'30px'}>
-            { faqSection == "General" && <FAQAccordion FAQ={FAQdataGeneral}/>}
-            { faqSection == "Conference Format" && <FAQAccordion FAQ={FAQdataConference}/>}
-            { faqSection == "Mechmania" && <FAQAccordion FAQ={FAQdataMechmania}/>}
-            { faqSection == "PuzzleBang" && <FAQAccordion FAQ={FAQdataPuzzleBang}/>}
-          </Box>
-        </div>
-        <div className={styles.layer2}></div>
+            <Grid item>
+              <Button disableRipple
+                variant="outlined"
+                sx={faqSection === 'Conference Format' ? faqButtonFilledStyle : faqButtonStyle}
+                onClick={() => { setFaqSection("Conference Format") }}
+              >Conference Format</Button>
+            </Grid>
+            <Grid item>
+              <Button disableRipple
+                variant="outlined"
+                sx={faqSection === 'Mechmania' ? faqButtonFilledStyle : faqButtonStyle}
+                onClick={() => { setFaqSection("Mechmania") }}
+              >MechMania</Button>
+            </Grid>
+            <Grid item>
+              <Button disableRipple variant="outlined"
+                sx={faqSection === 'PuzzleBang' ? faqButtonFilledStyle : faqButtonStyle}
+                onClick={() => { setFaqSection("PuzzleBang") }}
+              >PuzzleBang</Button>
+            </Grid>
+          </Grid>
+        </Box>
+        {/* Section 5 - Four FAQ Sections */}
+        {/* TODO pass FAQ props in accordion */}
+        <Box ml={ml} mt={'30px'}>
+          {faqSection == "General" && <FAQAccordion FAQ={FAQdataGeneral} />}
+          {faqSection == "Conference Format" && <FAQAccordion FAQ={FAQdataConference} />}
+          {faqSection == "Mechmania" && <FAQAccordion FAQ={FAQdataMechmania} />}
+          {faqSection == "PuzzleBang" && <FAQAccordion FAQ={FAQdataPuzzleBang} />}
+        </Box>
+      </div>
+      <div className={styles.layer2}></div>
 
-        <Footer></Footer>
+      <Footer></Footer>
 
     </Box>
   );
