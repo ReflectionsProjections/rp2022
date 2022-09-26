@@ -7,7 +7,7 @@ const getFontSize = (textLength) => {
     var w = window.innerWidth;
     const baseSize = 32
     if (textLength >= 40) {
-        baseSize = w > 900 ? 24 : 16
+        baseSize = w > 900 ? 20 : 16
     } else if (textLength >= 30) {
         baseSize = 22
     }

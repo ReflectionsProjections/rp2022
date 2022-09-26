@@ -238,8 +238,8 @@
                 {
                     "eventID": "d1e4",
                     "type": "corporate",
-                    "title": "Visa",
-                    "description": "Tech Talk",
+                    "title": "Why Shiny Is Not Always Shiny - Getting Excited About Legacy Technologies",
+                    "description": "Visa Tech Talk",
                     "startDate": "09-26-2022 18:00",
                     "endDate": "09-26-2022 19:00",
                     "location": "Siebel 2405"
@@ -248,16 +248,16 @@
                     "eventID": "d1e5",
                     "type": "",
                     "title": "Dinner: Jimmy John's",
-                    "description": "",
+                    "description": "Sponsored by Caterpillar",
                     "startDate": "09-26-2022 19:00",
                     "endDate": "09-26-2022 20:00",
-                    "location": ""
+                    "location": "Siebel Basement"
                 },
                 {
                     "eventID": "d1e6",
                     "type": "corporate",
-                    "title": "Caterpillar",
-                    "description": "Tech Talk",
+                    "title": "Machine to Screen by Cat Digital",
+                    "description": "Caterpillar Tech Talk",
                     "startDate": "09-26-2022 20:00",
                     "endDate": "09-26-2022 21:00",
                     "location": "Siebel 2407"
@@ -320,7 +320,7 @@
                     "description": "",
                     "startDate": "09-27-2022 19:00",
                     "endDate": "09-27-2022 20:00",
-                    "location": ""
+                    "location": "Siebel Basement"
                 },
                 {
                     "eventID": "d2e7",
@@ -398,7 +398,7 @@
                     "description": "",
                     "startDate": "09-28-2022 19:00",
                     "endDate": "09-28-2022 20:00",
-                    "location": ""
+                    "location": "Siebel Basement"
                 }
             ]
         },
@@ -458,7 +458,7 @@
                     "description": "Sponsored by Qualcomm",
                     "startDate": "09-29-2022 19:00",
                     "endDate": "09-29-2022 20:00",
-                    "location": ""
+                    "location": "Siebel Basement"
                 }
             ]
         },
@@ -518,7 +518,7 @@
                     "description": "Friday, 7:00pm - Saturday, 9:00pm",
                     "startDate": "09-30-2022 19:00",
                     "endDate": "09-30-2022 00:00",
-                    "location": "1404 Siebel"
+                    "location": "1302 DCL"
                 }
             ]
         },
