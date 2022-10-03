@@ -652,6 +652,13 @@
             "bio": "Creating one of the world's first true AI Website Builders",
             "img": "/resources/sav-logo.png",
             "website": "https://www.sav.com/"
+        },
+        {   
+            "key": 15,
+            "name": "Bloomberg",
+            "bio": "As a Bloomberg engineer, you will impact the real world by solving complex problems in an ever-evolving market. Our engineers sit at the center of finance and tech where people and machines will challenge your ideas and push your engineering skills to the next level. We work in a fast-paced, solutions-oriented environment that rolls new software out daily. Our code is used every day by leading business and finance clients across the globe that help shape the financial markets.",
+            "img": "/resources/bloomberg_logo.png",
+            "website": "https://www.bloomberg.com/"
         }
     ]
 }
